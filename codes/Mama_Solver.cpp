@@ -26,4 +26,3 @@ double Mama_Solver::GetTolerance(){
 unsigned int Mama_Solver::GetMaxIter(){
     return max_iter;    };
 
-#endif //NONLINEARSOLVER_MAMA_SOLVER_H

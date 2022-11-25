@@ -10,7 +10,6 @@ class Mama_Solver {
 protected:
     double tolerance;
     unsigned int max_iter;
-    virtual (*function)(double x);
 
 public:
     /// Constructors

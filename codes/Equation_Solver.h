@@ -10,13 +10,17 @@
 class Equation_Solver : public Mama_Solver {
 protected :
     double x0;
+    double (*function)(double);
 
 public :
-    virtual Solve();
-
-    Equation_Solver(double starting_point);
+    /// Constructors
+    Equation_Solver();
+    Equation_Solver(double starting_point, double (*fx)(double x), double iter, double tol);
+    /// Destructor
     virtual ~Equation_Solver();
 
+    /// Solving method
+    virtual double Solve() = 0;
 };
 
 
