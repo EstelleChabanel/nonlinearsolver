@@ -7,12 +7,9 @@
 
 
 class Mama_Solver {
-
-private:
+protected:
     double tolerance;
     unsigned int max_iter;
-
-protected:
     virtual (*function)(double x);
 
 public:
@@ -28,7 +25,6 @@ public:
     /// Getters
     double GetTolerance();
     unsigned int GetMaxIter();
-
 };
 
 

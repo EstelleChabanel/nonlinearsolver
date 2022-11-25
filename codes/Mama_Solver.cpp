@@ -3,12 +3,6 @@
 //
 
 #include "Mama_Solver.h"
-
-
-//
-// Created by Antoine Salaün on 25.11.22.
-//
-#include "Mama_solver.h"
 #include <vector>
 #include <iostream>
 
