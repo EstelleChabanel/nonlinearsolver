@@ -14,7 +14,6 @@ double fx(double x) {
 
 int main(int argc, char *argv[]) {
 
-
     Bisection bi(-1.0, 2.0, *fx, 100, 1e-5);
     double res = bi.Solve();
     std::cout << "res = " << res << std::endl;

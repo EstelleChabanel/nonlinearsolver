@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "test_bisection"
+			"path" : "test_aitken"
 		}
 	],
 	"backtrace" : 1,
@@ -59,7 +59,7 @@
 			]
 		}
 	],
-	"id" : "test_bisection::@6890427a1f51a3e7e1df",
+	"id" : "test_aitken::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -75,8 +75,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "test_bisection",
-	"nameOnDisk" : "test_bisection",
+	"name" : "test_aitken",
+	"nameOnDisk" : "test_aitken",
 	"paths" : 
 	{
 		"build" : ".",
@@ -100,13 +100,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "test_bisection.cpp",
+			"path" : "test_aitken.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Bisection.cpp",
+			"path" : "Aitken.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

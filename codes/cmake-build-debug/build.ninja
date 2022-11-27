@@ -205,6 +205,61 @@ build test_aitken: CXX_EXECUTABLE_LINKER__test_aitken_Debug CMakeFiles/test_aitk
   TARGET_FILE = test_aitken
   TARGET_PDB = test_aitken.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target test_NR
+
+
+#############################################
+# Order-only phony target for test_NR
+
+build cmake_object_order_depends_target_test_NR: phony || CMakeFiles/test_NR.dir
+
+build CMakeFiles/test_NR.dir/test_NR.cpp.o: CXX_COMPILER__test_NR_Debug /Users/nounou/Desktop/EPFL/M5/Programming$ concepts$ for$ scientific$ computing/pcsc/nonlinearsolver/codes/test_NR.cpp || cmake_object_order_depends_target_test_NR
+  DEP_FILE = CMakeFiles/test_NR.dir/test_NR.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/test_NR.dir
+  OBJECT_FILE_DIR = CMakeFiles/test_NR.dir
+
+build CMakeFiles/test_NR.dir/NR.cpp.o: CXX_COMPILER__test_NR_Debug /Users/nounou/Desktop/EPFL/M5/Programming$ concepts$ for$ scientific$ computing/pcsc/nonlinearsolver/codes/NR.cpp || cmake_object_order_depends_target_test_NR
+  DEP_FILE = CMakeFiles/test_NR.dir/NR.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/test_NR.dir
+  OBJECT_FILE_DIR = CMakeFiles/test_NR.dir
+
+build CMakeFiles/test_NR.dir/Newton.cpp.o: CXX_COMPILER__test_NR_Debug /Users/nounou/Desktop/EPFL/M5/Programming$ concepts$ for$ scientific$ computing/pcsc/nonlinearsolver/codes/Newton.cpp || cmake_object_order_depends_target_test_NR
+  DEP_FILE = CMakeFiles/test_NR.dir/Newton.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/test_NR.dir
+  OBJECT_FILE_DIR = CMakeFiles/test_NR.dir
+
+build CMakeFiles/test_NR.dir/Equation_Solver.cpp.o: CXX_COMPILER__test_NR_Debug /Users/nounou/Desktop/EPFL/M5/Programming$ concepts$ for$ scientific$ computing/pcsc/nonlinearsolver/codes/Equation_Solver.cpp || cmake_object_order_depends_target_test_NR
+  DEP_FILE = CMakeFiles/test_NR.dir/Equation_Solver.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/test_NR.dir
+  OBJECT_FILE_DIR = CMakeFiles/test_NR.dir
+
+build CMakeFiles/test_NR.dir/Mama_Solver.cpp.o: CXX_COMPILER__test_NR_Debug /Users/nounou/Desktop/EPFL/M5/Programming$ concepts$ for$ scientific$ computing/pcsc/nonlinearsolver/codes/Mama_Solver.cpp || cmake_object_order_depends_target_test_NR
+  DEP_FILE = CMakeFiles/test_NR.dir/Mama_Solver.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/test_NR.dir
+  OBJECT_FILE_DIR = CMakeFiles/test_NR.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test_NR
+
+
+#############################################
+# Link the executable test_NR
+
+build test_NR: CXX_EXECUTABLE_LINKER__test_NR_Debug CMakeFiles/test_NR.dir/test_NR.cpp.o CMakeFiles/test_NR.dir/NR.cpp.o CMakeFiles/test_NR.dir/Newton.cpp.o CMakeFiles/test_NR.dir/Equation_Solver.cpp.o CMakeFiles/test_NR.dir/Mama_Solver.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/test_NR.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test_NR
+  TARGET_PDB = test_NR.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -243,7 +298,7 @@ build math: phony libmath.a
 #############################################
 # Folder: /Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/codes/cmake-build-debug
 
-build all: phony libcstdlib.a libmath.a test_bisection test_aitken
+build all: phony libcstdlib.a libmath.a test_bisection test_aitken test_NR
 
 # =============================================================================
 # Unknown Build Time Dependencies.

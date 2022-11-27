@@ -2,5 +2,6 @@
 /Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/codes/cmake-build-debug/CMakeFiles/math.dir
 /Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/codes/cmake-build-debug/CMakeFiles/test_bisection.dir
 /Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/codes/cmake-build-debug/CMakeFiles/test_aitken.dir
+/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/codes/cmake-build-debug/CMakeFiles/test_NR.dir
 /Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/codes/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/codes/cmake-build-debug/CMakeFiles/rebuild_cache.dir
