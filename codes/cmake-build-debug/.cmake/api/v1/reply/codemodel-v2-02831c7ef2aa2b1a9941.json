@@ -1,0 +1,95 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "nonlinearsolver",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cstdlib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cstdlib-Debug-dd0bb3a13a5785132529.json",
+					"name" : "cstdlib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "math::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-math-Debug-4c852344d4ae045189be.json",
+					"name" : "math",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_aitken::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_aitken-Debug-58613727f2b3b781ff78.json",
+					"name" : "test_aitken",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_bisection::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_bisection-Debug-f04e276b6cd6403ef16b.json",
+					"name" : "test_bisection",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_chord::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_chord-Debug-1cf81cb5b5d84def79a9.json",
+					"name" : "test_chord",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes/cmake-build-debug",
+		"source" : "/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

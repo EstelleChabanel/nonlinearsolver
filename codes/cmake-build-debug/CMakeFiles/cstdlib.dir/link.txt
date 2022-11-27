@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcstdlib.a  CMakeFiles/cstdlib.dir/test_bisection.cpp.o CMakeFiles/cstdlib.dir/test_aitken.cpp.o CMakeFiles/cstdlib.dir/test_chord.cpp.o
+/usr/bin/ranlib libcstdlib.a
