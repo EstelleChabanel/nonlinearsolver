@@ -1,0 +1,285 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: nonlinearsolver
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/nounou/Desktop/EPFL/M5/Programming$ concepts$ for$ scientific$ computing/pcsc/nonlinearsolver/codes/cmake-build-debug/
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target cstdlib
+
+
+#############################################
+# Order-only phony target for cstdlib
+
+build cmake_object_order_depends_target_cstdlib: phony || CMakeFiles/cstdlib.dir
+
+build CMakeFiles/cstdlib.dir/test_bisection.cpp.o: CXX_COMPILER__cstdlib_Debug /Users/nounou/Desktop/EPFL/M5/Programming$ concepts$ for$ scientific$ computing/pcsc/nonlinearsolver/codes/test_bisection.cpp || cmake_object_order_depends_target_cstdlib
+  DEP_FILE = CMakeFiles/cstdlib.dir/test_bisection.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/cstdlib.dir
+  OBJECT_FILE_DIR = CMakeFiles/cstdlib.dir
+
+build CMakeFiles/cstdlib.dir/test_aitken.cpp.o: CXX_COMPILER__cstdlib_Debug /Users/nounou/Desktop/EPFL/M5/Programming$ concepts$ for$ scientific$ computing/pcsc/nonlinearsolver/codes/test_aitken.cpp || cmake_object_order_depends_target_cstdlib
+  DEP_FILE = CMakeFiles/cstdlib.dir/test_aitken.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/cstdlib.dir
+  OBJECT_FILE_DIR = CMakeFiles/cstdlib.dir
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target cstdlib
+
+
+#############################################
+# Link the static library libcstdlib.a
+
+build libcstdlib.a: CXX_STATIC_LIBRARY_LINKER__cstdlib_Debug CMakeFiles/cstdlib.dir/test_bisection.cpp.o CMakeFiles/cstdlib.dir/test_aitken.cpp.o
+  ARCH_FLAGS = -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = CMakeFiles/cstdlib.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = libcstdlib.a
+  TARGET_PDB = cstdlib.a.dbg
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target math
+
+
+#############################################
+# Order-only phony target for math
+
+build cmake_object_order_depends_target_math: phony || CMakeFiles/math.dir
+
+build CMakeFiles/math.dir/test_aitken.cpp.o: CXX_COMPILER__math_Debug /Users/nounou/Desktop/EPFL/M5/Programming$ concepts$ for$ scientific$ computing/pcsc/nonlinearsolver/codes/test_aitken.cpp || cmake_object_order_depends_target_math
+  DEP_FILE = CMakeFiles/math.dir/test_aitken.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/math.dir
+  OBJECT_FILE_DIR = CMakeFiles/math.dir
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target math
+
+
+#############################################
+# Link the static library libmath.a
+
+build libmath.a: CXX_STATIC_LIBRARY_LINKER__math_Debug CMakeFiles/math.dir/test_aitken.cpp.o
+  ARCH_FLAGS = -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = CMakeFiles/math.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = libmath.a
+  TARGET_PDB = math.a.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test_bisection
+
+
+#############################################
+# Order-only phony target for test_bisection
+
+build cmake_object_order_depends_target_test_bisection: phony || CMakeFiles/test_bisection.dir
+
+build CMakeFiles/test_bisection.dir/test_bisection.cpp.o: CXX_COMPILER__test_bisection_Debug /Users/nounou/Desktop/EPFL/M5/Programming$ concepts$ for$ scientific$ computing/pcsc/nonlinearsolver/codes/test_bisection.cpp || cmake_object_order_depends_target_test_bisection
+  DEP_FILE = CMakeFiles/test_bisection.dir/test_bisection.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/test_bisection.dir
+  OBJECT_FILE_DIR = CMakeFiles/test_bisection.dir
+
+build CMakeFiles/test_bisection.dir/Bisection.cpp.o: CXX_COMPILER__test_bisection_Debug /Users/nounou/Desktop/EPFL/M5/Programming$ concepts$ for$ scientific$ computing/pcsc/nonlinearsolver/codes/Bisection.cpp || cmake_object_order_depends_target_test_bisection
+  DEP_FILE = CMakeFiles/test_bisection.dir/Bisection.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/test_bisection.dir
+  OBJECT_FILE_DIR = CMakeFiles/test_bisection.dir
+
+build CMakeFiles/test_bisection.dir/Equation_Solver.cpp.o: CXX_COMPILER__test_bisection_Debug /Users/nounou/Desktop/EPFL/M5/Programming$ concepts$ for$ scientific$ computing/pcsc/nonlinearsolver/codes/Equation_Solver.cpp || cmake_object_order_depends_target_test_bisection
+  DEP_FILE = CMakeFiles/test_bisection.dir/Equation_Solver.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/test_bisection.dir
+  OBJECT_FILE_DIR = CMakeFiles/test_bisection.dir
+
+build CMakeFiles/test_bisection.dir/Mama_Solver.cpp.o: CXX_COMPILER__test_bisection_Debug /Users/nounou/Desktop/EPFL/M5/Programming$ concepts$ for$ scientific$ computing/pcsc/nonlinearsolver/codes/Mama_Solver.cpp || cmake_object_order_depends_target_test_bisection
+  DEP_FILE = CMakeFiles/test_bisection.dir/Mama_Solver.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/test_bisection.dir
+  OBJECT_FILE_DIR = CMakeFiles/test_bisection.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test_bisection
+
+
+#############################################
+# Link the executable test_bisection
+
+build test_bisection: CXX_EXECUTABLE_LINKER__test_bisection_Debug CMakeFiles/test_bisection.dir/test_bisection.cpp.o CMakeFiles/test_bisection.dir/Bisection.cpp.o CMakeFiles/test_bisection.dir/Equation_Solver.cpp.o CMakeFiles/test_bisection.dir/Mama_Solver.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/test_bisection.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test_bisection
+  TARGET_PDB = test_bisection.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target test_aitken
+
+
+#############################################
+# Order-only phony target for test_aitken
+
+build cmake_object_order_depends_target_test_aitken: phony || CMakeFiles/test_aitken.dir
+
+build CMakeFiles/test_aitken.dir/test_aitken.cpp.o: CXX_COMPILER__test_aitken_Debug /Users/nounou/Desktop/EPFL/M5/Programming$ concepts$ for$ scientific$ computing/pcsc/nonlinearsolver/codes/test_aitken.cpp || cmake_object_order_depends_target_test_aitken
+  DEP_FILE = CMakeFiles/test_aitken.dir/test_aitken.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/test_aitken.dir
+  OBJECT_FILE_DIR = CMakeFiles/test_aitken.dir
+
+build CMakeFiles/test_aitken.dir/Aitken.cpp.o: CXX_COMPILER__test_aitken_Debug /Users/nounou/Desktop/EPFL/M5/Programming$ concepts$ for$ scientific$ computing/pcsc/nonlinearsolver/codes/Aitken.cpp || cmake_object_order_depends_target_test_aitken
+  DEP_FILE = CMakeFiles/test_aitken.dir/Aitken.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/test_aitken.dir
+  OBJECT_FILE_DIR = CMakeFiles/test_aitken.dir
+
+build CMakeFiles/test_aitken.dir/Equation_Solver.cpp.o: CXX_COMPILER__test_aitken_Debug /Users/nounou/Desktop/EPFL/M5/Programming$ concepts$ for$ scientific$ computing/pcsc/nonlinearsolver/codes/Equation_Solver.cpp || cmake_object_order_depends_target_test_aitken
+  DEP_FILE = CMakeFiles/test_aitken.dir/Equation_Solver.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/test_aitken.dir
+  OBJECT_FILE_DIR = CMakeFiles/test_aitken.dir
+
+build CMakeFiles/test_aitken.dir/Mama_Solver.cpp.o: CXX_COMPILER__test_aitken_Debug /Users/nounou/Desktop/EPFL/M5/Programming$ concepts$ for$ scientific$ computing/pcsc/nonlinearsolver/codes/Mama_Solver.cpp || cmake_object_order_depends_target_test_aitken
+  DEP_FILE = CMakeFiles/test_aitken.dir/Mama_Solver.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/test_aitken.dir
+  OBJECT_FILE_DIR = CMakeFiles/test_aitken.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test_aitken
+
+
+#############################################
+# Link the executable test_aitken
+
+build test_aitken: CXX_EXECUTABLE_LINKER__test_aitken_Debug CMakeFiles/test_aitken.dir/test_aitken.cpp.o CMakeFiles/test_aitken.dir/Aitken.cpp.o CMakeFiles/test_aitken.dir/Equation_Solver.cpp.o CMakeFiles/test_aitken.dir/Mama_Solver.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/test_aitken.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test_aitken
+  TARGET_PDB = test_aitken.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/codes/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/codes/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S"/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/codes" -B"/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/codes/cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+build cstdlib: phony libcstdlib.a
+
+build math: phony libmath.a
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/codes/cmake-build-debug
+
+build all: phony libcstdlib.a libmath.a test_bisection test_aitken
+
+# =============================================================================
+# Unknown Build Time Dependencies.
+# Tell Ninja that they may appear as side effects of build rules
+# otherwise ordered by order-only dependencies.
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all

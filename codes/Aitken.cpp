@@ -4,11 +4,13 @@
 
 #include "Aitken.h"
 #include <math.h>
+#include <cstdlib>
+#include <iostream>
 
 /// Constructors
-Aitken::Aitken() : Equation_Solver(), x0(0.0), div(1e-6) {}
+Aitken::Aitken() : Equation_Solver(), div(1e-6) {}
 Aitken::Aitken(double starting_point, double (*fx)(double x), double iter, double tol, double div_limit)
-        : x0(starting_point) div(div_limit), Equation_Solver(starting_point, *fx, iter, tol)
+        : div(div_limit), Equation_Solver(starting_point, *fx, iter, tol)
 {
     // Exceptions ? sur div peut être ?
 }
@@ -17,23 +19,33 @@ Aitken::~Aitken() {}
 
 double Aitken::Solve() {
     unsigned int i = 0;
-    double aitken = 0;
-    do {
-        double x1 = (*function)(x0);
-        double x2 = (*function)(x1);
-        double denominator = (x2 - x1) - (x1 - x0);
+    double x1;
+    double x2;
+    std::cout<<"doudou"<<i<< " : "<< x0 << std::endl;
 
-        if (denominator < div) {
+    do {
+        x1 = (*function)(x0);
+        x2 = (*function)(x1);
+
+        std::cout<<"x0 : "<< x0 <<" x1 : "<< x1 << " x2 : " << x2 << std::endl;
+        double denominator = (x2 - x1) - (x1 - x0);
+        std::cout<<"denominator : "<< denominator << std::endl;
+
+        if (abs(denominator) < div) {
             // Raise Exception -> Denominator too small
+            std::cout<<"break!-> Error"<<std::endl;
             break;
         }
-        aitken = x2 - (pow((x2 - x1), 2)) / denominator;
+        x0  = x2 - pow(x2 - x1,2)/denominator;
 
-        x0 = aitken;
+        std::cout<<"guess at iteration "<<i<< " : "<< x0 << std::endl;
         i = i+1;
-    }while((abs(aitken-x2) > tolerance) && (i < max_iter))
+        std::cout<<"condition is  "<< ((abs(x0-x2) > tolerance) && (i < max_iter))<<std::endl;
 
-    return guess;
+
+    }while((abs(x0-x2) > tolerance) && (i < max_iter));
+
+    return x0;
 }
 
 

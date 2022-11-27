@@ -39,8 +39,8 @@ double Bisection::Solve() {
     float old_guess = 0.5*(a+b) + 100*tolerance;
     unsigned int i = 0;
     while((abs(old_guess-guess) > tolerance) && (i < max_iter)){
-        std::cout << " old-new " << abs(old_guess-guess) << std::endl;
-        std::cout << " guess " << i << " : " << guess << std::endl;
+        // std::cout << " old-new " << abs(old_guess-guess) << std::endl;
+        // std::cout << " guess " << i << " : " << guess << std::endl;
         float fa = (*function)(a);
         float fb = (*function)(b);
         float fguess = function(guess);
