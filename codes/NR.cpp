@@ -29,13 +29,13 @@ double NR::Solve() {
             break;
         };
 
-        std::cout<<"Iteration : "<< i<<"-> x0 = "<< x0 <<" f0 = "<< f0 << " g0 = "<< g0 << std::endl;
+        std::cout<<"Iteration : "<< i << "-> x0 = "<< x0 <<" f0 = "<< f0 << " g0 = "<< g0 << std::endl;
 
         x0 = x0 - f0/g0;
         i+=1;
-        std::cout<<"Iteration : "<< i<<"-> guess = "<< x0 <<" and f(guess) = "<< function(x0)<< std::endl;
+        std::cout<<"Iteration : "<< i <<"-> guess = "<< x0 <<" and f(guess) = "<< function(x0)<< std::endl;
 
-    }while(abs(function(x0)>tolerance)&&(i<max_iter));
+    }while((abs(function(x0))>tolerance)&&(i<max_iter));
 
     return x0;
 }

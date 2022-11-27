@@ -6,6 +6,7 @@
 			[
 				{
 					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.0"
@@ -18,7 +19,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -37,7 +39,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -46,35 +49,42 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "cstdlib::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-cstdlib-Debug-dd0bb3a13a5785132529.json",
+					"jsonFile" : "target-cstdlib-Debug-f1e28f99c8c4e2b377e0.json",
 					"name" : "cstdlib",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "math::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-math-Debug-4c852344d4ae045189be.json",
+					"jsonFile" : "target-math-Debug-27c640134251effde126.json",
 					"name" : "math",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "test_NR::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_NR-Debug-21d1eff5b9ef86f2316e.json",
+					"name" : "test_NR",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "test_aitken::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_aitken-Debug-58613727f2b3b781ff78.json",
+					"jsonFile" : "target-test_aitken-Debug-da7e4eee61fb851f421f.json",
 					"name" : "test_aitken",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_bisection::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_bisection-Debug-f04e276b6cd6403ef16b.json",
+					"jsonFile" : "target-test_bisection-Debug-301e33cbe46c5b31bb9d.json",
 					"name" : "test_bisection",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_chord::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_chord-Debug-1cf81cb5b5d84def79a9.json",
+					"jsonFile" : "target-test_chord-Debug-f8c717f4fa6b056a1e60.json",
 					"name" : "test_chord",
 					"projectIndex" : 0
 				}
@@ -84,12 +94,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes/cmake-build-debug",
-		"source" : "/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes"
+		"build" : "/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/codes/cmake-build-debug",
+		"source" : "/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/codes"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 0
+		"minor" : 4
 	}
 }

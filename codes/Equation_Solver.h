@@ -21,7 +21,11 @@ public :
 
     /// Solving method
     virtual double Solve() = 0;
-};
+    void Result();
+
+    bool Continuing(double guess, unsigned int iteration);
+
+    };
 
 
 #endif //NONLINEARSOLVER_EQUATION_SOLVER_H

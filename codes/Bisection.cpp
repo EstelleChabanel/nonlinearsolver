@@ -7,9 +7,9 @@
 #include <iostream>
 
 /// Constructors
-Bisection::Bisection() : Equation_Solver(), a(1.0), b(1000) {}
+Bisection::Bisection() : Equation_Solver(), b(1000) {}
 Bisection::Bisection(double starting_point, double b_, double (*fx)(double x), double iter, double tol)
-  :  a(starting_point), b(b_), Equation_Solver(starting_point, *fx, iter, tol)
+  :  b(b_), Equation_Solver(starting_point, *fx, iter, tol)
     {
     // catch exception pour vérifier que f(a) bien < f(b)
     }
@@ -17,43 +17,36 @@ Bisection::Bisection(double starting_point, double b_, double (*fx)(double x), d
 /// Desctructor
 Bisection::~Bisection() {}
 
-/// Getters
-double Bisection::GetA() {
-    return a;
-}
-double Bisection::GetB() {
-    return b;
-}
-
-/// Setters
-void Bisection::SetA(double new_a) {
-    a = new_a;
-}
-void Bisection::SetB(double new_b) {
-    b = new_b;
-}
 
 /// Methods
 double Bisection::Solve() {
-    float guess = 0.5*(a+b);
-    float old_guess = 0.5*(a+b) + 100*tolerance;
+
+    double guess = 0.5*(x0+b);
+    double old_guess = 0.5*(x0+b) + 100*tolerance;
+
     unsigned int i = 0;
-    while((abs(old_guess-guess) > tolerance) && (i < max_iter)){
-        // std::cout << " old-new " << abs(old_guess-guess) << std::endl;
-        // std::cout << " guess " << i << " : " << guess << std::endl;
-        float fa = (*function)(a);
-        float fb = (*function)(b);
-        float fguess = function(guess);
+
+    //while((abs((*function)(guess)) > tolerance) && (i < max_iter)){
+    while(Continuing(guess,i)){
+
+        //std::cout << "------iteration " << i << std::endl;
+        //std::cout << "a = " << x0  << " b = " << b << " guess = " << guess << std::endl;
+
+        double fa = (*function)(x0);
+        //double fb = (*function)(b);
+        double fguess = function(guess);
+        //std::cout << "f(a) = " << fa  << " f(b) = " << fb << " f(guess) = " << fguess << std::endl;
+
         if(fguess == 0) {
             break;
         } else if(fguess*fa < 0) {
             b = guess;
         } else {
-            a = guess;
+            x0 = guess;
         }
         i += 1;
-        old_guess = guess;
-        guess = 0.5*(a+b);
+        //old_guess = guess;
+        guess = 0.5*(x0+b); //ici on devra peut être implementer l'accélerateur
     }
     return guess;
 }

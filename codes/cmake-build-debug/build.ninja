@@ -58,6 +58,12 @@ build CMakeFiles/cstdlib.dir/test_aitken.cpp.o: CXX_COMPILER__cstdlib_Debug /Use
   OBJECT_DIR = CMakeFiles/cstdlib.dir
   OBJECT_FILE_DIR = CMakeFiles/cstdlib.dir
 
+build CMakeFiles/cstdlib.dir/test_chord.cpp.o: CXX_COMPILER__cstdlib_Debug /Users/nounou/Desktop/EPFL/M5/Programming$ concepts$ for$ scientific$ computing/pcsc/nonlinearsolver/codes/test_chord.cpp || cmake_object_order_depends_target_cstdlib
+  DEP_FILE = CMakeFiles/cstdlib.dir/test_chord.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/cstdlib.dir
+  OBJECT_FILE_DIR = CMakeFiles/cstdlib.dir
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target cstdlib
@@ -66,7 +72,7 @@ build CMakeFiles/cstdlib.dir/test_aitken.cpp.o: CXX_COMPILER__cstdlib_Debug /Use
 #############################################
 # Link the static library libcstdlib.a
 
-build libcstdlib.a: CXX_STATIC_LIBRARY_LINKER__cstdlib_Debug CMakeFiles/cstdlib.dir/test_bisection.cpp.o CMakeFiles/cstdlib.dir/test_aitken.cpp.o
+build libcstdlib.a: CXX_STATIC_LIBRARY_LINKER__cstdlib_Debug CMakeFiles/cstdlib.dir/test_bisection.cpp.o CMakeFiles/cstdlib.dir/test_aitken.cpp.o CMakeFiles/cstdlib.dir/test_chord.cpp.o
   ARCH_FLAGS = -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles/cstdlib.dir
@@ -90,6 +96,12 @@ build CMakeFiles/math.dir/test_aitken.cpp.o: CXX_COMPILER__math_Debug /Users/nou
   OBJECT_DIR = CMakeFiles/math.dir
   OBJECT_FILE_DIR = CMakeFiles/math.dir
 
+build CMakeFiles/math.dir/test_chord.cpp.o: CXX_COMPILER__math_Debug /Users/nounou/Desktop/EPFL/M5/Programming$ concepts$ for$ scientific$ computing/pcsc/nonlinearsolver/codes/test_chord.cpp || cmake_object_order_depends_target_math
+  DEP_FILE = CMakeFiles/math.dir/test_chord.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/math.dir
+  OBJECT_FILE_DIR = CMakeFiles/math.dir
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target math
@@ -98,7 +110,7 @@ build CMakeFiles/math.dir/test_aitken.cpp.o: CXX_COMPILER__math_Debug /Users/nou
 #############################################
 # Link the static library libmath.a
 
-build libmath.a: CXX_STATIC_LIBRARY_LINKER__math_Debug CMakeFiles/math.dir/test_aitken.cpp.o
+build libmath.a: CXX_STATIC_LIBRARY_LINKER__math_Debug CMakeFiles/math.dir/test_aitken.cpp.o CMakeFiles/math.dir/test_chord.cpp.o
   ARCH_FLAGS = -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles/math.dir
@@ -260,6 +272,55 @@ build test_NR: CXX_EXECUTABLE_LINKER__test_NR_Debug CMakeFiles/test_NR.dir/test_
   TARGET_FILE = test_NR
   TARGET_PDB = test_NR.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target test_chord
+
+
+#############################################
+# Order-only phony target for test_chord
+
+build cmake_object_order_depends_target_test_chord: phony || CMakeFiles/test_chord.dir
+
+build CMakeFiles/test_chord.dir/test_chord.cpp.o: CXX_COMPILER__test_chord_Debug /Users/nounou/Desktop/EPFL/M5/Programming$ concepts$ for$ scientific$ computing/pcsc/nonlinearsolver/codes/test_chord.cpp || cmake_object_order_depends_target_test_chord
+  DEP_FILE = CMakeFiles/test_chord.dir/test_chord.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/test_chord.dir
+  OBJECT_FILE_DIR = CMakeFiles/test_chord.dir
+
+build CMakeFiles/test_chord.dir/chord.cpp.o: CXX_COMPILER__test_chord_Debug /Users/nounou/Desktop/EPFL/M5/Programming$ concepts$ for$ scientific$ computing/pcsc/nonlinearsolver/codes/chord.cpp || cmake_object_order_depends_target_test_chord
+  DEP_FILE = CMakeFiles/test_chord.dir/chord.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/test_chord.dir
+  OBJECT_FILE_DIR = CMakeFiles/test_chord.dir
+
+build CMakeFiles/test_chord.dir/Equation_Solver.cpp.o: CXX_COMPILER__test_chord_Debug /Users/nounou/Desktop/EPFL/M5/Programming$ concepts$ for$ scientific$ computing/pcsc/nonlinearsolver/codes/Equation_Solver.cpp || cmake_object_order_depends_target_test_chord
+  DEP_FILE = CMakeFiles/test_chord.dir/Equation_Solver.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/test_chord.dir
+  OBJECT_FILE_DIR = CMakeFiles/test_chord.dir
+
+build CMakeFiles/test_chord.dir/Mama_Solver.cpp.o: CXX_COMPILER__test_chord_Debug /Users/nounou/Desktop/EPFL/M5/Programming$ concepts$ for$ scientific$ computing/pcsc/nonlinearsolver/codes/Mama_Solver.cpp || cmake_object_order_depends_target_test_chord
+  DEP_FILE = CMakeFiles/test_chord.dir/Mama_Solver.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/test_chord.dir
+  OBJECT_FILE_DIR = CMakeFiles/test_chord.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test_chord
+
+
+#############################################
+# Link the executable test_chord
+
+build test_chord: CXX_EXECUTABLE_LINKER__test_chord_Debug CMakeFiles/test_chord.dir/test_chord.cpp.o CMakeFiles/test_chord.dir/chord.cpp.o CMakeFiles/test_chord.dir/Equation_Solver.cpp.o CMakeFiles/test_chord.dir/Mama_Solver.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/test_chord.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test_chord
+  TARGET_PDB = test_chord.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -298,7 +359,7 @@ build math: phony libmath.a
 #############################################
 # Folder: /Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/codes/cmake-build-debug
 
-build all: phony libcstdlib.a libmath.a test_bisection test_aitken test_NR
+build all: phony libcstdlib.a libmath.a test_bisection test_aitken test_NR test_chord
 
 # =============================================================================
 # Unknown Build Time Dependencies.

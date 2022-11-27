@@ -12,7 +12,6 @@ class Bisection : public Equation_Solver {
 // the function needs to be continue entre a et b et f(a)<0 et f(b)>0
 
 private:
-    double a;
     double b;
 
 public:
@@ -22,14 +21,6 @@ public:
 
     /// Desctructor
     ~Bisection();
-
-    /// Getters
-    double GetA();
-    double GetB();
-
-    /// Setters
-    void SetA(double new_a);
-    void SetB(double new_b);
 
     /// Methods
     double Solve();
