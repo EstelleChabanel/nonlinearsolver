@@ -4,6 +4,7 @@
 
 #include "Bisection.h"
 #include <cstdlib>
+#include <iostream>
 
 /// Constructors
 Bisection::Bisection() : Equation_Solver(), a(1.0), b(1000) {}
@@ -34,13 +35,15 @@ void Bisection::SetB(double new_b) {
 
 /// Methods
 double Bisection::Solve() {
-    double guess = 0.5*(a+b);
-    double old_guess = 0.5*(a+b) + 10*tolerance;
+    float guess = 0.5*(a+b);
+    float old_guess = 0.5*(a+b) + 100*tolerance;
     unsigned int i = 0;
     while((abs(old_guess-guess) > tolerance) && (i < max_iter)){
-        double fa = (*function)(a);
-        double fb = (*function)(b);
-        double fguess = function(guess);
+        std::cout << " old-new " << abs(old_guess-guess) << std::endl;
+        std::cout << " guess " << i << " : " << guess << std::endl;
+        float fa = (*function)(a);
+        float fb = (*function)(b);
+        float fguess = function(guess);
         if(fguess == 0) {
             break;
         } else if(fguess*fa < 0) {

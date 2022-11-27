@@ -8,14 +8,16 @@
 #include<iostream>
 #include<cmath>
 
+double fx(double x) {
+    return 3*(x);
+}
+
 int main(int argc, char *argv[]) {
 
-    double fx(double x) {
-        return sin(x);
-    }
-    Bisection bi(-1.0, 2.0, *fx, 50, 1e-5);
+
+    Bisection bi(-1.0, 2.0, *fx, 100, 1e-5);
     double res = bi.Solve();
-    std::cout << res << std::endl;
+    std::cout << "res = " << res << std::endl;
 
     return 0;
 }
