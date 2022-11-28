@@ -9,11 +9,18 @@
 /// constructor
 Newton::Newton() : Equation_Solver(), derivative(nullptr){}
 
-Newton::Newton(double starting_point, double (*fx)(double x), double (*fprime)(double x) , double iter, double tol) :
-Equation_Solver( starting_point, (*fx), iter, tol) {
+Newton::Newton(double (*fx)(double x), double (*fprime)(double x)) : Equation_Solver(*fx), derivative(nullptr){
     derivative = fprime;
 }
-;
+Newton::Newton(double (*fx)(double x), double (*fprime)(double x), double starting_point, double iter, double tol)
+        : Equation_Solver((*fx), starting_point, iter, tol) {
+    derivative = fprime;
+}
+Newton::Newton(double (*fx)(double x), double (*fprime)(double x), bool acc, double starting_point, double iter, double tol)
+    : Equation_Solver((*fx), acc, starting_point, iter, tol) {
+    derivative = fprime;
+}
+
 /// Destructor
 Newton::~Newton(){}
 

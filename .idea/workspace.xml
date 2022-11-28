@@ -7,20 +7,57 @@
     <option name="reloaded" value="true" />
   </component>
   <component name="CMakeRunConfigurationManager">
-    <generated />
+    <generated>
+      <config projectName="nonlinearsolver" targetName="test_NR" />
+      <config projectName="nonlinearsolver" targetName="math" />
+      <config projectName="nonlinearsolver" targetName="test_aitken" />
+      <config projectName="nonlinearsolver" targetName="cstdlib" />
+      <config projectName="nonlinearsolver" targetName="test_bisection" />
+      <config projectName="nonlinearsolver" targetName="test_chord" />
+    </generated>
   </component>
   <component name="CMakeSettings">
-    <configurations />
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92b9e9cb-5c3a-42eb-89cb-2dd913c141c9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/DivZero.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/DivZero.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/Exceptions.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/Exceptions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/Interval.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/Interval.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-e32fafcff98d87b2fe2d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-0bc6ab07e59218dd11c1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-fe888843ace8c73d2cb9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-11-27T10-17-14-0351.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-cstdlib-Debug-b0972b7350fd1f23bdb5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-nonlinearsolver-Debug-a812364846928aeff781.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/codes/CMakeFiles/cstdlib.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/codes/CMakeFiles/cstdlib.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/codes/CMakeFiles/cstdlib.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/codes/CMakeFiles/cstdlib.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/codes/CMakeFiles/cstdlib.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/codes/CMakeFiles/cstdlib.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/codes/CMakeFiles/cstdlib.dir/cmake_clean_target.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/codes/CMakeFiles/cstdlib.dir/cmake_clean_target.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/codes/CMakeFiles/cstdlib.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/codes/CMakeFiles/cstdlib.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/codes/CMakeFiles/cstdlib.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/codes/CMakeFiles/cstdlib.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/codes/CMakeFiles/cstdlib.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/codes/CMakeFiles/cstdlib.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/codes/CMakeFiles/test_bisection.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/codes/CMakeFiles/test_bisection.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/Aitken.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/codes/Aitken.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/Aitken.h" beforeDir="false" afterPath="$PROJECT_DIR$/codes/Aitken.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/Bisection.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/codes/Bisection.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/Bisection.h" beforeDir="false" afterPath="$PROJECT_DIR$/codes/Bisection.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/Chord.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/codes/Chord.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/Chord.h" beforeDir="false" afterPath="$PROJECT_DIR$/codes/Chord.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/DivZero.h" beforeDir="false" afterPath="$PROJECT_DIR$/codes/DivZero.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/Equation_Solver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/codes/Equation_Solver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/Equation_Solver.h" beforeDir="false" afterPath="$PROJECT_DIR$/codes/Equation_Solver.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/Exceptions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/codes/Exceptions.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/Exceptions.h" beforeDir="false" afterPath="$PROJECT_DIR$/codes/Exceptions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/Interval.h" beforeDir="false" afterPath="$PROJECT_DIR$/codes/Interval.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/Mama_Solver.h" beforeDir="false" afterPath="$PROJECT_DIR$/codes/Mama_Solver.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/NR.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/codes/NR.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/NR.h" beforeDir="false" afterPath="$PROJECT_DIR$/codes/NR.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/Newton.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/codes/Newton.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/Newton.h" beforeDir="false" afterPath="$PROJECT_DIR$/codes/Newton.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/test_NR.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/codes/test_NR.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/test_bisection.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/codes/test_bisection.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/test_chord.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/codes/test_chord.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +71,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IBLBt2CB2SaiONriglMzQkKhhD" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -44,21 +85,68 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true"
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "C:/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/CMakeLists.txt"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Unnamed" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" EXPLICIT_BUILD_TARGET_NAME="all">
+  <component name="RunManager" selected="CMake Application.Unnamed">
+    <configuration name="Unnamed" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cstdlib" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="nonlinearsolver" TARGET_NAME="cstdlib" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="math" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="nonlinearsolver" TARGET_NAME="math" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_NR" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="nonlinearsolver" TARGET_NAME="test_NR" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="nonlinearsolver" RUN_TARGET_NAME="test_NR">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_aitken" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="nonlinearsolver" TARGET_NAME="test_aitken" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="nonlinearsolver" RUN_TARGET_NAME="test_aitken">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_bisection" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="nonlinearsolver" TARGET_NAME="test_bisection" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="nonlinearsolver" RUN_TARGET_NAME="test_bisection">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_chord" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="nonlinearsolver" TARGET_NAME="test_chord" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="nonlinearsolver" RUN_TARGET_NAME="test_chord">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Unnamed" />
+      <item itemvalue="CMake Application.cstdlib" />
+      <item itemvalue="CMake Application.math" />
+      <item itemvalue="CMake Application.test_aitken" />
+      <item itemvalue="CMake Application.test_bisection" />
+      <item itemvalue="CMake Application.test_chord" />
+      <item itemvalue="CMake Application.test_NR" />
+    </list>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="92b9e9cb-5c3a-42eb-89cb-2dd913c141c9" name="Changes" comment="" />
@@ -68,8 +156,12 @@
       <updated>1669458486454</updated>
       <workItem from="1669458488582" duration="3988000" />
       <workItem from="1669543435669" duration="910000" />
+      <workItem from="1669649898477" duration="7689000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

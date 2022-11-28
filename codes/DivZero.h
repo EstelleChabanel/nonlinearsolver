@@ -4,6 +4,7 @@
 #ifndef NONLINEARSOLVER_DIVZERO_H
 #define NONLINEARSOLVER_DIVZERO_H
 
+#include "Exceptions.h"
 
 class DivZero : public Exceptions {
 private:

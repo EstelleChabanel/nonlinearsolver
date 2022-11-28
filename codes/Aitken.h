@@ -7,6 +7,10 @@
 
 #include "Equation_Solver.h"
 
+
+// ToDo: NORMALEMENT DEVRAIT POUVOIR ETR SUPPRIMER,
+//  maintenant methode de Equation_Solver
+
 class Aitken : public Equation_Solver {
 
 private:

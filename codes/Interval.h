@@ -4,8 +4,10 @@
 #ifndef NONLINEARSOLVER_INTERVAL_H
 #define NONLINEARSOLVER_INTERVAL_H
 
+#include "Exceptions.h"
 
-class Interval {
+
+class Interval : public Exceptions {
 private:
 
 public:

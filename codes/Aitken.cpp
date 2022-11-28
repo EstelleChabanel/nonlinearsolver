@@ -7,6 +7,11 @@
 #include <cstdlib>
 #include <iostream>
 
+
+
+// ToDo: NORMALEMENT DEVRAIT POUVOIR ETR SUPPRIMER,
+//  maintenant methode de Equation_Solver
+
 /// Constructors
 Aitken::Aitken() : Equation_Solver(), div(1e-6) {}
 Aitken::Aitken(double starting_point, double (*fx)(double x), double iter, double tol, double div_limit)

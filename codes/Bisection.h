@@ -13,11 +13,14 @@ class Bisection : public Equation_Solver {
 
 private:
     double b;
+    bool acceleration;
 
 public:
     /// Constructors
     Bisection();
-    Bisection(double starting_point, double b, double (*fx)(double x), double iter, double tol);
+    Bisection(double (*fx)(double x));
+    Bisection(double (*fx)(double x), double starting_point, double b, double iter, double tol);
+    Bisection(double (*fx)(double x), bool acc, double starting_point, double b, double iter, double tol);
 
     /// Desctructor
     ~Bisection();

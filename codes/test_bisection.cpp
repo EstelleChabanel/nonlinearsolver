@@ -7,7 +7,7 @@
 
 int main(int argc, char *argv[]) {
 
-    Bisection bi(-10.0, 10.0, *fx1, 100, 1e-5);
+    Bisection bi(*fx1, -10.0, 10.0, 100, 1e-5);
     bi.Result();
 
     return 0;

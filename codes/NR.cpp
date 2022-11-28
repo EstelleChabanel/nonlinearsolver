@@ -8,11 +8,11 @@
 
 // constructeurs
 NR::NR() : Newton(){}
-
-NR::NR(double starting_point, double (*fx)(double x), double (*fprime)(double x) , double iter, double tol) :
-Newton(starting_point, *fx, *fprime, iter, tol){
-
-};
+NR::NR(double (*fx)(double x), double (*fprime)(double x)) : Newton(*fx, *fprime) {}
+NR::NR(double (*fx)(double x), double (*fprime)(double x), double starting_point, double iter, double tol)
+    : Newton(*fx, *fprime, starting_point, iter, tol) {}
+NR::NR(double (*fx)(double x), double (*fprime)(double x), bool acc, double starting_point, double iter, double tol)
+    : Newton(*fx, *fprime, acc, starting_point, iter, tol) {}
 
 // destructeurs
 NR::~NR(){}
@@ -23,19 +23,24 @@ double NR::Solve() {
     do{
         double f0 = function(x0);
         double g0 = derivative(x0);
-        if(g0 == 0){
+        if(g0 == 0){  // pareil ça devrait pas arriver si ?
             // ToDo : RaiseException (div0)
             std::cout << "derivative is 0 -> Error";
             break;
         };
 
         std::cout<<"Iteration : "<< i << "-> x0 = "<< x0 <<" f0 = "<< f0 << " g0 = "<< g0 << std::endl;
-
-        x0 = x0 - f0/g0;
+        double next = x0 - f0/g0;
+        if(acceleration==true) {
+            double next2 = next - function(x0) / derivative(x0); // ToDo: RaiseException pour division par 0
+            x0 = Accelerate(x0, next, next2);
+        } else {
+            x0 = next;
+        }
         i+=1;
         std::cout<<"Iteration : "<< i <<"-> guess = "<< x0 <<" and f(guess) = "<< function(x0)<< std::endl;
 
-    }while((abs(function(x0))>tolerance)&&(i<max_iter));
+    }while(Continuing(x0, i));
 
     return x0;
 }

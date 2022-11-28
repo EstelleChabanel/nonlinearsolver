@@ -8,9 +8,9 @@
 
 int main(int argc, char *argv[]) {
 
-    NR nr(-1.0, *fx3, *fprime3, 100, 1e-5);
+    NR nr(*fx3, *fprime3, -1.0, 100, 1e-5);
     nr.Result();
-    // checktd : it works !
+    // checked : it works !
 
     return 0;
 }

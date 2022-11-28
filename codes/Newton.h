@@ -14,7 +14,9 @@ protected :
 public :
     /// Constructors
     Newton();
-    Newton(double starting_point, double (*fx)(double x), double (*fprime)(double x) , double iter, double tol);
+    Newton(double (*fx)(double x), double (*fprime)(double x));
+    Newton(double (*fx)(double x), double (*fprime)(double x), double starting_point, double iter, double tol);
+    Newton(double (*fx)(double x), double (*fprime)(double x), bool acc, double starting_point, double iter, double tol);
     /// Destructor
     virtual ~Newton();
 

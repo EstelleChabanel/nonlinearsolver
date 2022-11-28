@@ -4,6 +4,7 @@
 #ifndef NONLINEARSOLVER_EXCEPTIONS_H
 #define NONLINEARSOLVER_EXCEPTIONS_H
 
+#include <iostream>
 
 class Exceptions {
 protected:

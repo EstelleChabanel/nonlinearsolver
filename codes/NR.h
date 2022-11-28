@@ -7,20 +7,22 @@
 #include "Newton.h"
 
 class NR : public Newton {
-    protected :
-        // variables en commun des Newton Classic et Newton Alternatif
+protected :
+    // variables en commun des Newton Classic et Newton Alternatif
 
 public :
-        /// Constructors
-        NR();
-        NR(double starting_point, double (*fx)(double x), double (*fprime)(double x) , double iter, double tol);
+    /// Constructors
+    NR();
+    NR(double (*fx)(double x), double (*fprime)(double x));
+    NR(double (*fx)(double x), double (*fprime)(double x), double starting_point, double iter, double tol);
+    NR(double (*fx)(double x), double (*fprime)(double x), bool acc, double starting_point, double iter, double tol);
 
-        /// Destructor
-        virtual ~NR();
+    /// Destructor
+    virtual ~NR();
 
-        double Solve();
+    double Solve();
 
-    };
+};
 
 
 

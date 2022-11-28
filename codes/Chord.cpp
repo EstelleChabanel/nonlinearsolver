@@ -8,11 +8,18 @@
 
 
 /// Constructors
-Chord::Chord() : Equation_Solver(), b(100){}
-Chord::Chord(double starting_point, double b_, double (*fx)(double x), double iter, double tol)
-        :  b(b_), Equation_Solver(starting_point, *fx, iter, tol)
+Chord::Chord() : Equation_Solver(), acceleration(false), b(200.0){}
+Chord::Chord(double (*fx)(double x)) : Equation_Solver(*fx), b(200.0){}
+Chord::Chord(double (*fx)(double x), double starting_point, double b_, double iter, double tol)
+        :  b(b_), Equation_Solver(*fx, starting_point, iter, tol)
 {
-    // catch exception pour vérifier que f(a) bien < f(b)
+    // ToDo: catch exception pour vérifier que f(a) bien < f(b)
+
+}
+Chord::Chord(double (*fx)(double x), bool acc, double starting_point, double b_, double iter, double tol)
+        :  b(b_), Equation_Solver(*fx, acc, starting_point, iter, tol)
+{
+    // ToDo: catch exception pour vérifier que f(a) bien < f(b)
 
 }
 
@@ -23,13 +30,14 @@ Chord::~Chord() {}
 
 /// Solving method
 double Chord::Solve() {
-    std::cout<<(*function)(0)<<std::endl;
-    float next = x0 - (*function)(x0)*(b - x0)/((*function)(b) - (*function)(x0));
-    //float previous = next*10;
+    //std::cout<<(*function)(0)<<std::endl;
+    double next = x0 - (*function)(x0)*(b - x0)/((*function)(b) - (*function)(x0));
     unsigned int i = 0;
     //std::cout << "(abs(next-previous)) = " << (abs(next-previous)) << std::endl;
-    while((abs((*function)(next)) > tolerance) && (i < max_iter)) {
+
+    while(Continuing(next,i)) {
         if((*function)(next) == 0) {
+            // ToDo: peut pas arriver normalement si ??
             std::cout << "f(next) = " << (*function)(next) << " break !" << std::endl;
             break;
         } else if((*function)(next)*(*function)(x0) < 0) {
@@ -37,10 +45,21 @@ double Chord::Solve() {
         } else {
             x0 = next;
         }
+        //std::cout << "current guess at " << i << " : " << next << std::endl;
+        double next1 = x0 - (*function)(x0) * (b - x0) / ((*function)(b) - (*function)(x0));
+
+        if(acceleration==true){
+            if((*function)(next1)*(*function)(x0) < 0) {
+                b = next;
+            } else {
+                x0 = next;
+            }
+            double next2 = x0 - (*function)(x0) * (b - x0) / ((*function)(b) - (*function)(x0));
+            next = Accelerate(next, next1, next2);
+        } else {
+            next = next1;
+        }
         i += 1;
-        //previous = next;
-        std::cout << "current guess at " << i << " : " << next << std::endl;
-        next = x0 - (*function)(x0)*(b - x0)/((*function)(b) - (*function)(x0));
         std::cout << "f(next) = " << (*function)(next) << std::endl;
         std::cout << "abs(f(next)) = " << abs((*function)(next)) << std::endl;
     }

@@ -17,6 +17,7 @@ public:
     Mama_Solver(double iter, double tol);
     virtual ~Mama_Solver();
 
+    // ToDo: NORMALEMENT ON DEVRAIT POUVOIR S'EN DEBARASSER
     /// Setters
     void SetTolerance(double tol);
     void SetMaxIter(unsigned int iter);
