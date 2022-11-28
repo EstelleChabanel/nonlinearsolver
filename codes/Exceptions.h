@@ -13,6 +13,7 @@ protected:
 
 public:
     /// Constructor
+    //Exceptions();
     Exceptions(std::string tag_, std::string problem_);
 
     /// Destructor

@@ -109,12 +109,40 @@ codes/CMakeFiles/test_bisection.dir/Mama_Solver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_bisection.dir/Mama_Solver.cpp.s"
 	cd /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/codes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes/Mama_Solver.cpp -o CMakeFiles/test_bisection.dir/Mama_Solver.cpp.s
 
+codes/CMakeFiles/test_bisection.dir/Interval.cpp.o: codes/CMakeFiles/test_bisection.dir/flags.make
+codes/CMakeFiles/test_bisection.dir/Interval.cpp.o: ../codes/Interval.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object codes/CMakeFiles/test_bisection.dir/Interval.cpp.o"
+	cd /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/codes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_bisection.dir/Interval.cpp.o -c /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes/Interval.cpp
+
+codes/CMakeFiles/test_bisection.dir/Interval.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_bisection.dir/Interval.cpp.i"
+	cd /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/codes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes/Interval.cpp > CMakeFiles/test_bisection.dir/Interval.cpp.i
+
+codes/CMakeFiles/test_bisection.dir/Interval.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_bisection.dir/Interval.cpp.s"
+	cd /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/codes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes/Interval.cpp -o CMakeFiles/test_bisection.dir/Interval.cpp.s
+
+codes/CMakeFiles/test_bisection.dir/Exceptions.cpp.o: codes/CMakeFiles/test_bisection.dir/flags.make
+codes/CMakeFiles/test_bisection.dir/Exceptions.cpp.o: ../codes/Exceptions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object codes/CMakeFiles/test_bisection.dir/Exceptions.cpp.o"
+	cd /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/codes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_bisection.dir/Exceptions.cpp.o -c /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes/Exceptions.cpp
+
+codes/CMakeFiles/test_bisection.dir/Exceptions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_bisection.dir/Exceptions.cpp.i"
+	cd /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/codes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes/Exceptions.cpp > CMakeFiles/test_bisection.dir/Exceptions.cpp.i
+
+codes/CMakeFiles/test_bisection.dir/Exceptions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_bisection.dir/Exceptions.cpp.s"
+	cd /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/codes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes/Exceptions.cpp -o CMakeFiles/test_bisection.dir/Exceptions.cpp.s
+
 # Object files for target test_bisection
 test_bisection_OBJECTS = \
 "CMakeFiles/test_bisection.dir/test_bisection.cpp.o" \
 "CMakeFiles/test_bisection.dir/Bisection.cpp.o" \
 "CMakeFiles/test_bisection.dir/Equation_Solver.cpp.o" \
-"CMakeFiles/test_bisection.dir/Mama_Solver.cpp.o"
+"CMakeFiles/test_bisection.dir/Mama_Solver.cpp.o" \
+"CMakeFiles/test_bisection.dir/Interval.cpp.o" \
+"CMakeFiles/test_bisection.dir/Exceptions.cpp.o"
 
 # External object files for target test_bisection
 test_bisection_EXTERNAL_OBJECTS =
@@ -123,9 +151,11 @@ codes/test_bisection: codes/CMakeFiles/test_bisection.dir/test_bisection.cpp.o
 codes/test_bisection: codes/CMakeFiles/test_bisection.dir/Bisection.cpp.o
 codes/test_bisection: codes/CMakeFiles/test_bisection.dir/Equation_Solver.cpp.o
 codes/test_bisection: codes/CMakeFiles/test_bisection.dir/Mama_Solver.cpp.o
+codes/test_bisection: codes/CMakeFiles/test_bisection.dir/Interval.cpp.o
+codes/test_bisection: codes/CMakeFiles/test_bisection.dir/Exceptions.cpp.o
 codes/test_bisection: codes/CMakeFiles/test_bisection.dir/build.make
 codes/test_bisection: codes/CMakeFiles/test_bisection.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable test_bisection"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable test_bisection"
 	cd /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/codes && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_bisection.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -12,7 +12,7 @@ Exceptions::~Exceptions() {}
 
 
 /// Print method
-void Exceptions::PrintError() override {
+void Exceptions::PrintError() {
 std::cerr << "** Error ("<<tag<<") **\n";
-std::cerr << "Problem: " << problem << "\n\n"
+std::cerr << "Problem: " << problem << "\n\n" << std::endl ;
 }

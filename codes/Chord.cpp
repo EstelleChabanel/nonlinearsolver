@@ -3,6 +3,7 @@
 //
 
 #include "Chord.h"
+#include "Interval.h"
 #include <cstdlib>
 #include <iostream>
 
@@ -11,17 +12,21 @@
 Chord::Chord() : Equation_Solver(), acceleration(false), b(200.0){}
 Chord::Chord(double (*fx)(double x)) : Equation_Solver(*fx), b(200.0){}
 Chord::Chord(double (*fx)(double x), double starting_point, double b_, double iter, double tol)
-        :  b(b_), Equation_Solver(*fx, starting_point, iter, tol)
-{
+    : b(b_), Equation_Solver(*fx, starting_point, iter, tol)
+    {
     // ToDo: catch exception pour vérifier que f(a) bien < f(b)
-
-}
+    if(fx(x0)*fx(b) > 0){
+        throw(Interval());
+    }
+    }
 Chord::Chord(double (*fx)(double x), bool acc, double starting_point, double b_, double iter, double tol)
-        :  b(b_), Equation_Solver(*fx, acc, starting_point, iter, tol)
-{
+    : b(b_), Equation_Solver(*fx, acc, starting_point, iter, tol)
+    {
     // ToDo: catch exception pour vérifier que f(a) bien < f(b)
-
-}
+    if(fx(x0)*fx(b) > 0){
+        throw(Interval());
+    }
+    }
 
 
 /// Desctructor

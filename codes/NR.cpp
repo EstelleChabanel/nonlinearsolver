@@ -3,6 +3,7 @@
 //
 
 #include "NR.h"
+#include "DivZero.h"
 #include <iostream>
 #include <cstdlib>
 
@@ -25,7 +26,8 @@ double NR::Solve() {
         double g0 = derivative(x0);
         if(g0 == 0){  // pareil ça devrait pas arriver si ?
             // ToDo : RaiseException (div0)
-            std::cout << "derivative is 0 -> Error";
+            throw(DivZero());
+            //std::cout << "derivative is 0 -> Error";
             break;
         };
 

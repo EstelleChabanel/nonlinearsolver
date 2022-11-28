@@ -12,6 +12,9 @@ Equation_Solver::Equation_Solver() : Mama_Solver(), x0(-200.0), function(nullptr
 Equation_Solver::Equation_Solver(double (*fx)(double x)) : Mama_Solver(), x0(-200.0), acceleration(false) {
     function = fx;
 }
+Equation_Solver::Equation_Solver(double (*fx)(double x), double starting_point, double iter, double tol) : Mama_Solver(iter, tol), x0(starting_point), acceleration(false) {
+    function = fx;
+}
 Equation_Solver::Equation_Solver(double (*fx)(double x), bool acc, double starting_point, double iter, double tol) : Mama_Solver(iter, tol), x0(starting_point), acceleration(acc) {
     function = fx;
 }

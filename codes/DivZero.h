@@ -12,12 +12,13 @@ private:
 public:
     /// Constructor
     DivZero();
+    DivZero(std::string pb);
 
     /// Destructor
-    ~DivZero()
+    ~DivZero();
 
     /// Print method
-    void PrintError() ;
+    void PrintError();
 };
 
 #endif //NONLINEARSOLVER_DIVZERO_H

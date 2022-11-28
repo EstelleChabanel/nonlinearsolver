@@ -4,17 +4,29 @@
 codes/CMakeFiles/test_bisection.dir/Bisection.cpp.o: ../codes/Bisection.cpp
 codes/CMakeFiles/test_bisection.dir/Bisection.cpp.o: ../codes/Bisection.h
 codes/CMakeFiles/test_bisection.dir/Bisection.cpp.o: ../codes/Equation_Solver.h
+codes/CMakeFiles/test_bisection.dir/Bisection.cpp.o: ../codes/Exceptions.h
+codes/CMakeFiles/test_bisection.dir/Bisection.cpp.o: ../codes/Interval.h
 codes/CMakeFiles/test_bisection.dir/Bisection.cpp.o: ../codes/Mama_Solver.h
 
 codes/CMakeFiles/test_bisection.dir/Equation_Solver.cpp.o: ../codes/Equation_Solver.cpp
 codes/CMakeFiles/test_bisection.dir/Equation_Solver.cpp.o: ../codes/Equation_Solver.h
 codes/CMakeFiles/test_bisection.dir/Equation_Solver.cpp.o: ../codes/Mama_Solver.h
 
+codes/CMakeFiles/test_bisection.dir/Exceptions.cpp.o: ../codes/Exceptions.cpp
+codes/CMakeFiles/test_bisection.dir/Exceptions.cpp.o: ../codes/Exceptions.h
+
+codes/CMakeFiles/test_bisection.dir/Interval.cpp.o: ../codes/Exceptions.h
+codes/CMakeFiles/test_bisection.dir/Interval.cpp.o: ../codes/Interval.cpp
+codes/CMakeFiles/test_bisection.dir/Interval.cpp.o: ../codes/Interval.h
+
 codes/CMakeFiles/test_bisection.dir/Mama_Solver.cpp.o: ../codes/Mama_Solver.cpp
 codes/CMakeFiles/test_bisection.dir/Mama_Solver.cpp.o: ../codes/Mama_Solver.h
 
 codes/CMakeFiles/test_bisection.dir/test_bisection.cpp.o: ../codes/Bisection.h
 codes/CMakeFiles/test_bisection.dir/test_bisection.cpp.o: ../codes/Equation_Solver.h
+codes/CMakeFiles/test_bisection.dir/test_bisection.cpp.o: ../codes/Exceptions.h
+codes/CMakeFiles/test_bisection.dir/test_bisection.cpp.o: ../codes/Interval.h
 codes/CMakeFiles/test_bisection.dir/test_bisection.cpp.o: ../codes/Mama_Solver.h
 codes/CMakeFiles/test_bisection.dir/test_bisection.cpp.o: ../codes/test_bisection.cpp
+codes/CMakeFiles/test_bisection.dir/test_bisection.cpp.o: ../codes/test_functions.cpp
 

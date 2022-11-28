@@ -3,6 +3,7 @@
 //
 
 #include "Bisection.h"
+#include "Interval.h"
 #include <cstdlib>
 #include <iostream>
 
@@ -11,14 +12,20 @@ Bisection::Bisection() : Equation_Solver(), b(200.0) {}
 Bisection::Bisection(double (*fx)(double x)) : b(200.0), Equation_Solver(*fx) {}
 Bisection::Bisection(double (*fx)(double x), double starting_point, double b_, double iter, double tol)
   :  b(b_), Equation_Solver(*fx, starting_point, iter, tol)
+  {
+    // ToDo: catch exception pour vérifier que f(a) bien < f(b)
+    if(fx(x0)*fx(b) > 0){
+        throw(Interval());
+    }
+  }
+Bisection::Bisection(double (*fx)(double x), bool acc, double starting_point, double b_, double iter, double tol)
+    : b(b_), Equation_Solver(*fx, acc, starting_point, iter, tol)
     {
     // ToDo: catch exception pour vérifier que f(a) bien < f(b)
+    if(fx(x0)*fx(b) > 0){
+        throw(Interval());
     }
-Bisection::Bisection(double (*fx)(double x), bool acc, double starting_point, double b_, double iter, double tol)
-        :  b(b_), Equation_Solver(*fx, acc, starting_point, iter, tol)
-{
-    // ToDo: catch exception pour vérifier que f(a) bien < f(b)
-}
+    }
 
 
 /// Desctructor

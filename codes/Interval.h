@@ -15,10 +15,10 @@ public:
     Interval();
 
     /// Destructor
-    ~Interval()
+    ~Interval();
 
-    /// Print method
-    void PrintError() ;
+    /// Print method inherited
+    void PrintError();
 };
 
 #endif //NONLINEARSOLVER_INTERVAL_H
