@@ -24,28 +24,8 @@
     <list default="true" id="92b9e9cb-5c3a-42eb-89cb-2dd913c141c9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/codes/CMakeFiles/test_bisection.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/codes/CMakeFiles/test_bisection.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/codes/CMakeFiles/test_bisection.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/codes/CMakeFiles/test_bisection.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/codes/CMakeFiles/test_bisection.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/codes/CMakeFiles/test_bisection.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/codes/CMakeFiles/test_bisection.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/codes/CMakeFiles/test_bisection.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/codes/CMakeFiles/test_bisection.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/codes/CMakeFiles/test_bisection.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/codes/CMakeFiles/test_bisection.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/codes/CMakeFiles/test_bisection.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/codes/CMakeFiles/test_bisection.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/codes/CMakeFiles/test_bisection.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/codes/CMakeFiles/test_bisection.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/codes/CMakeFiles/test_bisection.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/codes/test_bisection" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/codes/test_bisection" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/Bisection.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/codes/Bisection.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/codes/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/Chord.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/codes/Chord.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/DivZero.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/codes/DivZero.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/DivZero.h" beforeDir="false" afterPath="$PROJECT_DIR$/codes/DivZero.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/Equation_Solver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/codes/Equation_Solver.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/Exceptions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/codes/Exceptions.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/Exceptions.h" beforeDir="false" afterPath="$PROJECT_DIR$/codes/Exceptions.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/Interval.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/codes/Interval.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/Interval.h" beforeDir="false" afterPath="$PROJECT_DIR$/codes/Interval.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/NR.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/codes/NR.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/test_NR.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/codes/test_NR.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/test_bisection.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/codes/test_bisection.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/test_chord.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/codes/test_chord.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +63,7 @@
     "last_opened_file_path": "C:/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/CMakeLists.txt"
   }
 }]]></component>
-  <component name="RunManager" selected="CMake Application.test_NR">
+  <component name="RunManager" selected="CMake Application.test_bisection">
     <configuration name="Unnamed" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -138,7 +118,7 @@
       <updated>1669458486454</updated>
       <workItem from="1669458488582" duration="3988000" />
       <workItem from="1669543435669" duration="910000" />
-      <workItem from="1669649898477" duration="12192000" />
+      <workItem from="1669649898477" duration="14065000" />
     </task>
     <servers />
   </component>

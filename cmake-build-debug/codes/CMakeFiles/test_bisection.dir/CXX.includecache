@@ -6,16 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes/Bisection.cpp
-Bisection.h
-/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes/Bisection.h
-Interval.h
-/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes/Interval.h
-cstdlib
--
-iostream
--
-
 /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes/Bisection.h
 Equation_Solver.h
 /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes/Equation_Solver.h
@@ -24,19 +14,9 @@ Equation_Solver.h
 Mama_Solver.h
 /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes/Mama_Solver.h
 
-/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes/Exceptions.cpp
-Exceptions.h
 /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes/Exceptions.h
 iostream
 -
-
-/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes/Exceptions.h
-iostream
--
-
-/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes/Interval.cpp
-Interval.h
-/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes/Interval.h
 
 /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes/Interval.h
 Exceptions.h
