@@ -2,31 +2,40 @@
 // Created by eecha on 25/11/2022.
 //
 
-#include "src/Bisection.h"
-#include "src/Interval.h"
-#include "src/test_functions.cpp"
+#include "../src/Bisection.h"
+#include "../src/exceptions/Interval.h"
+#include "test_functions.cpp"
+#include <iostream>
+#include <gtest/gtest.h>
 
-int main(int argc, char *argv[]) {
 
-    try {
-        Bisection bi(*fx1, 5.0, 10.0, 100, 1e-5);
-    }
-    catch (Interval &inter) {
-        inter.PrintError();
-        std::cout << "Try another interval (new x0 and b) !" << std::endl;
-    }
-
+TEST(TestBisection, solver){
     Bisection bi(*fx1);
-    bi.Result();
-
+    ASSERT_NEAR(0, (*fx1)(bi.Solve()), 1e-5);
     Bisection bi2(*fx2);
-    bi2.Result();
-
+    ASSERT_NEAR(0, (*fx2)(bi2.Solve()), 1e-5);
     Bisection bi3(*fx3);
-    bi3.Result();
-
+    ASSERT_NEAR(0, (*fx3)(bi3.Solve()), 1e-5);
     Bisection bi4(*fx4);
-    bi4.Result();
-
-    return 0;
+    ASSERT_NEAR(0, (*fx4)(bi4.Solve()), 1e-5);
 }
+
+
+TEST(TestBisection, acceleratesolver){
+    Bisection bi(*fx1, true, -200, 200, 100, 1e-5);
+    ASSERT_NEAR(0, (*fx1)(bi.Solve()), 1e-5);
+    Bisection bi2(*fx2, true, -200, 200, 100, 1e-5);
+    ASSERT_NEAR(0, (*fx2)(bi2.Solve()), 1e-5);
+    Bisection bi3(*fx3, true, -200, 200, 100, 1e-5);
+    ASSERT_NEAR(0, (*fx3)(bi3.Solve()), 1e-5);
+    Bisection bi4(*fx4, true, -200, 200, 100, 1e-5);
+    ASSERT_NEAR(0, (*fx4)(bi4.Solve()), 1e-5);
+}
+
+
+TEST(TestBisection, Interval){
+    ASSERT_THROW(Bisection bi(*fx1, 5.0, 10.0, 100, 1e-5), Interval);
+}
+
+
+// YAY, tests passed !

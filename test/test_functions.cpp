@@ -34,7 +34,7 @@ double fprime3(double x) {
 
 //Exponential function
 double fx4(double x) {
-    return 3*exp(x) + 2;
+    return 3*exp(x) - 2;
 }
 
 double fprime4(double x) {

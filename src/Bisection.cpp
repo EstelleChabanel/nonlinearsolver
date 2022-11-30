@@ -3,7 +3,7 @@
 //
 
 #include "Bisection.h"
-#include "Interval.h"
+#include "exceptions/Interval.h"
 #include <cstdlib>
 #include <iostream>
 
@@ -44,13 +44,12 @@ double Bisection::Solve() {
     //while((abs((*function)(guess)) > tolerance) && (i < max_iter)){
     while(Continuing(guess,i)){
 
+        // For debbugging
         //std::cout << "------iteration " << i << std::endl;
-        //std::cout << "a = " << x0  << " b = " << b << " guess = " << guess << std::endl;
+        //std::cout << "a = " << x0  << " f(a) = " << function(x0) << " b = " << b << " f(b) = " << function(b) << " guess = " << guess << " f(guess) = " << function(guess) << std::endl;
 
         double fa = (*function)(x0);
-        //double fb = (*function)(b);
         double fguess = function(guess);
-        //std::cout << "f(a) = " << fa  << " f(b) = " << fb << " f(guess) = " << fguess << std::endl;
 
         if(fguess == 0) {
             break; // devrait pas être possible si ??
@@ -60,14 +59,16 @@ double Bisection::Solve() {
             x0 = guess;
         }
         double next = 0.5*(x0+b); //ici on devra peut être implementer l'accélerateur
+
         if(acceleration == true){
-            if(fguess*fa < 0) {
-                b = guess;
+            if((*function)(next)*(*function)(x0) < 0) {
+                b = next;
             } else {
-                x0 = guess;
+                x0 = next;
             }
             double next2 = 0.5*(x0+b);
             guess = Accelerate(guess, next, next2);
+            //std::cout << "accelerated guess = " << guess << std::endl;
         } else {
             guess = next;
         }

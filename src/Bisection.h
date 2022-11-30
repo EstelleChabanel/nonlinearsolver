@@ -16,7 +16,6 @@ class Bisection : public Equation_Solver {
 
 private:
     double b;
-    bool acceleration;
 
 public:
     /// Constructors

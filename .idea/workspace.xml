@@ -8,14 +8,14 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="PCSC-project" targetName="test" />
-      <config projectName="PCSC-project" targetName="main" />
-      <config projectName="PCSC-project" targetName="gmock" />
       <config projectName="PCSC-project" targetName="gtest_main" />
+      <config projectName="PCSC-project" targetName="test" />
       <config projectName="PCSC-project" targetName="gmock_main" />
       <config projectName="PCSC-project" targetName="pcsc" />
       <config projectName="PCSC-project" targetName="test_pcsc" />
+      <config projectName="PCSC-project" targetName="main" />
       <config projectName="PCSC-project" targetName="gtest" />
+      <config projectName="PCSC-project" targetName="gmock" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -25,278 +25,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92b9e9cb-5c3a-42eb-89cb-2dd913c141c9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/googletest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/codes.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aitken.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aitken.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bisection.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bisection.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chord.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chord.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DivZero.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DivZero.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Equation_Solver.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Equation_Solver.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interval.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interval.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mama_Solver.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mama_Solver.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NR.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NR.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Newton.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Newton.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/.cmake/api/v1/reply/cache-v2-07e5c3acc07a27634058.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-ab2df142fa5e4fbd950b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-d49f0ef3e80811b9aff4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/.cmake/api/v1/reply/index-2022-11-27T13-22-53-0677.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/.cmake/api/v1/reply/target-cstdlib-Debug-f1e28f99c8c4e2b377e0.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/.cmake/api/v1/reply/target-math-Debug-27c640134251effde126.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/.cmake/api/v1/reply/target-test_NR-Debug-21d1eff5b9ef86f2316e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/.cmake/api/v1/reply/target-test_aitken-Debug-da7e4eee61fb851f421f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/.cmake/api/v1/reply/target-test_bisection-Debug-301e33cbe46c5b31bb9d.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/.cmake/api/v1/reply/target-test_chord-Debug-f8c717f4fa6b056a1e60.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-7a74340b98d914420f22.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/3.16.3/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/3.16.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/3.16.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/3.16.3/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/3.23.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/3.23.2/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/3.23.2/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/cstdlib.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/cstdlib.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/cstdlib.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/cstdlib.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/cstdlib.dir/cmake_clean_target.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/cstdlib.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/cstdlib.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/cstdlib.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/cstdlib.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/cstdlib.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/math.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/math.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/math.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/math.dir/cmake_clean_target.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/math.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/math.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/math.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/math.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/test_aitken.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/test_aitken.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/test_aitken.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/test_aitken.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/test_aitken.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/test_aitken.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/test_aitken.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/test_bisection.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/test_bisection.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/test_bisection.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/test_bisection.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/test_bisection.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/test_bisection.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/test_bisection.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/test_bisection.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/test_bisection.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/test_chord.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/test_chord.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/test_chord.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/test_chord.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/test_chord.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/test_chord.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/test_chord.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/test_chord.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/CMakeFiles/test_chord.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/Project.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/nonlinearsolver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/nonlinearsolver.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/test_NR" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/test_aitken" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/test_bisection" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cmake-build-debug/test_chord" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pcsc.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pcsc.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test_NR.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test_aitken.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test_bisection.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test_chord.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test_functions.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_bisection.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/DivZero.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/DivZero.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/Exceptions.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/Exceptions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/Interval.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/Interval.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oldtests/test_NR.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oldtests/test_aitken.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oldtests/test_bisection.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oldtests/test_chord.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oldtests/test_functions.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_NR.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_chord.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_functions.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/codes/CMakeFiles/test_bisection.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/codes/CMakeFiles/test_bisection.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/codes/test_bisection" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/codes/test_bisection" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/.idea/codes.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/Aitken.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/Aitken.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/Bisection.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/Bisection.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/Chord.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/Chord.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/DivZero.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/DivZero.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/Equation_Solver.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/Equation_Solver.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/Exceptions.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/Exceptions.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/Interval.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/Interval.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/Mama_Solver.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/Mama_Solver.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/NR.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/NR.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/Newton.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/Newton.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/.cmake/api/v1/reply/cache-v2-07e5c3acc07a27634058.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-ab2df142fa5e4fbd950b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-d49f0ef3e80811b9aff4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/.cmake/api/v1/reply/index-2022-11-27T13-22-53-0677.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/.cmake/api/v1/reply/target-cstdlib-Debug-f1e28f99c8c4e2b377e0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/.cmake/api/v1/reply/target-math-Debug-27c640134251effde126.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/.cmake/api/v1/reply/target-test_NR-Debug-21d1eff5b9ef86f2316e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/.cmake/api/v1/reply/target-test_aitken-Debug-da7e4eee61fb851f421f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/.cmake/api/v1/reply/target-test_bisection-Debug-301e33cbe46c5b31bb9d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/.cmake/api/v1/reply/target-test_chord-Debug-f8c717f4fa6b056a1e60.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-7a74340b98d914420f22.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/.ninja_deps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/.ninja_log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/3.16.3/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/3.16.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/3.16.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/3.16.3/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/3.23.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/3.23.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/3.23.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/cstdlib.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/cstdlib.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/cstdlib.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/cstdlib.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/cstdlib.dir/cmake_clean_target.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/cstdlib.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/cstdlib.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/cstdlib.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/cstdlib.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/cstdlib.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/math.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/math.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/math.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/math.dir/cmake_clean_target.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/math.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/math.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/math.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/math.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/test_aitken.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/test_aitken.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/test_aitken.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/test_aitken.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/test_aitken.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/test_aitken.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/test_aitken.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/test_bisection.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/test_bisection.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/test_bisection.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/test_bisection.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/test_bisection.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/test_bisection.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/test_bisection.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/test_bisection.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/test_bisection.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/test_chord.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/test_chord.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/test_chord.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/test_chord.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/test_chord.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/test_chord.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/test_chord.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/test_chord.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/CMakeFiles/test_chord.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/Project.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/build.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/nonlinearsolver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/nonlinearsolver.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/test_NR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/test_aitken" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/test_bisection" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/cmake-build-debug/test_chord" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/test_NR.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/test_aitken.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/test_bisection.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/test_chord.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/test_functions.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_bisection.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bisection.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bisection.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bisection.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bisection.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chord.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chord.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DivZero.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DivZero.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interval.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interval.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NR.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/NR.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Newton.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Newton.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_NR.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_aitken.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_bisection.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_chord.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_functions.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_bisection.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_bisection.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -409,7 +170,9 @@
       <workItem from="1669458488582" duration="3988000" />
       <workItem from="1669543435669" duration="910000" />
       <workItem from="1669649898477" duration="14065000" />
-      <workItem from="1669801703119" duration="4535000" />
+      <workItem from="1669801703119" duration="4655000" />
+      <workItem from="1669817880176" duration="2231000" />
+      <workItem from="1669820143167" duration="4731000" />
     </task>
     <servers />
   </component>

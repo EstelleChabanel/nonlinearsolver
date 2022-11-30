@@ -3,7 +3,7 @@
 //
 
 #include "Chord.h"
-#include "Interval.h"
+#include "exceptions/Interval.h"
 #include <cstdlib>
 #include <iostream>
 
@@ -38,15 +38,16 @@ Chord::~Chord() {}
   * @return the guessed root
   */
 double Chord::Solve() {
-    //std::cout<<(*function)(0)<<std::endl;
     double next = x0 - (*function)(x0)*(b - x0)/((*function)(b) - (*function)(x0));
     unsigned int i = 0;
-    //std::cout << "(abs(next-previous)) = " << (abs(next-previous)) << std::endl;
+    // For debugging
+    //std::cout << "<tol ? " << (std::abs(function(next))<tolerance) << std::endl;
+    //std::cout << "continues ?" << Continuing(next,i) << std::endl;
 
     while(Continuing(next,i)) {
         if((*function)(next) == 0) {
             // ToDo: peut pas arriver normalement si ??
-            std::cout << "f(next) = " << (*function)(next) << " break !" << std::endl;
+            //std::cout << "f(next) = " << (*function)(next) << " break !" << std::endl;
             break;
         } else if((*function)(next)*(*function)(x0) < 0) {
             b = next;
@@ -58,9 +59,9 @@ double Chord::Solve() {
 
         if(acceleration==true){
             if((*function)(next1)*(*function)(x0) < 0) {
-                b = next;
+                b = next1;
             } else {
-                x0 = next;
+                x0 = next1;
             }
             double next2 = x0 - (*function)(x0) * (b - x0) / ((*function)(b) - (*function)(x0));
             next = Accelerate(next, next1, next2);
@@ -68,8 +69,8 @@ double Chord::Solve() {
             next = next1;
         }
         i += 1;
-        std::cout << "f(next) = " << (*function)(next) << std::endl;
-        std::cout << "abs(f(next)) = " << abs((*function)(next)) << std::endl;
+        //std::cout << "f(next) = " << (*function)(next) << std::endl;
+        //std::cout << "abs(f(next)) = " << abs((*function)(next)) << std::endl;
     }
     return next;
 }
