@@ -4,6 +4,7 @@
 
 #include "../src/NR.h"
 #include "../src/exceptions/DivZero.h"
+#include "../src/exceptions/MaxIter.h"
 #include "test_functions.cpp"
 #include <gtest/gtest.h>
 
@@ -15,8 +16,8 @@ TEST(TestNR, solver) {
     ASSERT_NEAR(0, (*fx2)(nr2.Solve()), 1e-5);
     NR nr3(*fx3, *fprime3, -1.0, 100, 1e-5);
     ASSERT_NEAR(0, (*fx3)(nr3.Solve()), 1e-5);
-    //NR nr(*fx3, *fprime4, -1.0, 100, 1e-5);   // ToDo: qu'est ce qu'on fait du cas qui converge pas encore ?
-    //ASSERT_THROW(nr.Solve(), DivZero);
+    NR nr4(*fx4, *fprime4, -1.0, 100, 1e-5);
+    ASSERT_NEAR(0, (*fx4)(nr4.Solve()), 1e-5);
 }
 
 
@@ -27,10 +28,14 @@ TEST(TestNR, Acceleratedsolver) {
     ASSERT_NEAR(0, (*fx2)(nr2.Solve()), 1e-5);
     NR nr3(*fx3, *fprime3, true, -1.0, 100, 1e-5);
     ASSERT_NEAR(0, (*fx3)(nr3.Solve()), 1e-5);
-    //NR nr(*fx3, *fprime4, -1.0, 100, 1e-5);   // ToDo: qu'est ce qu'on fait du cas qui converge pas encore ?
-    //ASSERT_THROW(nr.Solve(), DivZero);
+    NR nr4(*fx4, *fprime4, -1.0, 100, 1e-5);
+    ASSERT_NEAR(0, (*fx4)(nr4.Solve()), 1e-5);
 }
 
+/*
+TEST(TestNR, NoConvergence) {
+    Nr nr()
+}*/
 
 // ToDo: Find a function for which we have a division by zero
 //TEST(TestNR, Divbyzero) {}

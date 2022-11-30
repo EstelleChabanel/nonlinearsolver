@@ -25,39 +25,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92b9e9cb-5c3a-42eb-89cb-2dd913c141c9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exceptions/DivZero.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/DivZero.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/Exceptions.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/Exceptions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/Interval.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/Interval.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oldtests/test_NR.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oldtests/test_aitken.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oldtests/test_bisection.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oldtests/test_chord.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oldtests/test_functions.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_NR.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_chord.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_functions.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/MaxIter.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/MaxIter.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bisection.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bisection.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bisection.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bisection.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chord.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chord.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DivZero.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DivZero.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exceptions.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exceptions.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interval.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interval.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NR.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/NR.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Newton.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Newton.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test_NR.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test_aitken.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test_bisection.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test_chord.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test_functions.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_bisection.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_bisection.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Equation_Solver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Equation_Solver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/Interval.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/Interval.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_NR.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_NR.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_chord.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_chord.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,11 +71,6 @@
   }
 }</component>
   <component name="RunManager" selected="Google Test.test_pcsc">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="test_pcsc" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PCSC-project" TARGET_NAME="test_pcsc" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PCSC-project" RUN_TARGET_NAME="test_pcsc" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -108,6 +78,11 @@
       </method>
     </configuration>
     <configuration name="Unnamed" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -172,7 +147,8 @@
       <workItem from="1669649898477" duration="14065000" />
       <workItem from="1669801703119" duration="4655000" />
       <workItem from="1669817880176" duration="2231000" />
-      <workItem from="1669820143167" duration="4731000" />
+      <workItem from="1669820143167" duration="4937000" />
+      <workItem from="1669826513234" duration="1851000" />
     </task>
     <servers />
   </component>

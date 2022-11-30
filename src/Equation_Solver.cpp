@@ -3,7 +3,7 @@
 //
 
 #include "Equation_Solver.h"
-#include <vector>
+#include "exceptions/MaxIter.h"
 #include <iostream>
 #include <cmath>
 
@@ -51,6 +51,7 @@ bool Equation_Solver::Continuing(double guess, unsigned int iteration){
     }
     else if(iteration>=max_iter){
         continues = false;
+        throw(MaxIter(max_iter));
         std::cout<<"Computation did not converge in " << iteration << " iterations (make it an exception)"<< std::endl;
     }
 

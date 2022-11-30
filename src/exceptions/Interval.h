@@ -17,7 +17,7 @@ public:
     /// Destructor
     ~Interval();
 
-    /// Print method inherited
+    /// Print method
     void PrintError();
 };
 
