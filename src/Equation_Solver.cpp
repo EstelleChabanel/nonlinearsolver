@@ -7,7 +7,7 @@
 #include <iostream>
 #include <cmath>
 
-/// constructor
+/// Constructors
 Equation_Solver::Equation_Solver() : Mama_Solver(), x0(-200.0), function(nullptr), acceleration(false) {}
 Equation_Solver::Equation_Solver(double (*fx)(double x)) : Mama_Solver(), x0(-200.0), acceleration(false) {
     function = fx;
@@ -23,10 +23,10 @@ Equation_Solver::Equation_Solver(double (*fx)(double x), bool acc, double starti
 Equation_Solver::~Equation_Solver(){}
 
 
-/// Solving method
-//double Equation_Solver::Solve(){} (virtual pure)
 
-/// Compute and display result
+/** \brief Pretty method to compute and print the results
+  * This method computes and displays the results in a clear and comprehensive way
+  */
 void Equation_Solver::Result(){
     double res = Solve();
     std::cout << "------------------RESULTS------------------" << std::endl;
@@ -34,11 +34,15 @@ void Equation_Solver::Result(){
     std::cout << "Verification : f(x_f)=" << (*function)(res) << std::endl;
 }
 
-/// Stopping/continuing criterion during solving
+
+/** \brief Stopping criterion for the solving algorithm
+  * This method evaluates the value of the stopping criterion for all daughter classes solving algorithm
+  * @return a boolean that assert if the algorithm should stop or continue
+  */
 bool Equation_Solver::Continuing(double guess, unsigned int iteration){
     //bool crit = (abs(function(x0))>tolerance)&&(iteration<max_iter);
     bool continues = true;
-    bool result_is_satisfying = abs(function(guess))<tolerance;
+    bool result_is_satisfying = std::abs(function(guess))<tolerance;
     bool last_iteration = iteration>=max_iter;
 
     if (result_is_satisfying==true){
@@ -54,7 +58,10 @@ bool Equation_Solver::Continuing(double guess, unsigned int iteration){
 }
 
 
-/// Aitken acceleration method
+/** \brief Aitken acceleration method
+  * This method implements the next "root value" to test according to the Aitken acceleration method
+  * @return next *root value" to try
+  */
 double Equation_Solver::Accelerate(double current, double next, double next2){
     double delta1 = next - current;
     double denominator = next2 - 2*next + current;

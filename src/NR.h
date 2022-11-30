@@ -6,6 +6,11 @@
 #define NONLINEARSOLVER_NR_H
 #include "Newton.h"
 
+
+/** \brief Daughter class and mother class for the classic Newton-Raphson method for non liner equation solving
+  * This class implements the Newton-Raphson solving method for non linear equation of type
+  * f(x) = 0, with f and x 1D only
+  */
 class NR : public Newton {
 protected :
     // variables en commun des Newton Classic et Newton Alternatif
@@ -20,6 +25,10 @@ public :
     /// Destructor
     virtual ~NR();
 
+    /** \brief Overrided solving method
+      * This method implements the Newton-Raphson solving algorithm
+      * @return the guessed root
+      */
     double Solve();
 
 };

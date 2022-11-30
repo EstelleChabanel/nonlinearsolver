@@ -6,6 +6,10 @@
 #define NONLINEARSOLVER_MAMA_SOLVER_H
 
 
+/** \brief Mother super class for any kind of method and system to solve
+  * This class is the mother class of every possible solving methods for both the equation and systems solving of type
+  * f(x) = 0, with f and x 1D or 3D
+  */
 class Mama_Solver {
 protected:
     double tolerance;
@@ -15,6 +19,8 @@ public:
     /// Constructors
     Mama_Solver();
     Mama_Solver(double iter, double tol);
+
+    /// Destructor
     virtual ~Mama_Solver();
 
     // ToDo: NORMALEMENT ON DEVRAIT POUVOIR S'EN DEBARASSER

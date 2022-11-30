@@ -28,11 +28,14 @@ Bisection::Bisection(double (*fx)(double x), bool acc, double starting_point, do
     }
 
 
-/// Desctructor
+/// Destructor
 Bisection::~Bisection() {}
 
 
-/// Methods
+/** \brief Overrided solving method
+  * This method implements the bisection solving algorithm
+  * @return the guessed root
+  */
 double Bisection::Solve() {
 
     double guess = 0.5*(x0+b);

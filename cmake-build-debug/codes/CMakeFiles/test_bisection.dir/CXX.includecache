@@ -6,9 +6,29 @@
 
 #IncludeRegexTransform: 
 
+/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes/Bisection.cpp
+Bisection.h
+/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes/Bisection.h
+Interval.h
+/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes/Interval.h
+cstdlib
+-
+iostream
+-
+
 /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes/Bisection.h
 Equation_Solver.h
 /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes/Equation_Solver.h
+
+/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes/Equation_Solver.cpp
+Equation_Solver.h
+/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes/Equation_Solver.h
+vector
+-
+iostream
+-
+cmath
+-
 
 /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes/Equation_Solver.h
 Mama_Solver.h
@@ -23,20 +43,4 @@ Exceptions.h
 /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes/Exceptions.h
 
 /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes/Mama_Solver.h
-
-/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes/test_bisection.cpp
-Bisection.h
-/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes/Bisection.h
-Interval.h
-/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes/Interval.h
-test_functions.cpp
-/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes/test_functions.cpp
-
-/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/codes/test_functions.cpp
-iostream
--
-cmath
--
-cstdlib
--
 

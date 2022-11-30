@@ -6,6 +6,11 @@
 #define NONLINEARSOLVER_NEWTON_H
 #include "Equation_Solver.h"
 
+
+/** \brief Daughter class and mother class for the different Newton methods for non liner equation solving
+  * This class is for the Newton solving methods for non linear equation of type
+  * f(x) = 0, with f and x 1D only
+  */
 class Newton : public Equation_Solver {
 protected :
     // variables en commun des Newton Classic et Newton Alternatif

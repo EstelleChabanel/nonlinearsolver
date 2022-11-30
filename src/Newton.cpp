@@ -6,7 +6,7 @@
 #include <iostream>
 
 
-/// constructor
+/// Constructors
 Newton::Newton() : Equation_Solver(), derivative(nullptr){}
 
 Newton::Newton(double (*fx)(double x), double (*fprime)(double x)) : Equation_Solver(*fx), derivative(nullptr){
@@ -24,5 +24,3 @@ Newton::Newton(double (*fx)(double x), double (*fprime)(double x), bool acc, dou
 /// Destructor
 Newton::~Newton(){}
 
-/// Solving method
-//double Equation_Solver::Solve(){}

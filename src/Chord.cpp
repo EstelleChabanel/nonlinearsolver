@@ -33,7 +33,10 @@ Chord::Chord(double (*fx)(double x), bool acc, double starting_point, double b_,
 Chord::~Chord() {}
 
 
-/// Solving method
+/** \brief Overrided solving method
+  * This method implements the Chord solving algorithm
+  * @return the guessed root
+  */
 double Chord::Solve() {
     //std::cout<<(*function)(0)<<std::endl;
     double next = x0 - (*function)(x0)*(b - x0)/((*function)(b) - (*function)(x0));

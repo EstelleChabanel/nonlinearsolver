@@ -11,7 +11,7 @@ Exceptions::Exceptions(std::string tag_, std::string problem_) : tag(tag_), prob
 Exceptions::~Exceptions() {}
 
 
-/// Print method
+/// Print method to describe error
 void Exceptions::PrintError() {
 std::cerr << "** Error ("<<tag<<") **\n";
 std::cerr << "Problem: " << problem << "\n\n" << std::endl ;

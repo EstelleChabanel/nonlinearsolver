@@ -19,7 +19,7 @@ public:
     /// Destructor
     ~Exceptions();
 
-    /// Print method
+    /// Print method to describe error
     void PrintError();
 
 };

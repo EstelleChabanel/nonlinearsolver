@@ -8,6 +8,10 @@
 #include "Equation_Solver.h"
 
 
+/** \brief Daughter class for the chord method for non liner equation solving
+  * This class implements the chord solving method for non linear equation of type
+  * f(x) = 0, with f and x 1D only
+  */
 class Chord : public Equation_Solver {
 private:
     double b;
@@ -23,7 +27,10 @@ public:
     /// Desctructor
     ~Chord();
 
-    /// Methods
+    /** \brief Overrided solving method
+      * This method implements the Chord solving algorithm
+      * @return the guessed root
+      */
     double Solve();
 
 };
