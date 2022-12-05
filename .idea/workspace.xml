@@ -12,6 +12,7 @@
       <config projectName="PCSC-project" targetName="pcsc" />
       <config projectName="PCSC-project" targetName="test_pcsc" />
       <config projectName="PCSC-project" targetName="main" />
+      <config projectName="PCSC-project" targetName="user_interface" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -21,280 +22,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92b9e9cb-5c3a-42eb-89cb-2dd913c141c9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/report/html/_aitken_8cpp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/_aitken_8h.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/_aitken_8h_source.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/_bisection_8cpp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/_bisection_8h.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/_bisection_8h_source.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/_chord_8cpp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/_chord_8h.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/_chord_8h_source.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/_equation___solver_8cpp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/_equation___solver_8h.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/_equation___solver_8h_source.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/_mama___solver_8cpp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/_mama___solver_8h.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/_mama___solver_8h_source.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/_n_r_8cpp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/_n_r_8h.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/_n_r_8h_source.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/_newton_8cpp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/_newton_8h.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/_newton_8h_source.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/_newton___system_8cpp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/_newton___system_8h.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/_newton___system_8h_source.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/_system___solver_8cpp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/_system___solver_8h.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/_system___solver_8h_source.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/annotated.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/bc_s.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/bc_sd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/bdwn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/class_aitken-members.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/class_aitken.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/class_aitken.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/class_bisection-members.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/class_bisection.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/class_bisection.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/class_chord-members.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/class_chord.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/class_chord.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/class_equation___solver-members.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/class_equation___solver.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/class_equation___solver.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/class_mama___solver-members.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/class_mama___solver.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/class_mama___solver.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/class_n_r-members.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/class_n_r.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/class_n_r.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/class_newton-members.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/class_newton.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/class_newton.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/class_newton___system-members.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/class_newton___system.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/class_newton___system.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/class_system___solver-members.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/class_system___solver.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/class_system___solver.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/closed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/dir_68267d1309a1af8e8297ef4c3efbcdba.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/doc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/docd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/doxygen.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/doxygen.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/dynsections.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/files.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/folderclosed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/folderopen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/functions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/functions_func.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/functions_vars.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/globals.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/globals_func.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/hierarchy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/main_8cpp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/menudata.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/nav_f.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/nav_fd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/nav_g.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/nav_h.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/nav_hd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/pcsc_8cpp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/pcsc_8h.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/pcsc_8h_source.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/all_0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/all_1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/all_10.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/all_11.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/all_2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/all_3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/all_4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/all_5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/all_6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/all_7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/all_8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/all_9.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/all_a.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/all_b.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/all_c.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/all_d.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/all_e.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/all_f.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/classes_0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/classes_1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/classes_2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/classes_3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/classes_4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/classes_5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/classes_6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/close.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/files_0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/files_1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/files_2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/files_3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/files_4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/files_5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/files_6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/files_7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/files_8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/functions_0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/functions_1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/functions_2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/functions_3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/functions_4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/functions_5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/functions_6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/functions_7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/functions_8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/functions_9.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/functions_a.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/functions_b.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/mag.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/mag_d.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/mag_sel.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/mag_seld.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/search.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/searchdata.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/variables_0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/variables_1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/variables_2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/variables_3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/variables_4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/variables_5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/search/variables_6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/splitbar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/splitbard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/sync_off.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/sync_on.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/tab_a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/tab_ad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/tab_b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/tab_bd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/tab_h.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/tab_hd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/tab_s.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/tab_sd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/tabs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/html/user__interface_8cpp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/_aitken_8cpp.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/_aitken_8h.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/_aitken_8h_source.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/_bisection_8cpp.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/_bisection_8h.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/_bisection_8h_source.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/_chord_8cpp.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/_chord_8h.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/_chord_8h_source.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/_equation___solver_8cpp.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/_equation___solver_8h.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/_equation___solver_8h_source.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/_mama___solver_8cpp.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/_mama___solver_8h.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/_mama___solver_8h_source.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/_n_r_8cpp.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/_n_r_8h.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/_n_r_8h_source.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/_newton_8cpp.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/_newton_8h.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/_newton_8h_source.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/_newton___system_8cpp.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/_newton___system_8h.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/_newton___system_8h_source.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/_system___solver_8cpp.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/_system___solver_8h.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/_system___solver_8h_source.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/annotated.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/class_aitken.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/class_aitken.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/class_bisection.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/class_bisection.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/class_chord.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/class_chord.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/class_equation___solver.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/class_equation___solver.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/class_mama___solver.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/class_mama___solver.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/class_n_r.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/class_n_r.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/class_newton.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/class_newton.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/class_newton___system.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/class_newton___system.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/class_system___solver.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/class_system___solver.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/dir_68267d1309a1af8e8297ef4c3efbcdba.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/doxygen.sty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/files.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/hierarchy.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/longtable_doxygen.sty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/main_8cpp.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/make.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/pcsc_8cpp.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/pcsc_8h.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/pcsc_8h_source.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/refman.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/tabu_doxygen.sty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/latex/user__interface_8cpp.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/WrongDim.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/WrongDim.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user_interface.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-96df6eb3374236703755.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-7f3f823ee032b93af959.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-d738110d89a9459592ff.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-12-04T14-01-49-0748.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-main-Debug-cf2b29e2ce804cb57bee.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-pcsc-Debug-53f3a6b042197c677bfd.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-test_pcsc-Debug-bc91c664dab782902e5d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcsc.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcsc.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcsc.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcsc.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcsc.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcsc.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcsc.dir/cmake_clean_target.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcsc.dir/cmake_clean_target.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcsc.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcsc.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcsc.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcsc.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcsc.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcsc.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcsc.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcsc.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_pcsc.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_pcsc.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_pcsc.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_pcsc.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_pcsc.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_pcsc.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_pcsc.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_pcsc.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_pcsc.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_pcsc.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_pcsc.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_pcsc.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_pcsc.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_pcsc.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-test-Debug-6276441f017d718356a5.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/PCSC-project.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/PCSC-project.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test_pcsc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test_pcsc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Newton_System.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Newton_System.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Newton_System.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Newton_System.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/System_Solver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/System_Solver.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/System_Solver.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/System_Solver.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptions/DivZero.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/DivZero.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptions/Exceptions.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/Exceptions.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptions/Interval.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/Interval.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptions/MaxIter.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/MaxIter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_functions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_functions.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_newton_system.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_newton_system.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user_interface.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/user_interface.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -333,7 +65,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/CMakeLists.txt&quot;
   }
 }</component>
-  <component name="RunManager" selected="Google Test.test_pcsc">
+  <component name="RunManager" selected="CMake Application.user_interface">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -370,12 +102,18 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="user_interface" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PCSC-project" TARGET_NAME="user_interface" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PCSC-project" RUN_TARGET_NAME="user_interface">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake Application.Unnamed (1)" />
       <item itemvalue="CMake Application.Unnamed" />
       <item itemvalue="CMake Application.main" />
       <item itemvalue="CMake Application.pcsc" />
       <item itemvalue="CMake Application.test" />
+      <item itemvalue="CMake Application.user_interface" />
       <item itemvalue="Google Test.test_pcsc" />
     </list>
   </component>
@@ -396,7 +134,7 @@
       <workItem from="1669826513234" duration="1851000" />
       <workItem from="1670081529356" duration="10089000" />
       <workItem from="1670235660937" duration="51000" />
-      <workItem from="1670235714841" duration="6289000" />
+      <workItem from="1670235714841" duration="11603000" />
     </task>
     <servers />
   </component>
@@ -416,5 +154,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/Newton_System.h</url>
+          <line>17</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

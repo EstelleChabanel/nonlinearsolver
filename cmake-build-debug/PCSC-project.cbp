@@ -47,6 +47,50 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="user_interface">
+				<Option output="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/user_interface" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 user_interface"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="user_interface/fast">
+				<Option output="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/user_interface" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 user_interface/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="test_pcsc">
 				<Option output="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/test_pcsc" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug"/>
@@ -180,46 +224,96 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Bisection.cpp">
+			<Option target="user_interface"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Bisection.h">
+			<Option target="user_interface"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Chord.cpp">
+			<Option target="user_interface"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Chord.h">
+			<Option target="user_interface"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Equation_Solver.cpp">
+			<Option target="user_interface"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Equation_Solver.h">
+			<Option target="user_interface"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Mama_Solver.cpp">
+			<Option target="user_interface"/>
 			<Option target="test_pcsc"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Mama_Solver.h">
+			<Option target="user_interface"/>
 			<Option target="test_pcsc"/>
 		</Unit>
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/NR.cpp">
+			<Option target="user_interface"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/NR.h">
+			<Option target="user_interface"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Newton.cpp">
+			<Option target="user_interface"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Newton.h">
+			<Option target="user_interface"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Newton_System.cpp">
+			<Option target="user_interface"/>
 			<Option target="test_pcsc"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Newton_System.h">
+			<Option target="user_interface"/>
 			<Option target="test_pcsc"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/System_Solver.cpp">
+			<Option target="user_interface"/>
 			<Option target="test_pcsc"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/System_Solver.h">
+			<Option target="user_interface"/>
 			<Option target="test_pcsc"/>
 		</Unit>
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/exceptions/DivZero.cpp">
+			<Option target="user_interface"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/exceptions/DivZero.h">
+			<Option target="user_interface"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/exceptions/Exceptions.cpp">
+			<Option target="user_interface"/>
 			<Option target="test_pcsc"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/exceptions/Exceptions.h">
+			<Option target="user_interface"/>
 			<Option target="test_pcsc"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/exceptions/Interval.cpp">
+			<Option target="user_interface"/>
 			<Option target="test_pcsc"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/exceptions/Interval.h">
+			<Option target="user_interface"/>
 			<Option target="test_pcsc"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/exceptions/MaxIter.cpp">
+			<Option target="user_interface"/>
 			<Option target="test_pcsc"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/exceptions/MaxIter.h">
+			<Option target="user_interface"/>
 			<Option target="test_pcsc"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/exceptions/WrongDim.cpp">
+			<Option target="user_interface"/>
 			<Option target="test_pcsc"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/exceptions/WrongDim.h">
+			<Option target="user_interface"/>
 			<Option target="test_pcsc"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/main.cpp">
@@ -230,6 +324,9 @@
 		</Unit>
 		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/pcsc.h">
 			<Option target="pcsc"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/user_interface.cpp">
+			<Option target="user_interface"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/test/test_newton_system.cpp">
 			<Option target="test_pcsc"/>
