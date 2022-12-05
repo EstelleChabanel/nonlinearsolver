@@ -9,11 +9,16 @@
 using namespace std;
 
 
+/// Overwritten operator * for matrix multiplication
 vector<double> operator* (vector<vector<double>> A, vector <double> b);
+/// Overwritten operator - for matrix substraction
 vector<double> operator- (vector<double>  a, vector<double> b);
 
 
-
+/** \brief 2nd line super class for any king of methods for non liner system solving
+  * This class is for every possible solving methods for non linear system solving of type
+  * f(x) = 0, with f and x multidimensional
+  */
 class System_Solver : public Mama_Solver {
 protected :
     unsigned int dim;
@@ -21,9 +26,6 @@ protected :
     vector<double> (*functions)(vector<double>);
     vector<vector<double>> (*inv_jaco)(vector<double>);
 
-
-
-    //bool acceleration;
 
 public :
     /// Constructors
@@ -33,13 +35,22 @@ public :
     /// Destructor
     virtual ~System_Solver();
 
-   
+    /** \brief Pure virtual method for solving method
+      * This pure virtual method should be overriden with daughter classes specific solving algorithm
+      * @return the guessed root, which is a vector for systems
+      */
     virtual vector<double> Solve() = 0;
 
+    /** \brief Pretty method to compute and print the results
+      * This method computes and displays the results in a clear and comprehensive way
+      */
     void Result();
 
+    /** \brief Stopping criterion for the solving algorithm
+      * This method evaluates the value of the stopping criterion for all daughter classes solving algorithm
+      * @return a boolean that assert if the algorithm should stop or continue
+      */
     bool Continuing(vector<double> guess, unsigned int iteration);
-
 
 };
 

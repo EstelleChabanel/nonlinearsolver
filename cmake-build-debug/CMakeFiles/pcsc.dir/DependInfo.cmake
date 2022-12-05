@@ -1,14 +1,15 @@
-
-# Consider dependencies only in project.
-set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
-
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
   )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/pcsc.cpp" "/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/CMakeFiles/pcsc.dir/src/pcsc.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
-# The set of dependency files which are needed:
-set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/pcsc.cpp" "CMakeFiles/pcsc.dir/src/pcsc.cpp.o" "gcc" "CMakeFiles/pcsc.dir/src/pcsc.cpp.o.d"
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
   )
 
 # Targets to which this target links.

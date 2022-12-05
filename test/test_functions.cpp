@@ -4,6 +4,7 @@
 #include<iostream>
 #include<cmath>
 #include<cstdlib>
+#include<vector>
 
 // Simple linear function
 double fx1(double x) {
@@ -42,23 +43,23 @@ double fprime4(double x) {
 }
 
 // size 2
-vector<double> g_system (vector<double> x){
+std::vector<double> g_system (std::vector<double> x){
     double a = x.at(0);
     double b = x.at(1);
 
     double f1 = 6*a + 3*b*b;
     double f2 = b + 3;
 
-    vector<double> resultat{ f1, f2 };
+    std::vector<double> resultat{ f1, f2 };
 
     return resultat;
 }
 
-vector<vector<double>> g_jac (vector<double> x){
-    vector<double> df1 ={ 1.0/6.0, -x.at(1) };
-    vector<double> df2 ={ 0, 1 };
+std::vector<std::vector<double>> g_jac (std::vector<double> x){
+std::vector<double> df1 ={ 1.0/6.0, -x.at(1) };
+std::vector<double> df2 ={ 0, 1 };
 
-    vector<vector<double>> jac = {df1,df2};
+    std::vector<std::vector<double>> jac = {df1,df2};
     return jac;
 
 }

@@ -10,7 +10,6 @@ using namespace std;
 
 
 /// Constructors
-
 Newton_System::Newton_System(unsigned int dimension, vector<double> (*fx)(vector<double> x), vector<vector<double>> (*inv_jaco)(vector<double> x)) : System_Solver(dimension, *fx, *inv_jaco) {};
 Newton_System::Newton_System(unsigned int dimension, vector<double> (*fx)(vector<double> x), vector<vector<double>> (*inv_jaco)(vector<double> x), vector<double> starting_points, double iter, double tol) : System_Solver(dimension,*fx, *inv_jaco , starting_points,  iter, tol) {};
 
@@ -19,6 +18,10 @@ Newton_System::Newton_System(unsigned int dimension, vector<double> (*fx)(vector
 Newton_System::~Newton_System(){}
 
 
+/** \brief Overrided solving method
+  * This method implements the Newton solving algorithm for non linear system
+  * @return the guessed root
+  */
 vector<double> Newton_System::Solve() {
     unsigned int i = 0;
     cout << "size (x0) " << x0.size() << endl;
@@ -46,6 +49,7 @@ vector<double> Newton_System::Solve() {
         //-> guess = "<< x0 <<" and f(guess) = "<< function(x0)
 
     }while(Continuing(x0, i));
+
     return x0;
 }
 

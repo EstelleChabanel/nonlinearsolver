@@ -4,12 +4,13 @@
 
 #include "System_Solver.h"
 #include "exceptions/MaxIter.h"
+#include "exceptions/WrongDim.h"
 #include <iostream>
 #include <cmath>
 using namespace std;
 #include <vector>
 #include <numeric>
-
+#include <cassert>
 
 
 /// Constructors
@@ -20,11 +21,17 @@ System_Solver::System_Solver(unsigned int dimension, vector<double> (*fx)(vector
     inv_jaco = inv_J;
     x0.resize(dim);
     fill(x0.begin() , x0.end() , 0.0);
+    if (dim != x0.size()){
+        throw(WrongDim());
+    }
 }
 System_Solver::System_Solver(unsigned int dimension, vector<double> (*fx)(vector<double> x ),vector<vector<double>> (*inv_J)(vector<double> x), vector<double> starting_points, double iter, double tol) : Mama_Solver(iter, tol), x0(starting_points) {
-
-    dim = dimension;functions = fx;
+    dim = dimension;
+    functions = fx;
     inv_jaco = inv_J;
+    if (dim != x0.size()){
+        throw(WrongDim());
+    }
 }
 
 
@@ -32,6 +39,9 @@ System_Solver::System_Solver(unsigned int dimension, vector<double> (*fx)(vector
 System_Solver::~System_Solver(){}
 
 
+/** \brief Pretty method to compute and print the results
+      * This method computes and displays the results in a clear and comprehensive way
+      */
 void System_Solver::Result(){
     vector <double> res = Solve();
     cout << "------------------RESULTS------------------" << endl;
@@ -42,6 +52,10 @@ void System_Solver::Result(){
 }
 
 
+/** \brief Stopping criterion for the solving algorithm
+      * This method evaluates the value of the stopping criterion for all daughter classes solving algorithm
+      * @return a boolean that assert if the algorithm should stop or continue
+      */
 bool System_Solver::Continuing(vector<double> guess, unsigned int iteration){
 
     bool continues = true;
@@ -67,7 +81,7 @@ bool System_Solver::Continuing(vector<double> guess, unsigned int iteration){
     return continues;
 }
 
-// Matrix multiplication 
+/// Overwritten operator * for matrix multiplication
 vector<double> operator* (vector<vector<double>> M, vector<double> x){
 
     unsigned int dim = x.size();
@@ -83,6 +97,8 @@ vector<double> operator* (vector<vector<double>> M, vector<double> x){
     return resultat;
 }
 
+
+/// Overwritten operator - for matrix substraction
 vector <double> operator- (vector <double> a, vector <double> b)
 {
     assert(a.size()==b.size());

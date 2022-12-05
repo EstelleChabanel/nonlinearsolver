@@ -6,6 +6,8 @@
 
 #include "Exceptions.h"
 
+
+/// (Exception daughter class) to throw when the computation of the solution ends up in a division by zero
 class DivZero : public Exceptions {
 private:
 

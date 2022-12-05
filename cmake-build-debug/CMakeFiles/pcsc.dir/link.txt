@@ -1,2 +1,2 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libpcsc.a CMakeFiles/pcsc.dir/src/pcsc.cpp.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libpcsc.a
+/usr/bin/ar qc libpcsc.a  CMakeFiles/pcsc.dir/src/pcsc.cpp.o
+/usr/bin/ranlib libpcsc.a

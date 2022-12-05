@@ -8,6 +8,7 @@
 #include "Exceptions.h"
 
 
+/// (Exception daughter class) for all solving methods, to throw when the computation did not converge but reached the maximal number of iterations
 class MaxIter : public Exceptions {
 private:
     double maxiter;

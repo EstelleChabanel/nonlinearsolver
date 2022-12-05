@@ -6,6 +6,8 @@
 
 #include <iostream>
 
+
+/// Exceptions mother class for all kind of errors and exceptions that can rise in the code
 class Exceptions {
 protected:
     std::string tag;

@@ -7,9 +7,12 @@
 #include "System_Solver.h"
 
 
+/** \brief Daughter class for the  Newton method for non liner system solving
+  * This class implements the Newton solving method for non linear system of type
+  * f(x) = 0, with f and x multidimensional
+  */
 class Newton_System : public System_Solver {
 protected :
-
 
 
 public :
@@ -21,6 +24,10 @@ public :
     /// Destructor
     virtual ~Newton_System();
 
+    /** \brief Overrided solving method
+      * This method implements the Newton solving algorithm for non linear system
+      * @return the guessed root
+      */
     vector<double> Solve();
 
 };

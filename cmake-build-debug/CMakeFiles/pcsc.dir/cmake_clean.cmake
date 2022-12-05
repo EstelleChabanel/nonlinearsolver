@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pcsc.dir/src/pcsc.cpp.o"
-  "CMakeFiles/pcsc.dir/src/pcsc.cpp.o.d"
   "libpcsc.a"
   "libpcsc.pdb"
 )

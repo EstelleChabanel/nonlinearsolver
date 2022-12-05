@@ -1,0 +1,35 @@
+\hypertarget{_n_r_8h_source}{}\doxysection{NR.\+h}
+\label{_n_r_8h_source}\index{src/NR.h@{src/NR.h}}
+\mbox{\hyperlink{_n_r_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{//}}
+\DoxyCodeLine{2 \textcolor{comment}{// Created by Antoine Salaün on 27.11.22.}}
+\DoxyCodeLine{3 \textcolor{comment}{//}}
+\DoxyCodeLine{4 }
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#ifndef NONLINEARSOLVER\_NR\_H}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#define NONLINEARSOLVER\_NR\_H}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_newton_8h}{Newton.h}}"{}}}
+\DoxyCodeLine{8 }
+\DoxyCodeLine{9 }
+\DoxyCodeLine{14 \textcolor{keyword}{class }\mbox{\hyperlink{class_n_r}{NR}} : \textcolor{keyword}{public} \mbox{\hyperlink{class_newton}{Newton}} \{}
+\DoxyCodeLine{15 protected :}
+\DoxyCodeLine{16     \textcolor{comment}{// variables en commun des Newton Classic et Newton Alternatif}}
+\DoxyCodeLine{17 }
+\DoxyCodeLine{18 public :}
+\DoxyCodeLine{20     \mbox{\hyperlink{class_n_r_aca281aa3f5e3cf8f75cdc5b642239d14}{NR}}();}
+\DoxyCodeLine{21     \mbox{\hyperlink{class_n_r_aca281aa3f5e3cf8f75cdc5b642239d14}{NR}}(\textcolor{keywordtype}{double} (*fx)(\textcolor{keywordtype}{double} x), \textcolor{keywordtype}{double} (*fprime)(\textcolor{keywordtype}{double} x));}
+\DoxyCodeLine{22     \mbox{\hyperlink{class_n_r_aca281aa3f5e3cf8f75cdc5b642239d14}{NR}}(\textcolor{keywordtype}{double} (*fx)(\textcolor{keywordtype}{double} x), \textcolor{keywordtype}{double} (*fprime)(\textcolor{keywordtype}{double} x), \textcolor{keywordtype}{double} starting\_point, \textcolor{keywordtype}{double} iter, \textcolor{keywordtype}{double} tol);}
+\DoxyCodeLine{23     \mbox{\hyperlink{class_n_r_aca281aa3f5e3cf8f75cdc5b642239d14}{NR}}(\textcolor{keywordtype}{double} (*fx)(\textcolor{keywordtype}{double} x), \textcolor{keywordtype}{double} (*fprime)(\textcolor{keywordtype}{double} x), \textcolor{keywordtype}{bool} acc, \textcolor{keywordtype}{double} starting\_point, \textcolor{keywordtype}{double} iter, \textcolor{keywordtype}{double} tol);}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{26     \textcolor{keyword}{virtual} \mbox{\hyperlink{class_n_r_a992ad8cf1abd89be63be749ea861821a}{\string~NR}}();}
+\DoxyCodeLine{27 }
+\DoxyCodeLine{32     \textcolor{keywordtype}{double} \mbox{\hyperlink{class_n_r_ab6592eaa317fad2cc830e1928437fed3}{Solve}}();}
+\DoxyCodeLine{33 }
+\DoxyCodeLine{34 \};}
+\DoxyCodeLine{35 }
+\DoxyCodeLine{36 }
+\DoxyCodeLine{37 }
+\DoxyCodeLine{38 }
+\DoxyCodeLine{39 \textcolor{preprocessor}{\#endif }\textcolor{comment}{//NONLINEARSOLVER\_NR\_H}}
+
+\end{DoxyCode}
