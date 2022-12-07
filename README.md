@@ -59,6 +59,12 @@ After running the program with the methods presented above, the program follows 
 INSERER DIAGRAM DU FLOW AVEC : initialization des paramètres et appel de la fonction dans separate file  >  Initialization d'un pointeru vers l'abstract class Mama_Solver puis vers la classe correspondant à la methode choisie    >    solve   >   print result    >     est-ce qu'on rajoute sauvegarde param et résultats dans un txt file ?
 
 
+
+## List of features 
+
+JE SAIS PAS TROP CE QUE CA VEUT DIRE CA
+
+
 ## Architecture
 
 The different implemented solving methods are connected  through a big super-class, \textit{Mama\_Solver}, that is a pure virtual class, implemented to increase the efficiency of our architecture. From that, two daughters, but also virtual class are derived, the \textit{Equation\_Solver} to gather simple non linear equation solving algorithms, and the \textit{System\_Solver}, for systems of equations. Finally, the inheritors daughter classes each implement a different solving method.
