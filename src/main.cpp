@@ -33,35 +33,40 @@ int main(int argc, char **argv) {
     // == Parameters given in command line: ==
     int opt;
 
-    while((opt = getopt(argc, argv, ":if:lrx")) != -1) {
-
+    while((opt = getopt(argc, argv, ":f:d:m:a:b:i:t:q:")) != -1) {
         switch(opt){
             case 'f':
                 function_name = optarg;
-                break;
+                continue;
             case 'd':
                 derivate_name = optarg;
-                break;
+                continue;
             case 'm':
                 method = optarg;
-                break;
+                continue;
             case 'a':
                 starting_point = std::stod(optarg);
-                break;
+                continue;
             case 'b':
                 starting_point2 = std::stod(optarg);
-                break;
+                continue;
             case 'q':
                 acc = optarg != "false";
                 //aistringstream(optarg) >> std::boolalpha >> acc;
-                break;
+                continue;
             case 'i':
                 maxiter = std::stoi(optarg);
-                break;
+                continue;
             case 't':
                 tol = std::stod(optarg);
-                break;
+                continue;
         }
+        break;
+    }
+
+    // optind is for the extra arguments which are not parsed
+    for(; optind < argc; optind++) {
+        std::cout << "extra arguments: \n" << argv[optind] << std::endl;
     }
 
     // According to the method, instantiate an object of the right solver class
