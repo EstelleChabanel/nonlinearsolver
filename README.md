@@ -1,6 +1,6 @@
 # **Non Linear System Solver**
-* * MATH-458 - Programming Concepts in Scientific Computing * *
-Estelle Chabanel, Antoine Salaün
+### *MATH-458 - Programming Concepts in Scientific Computing*
+### Estelle Chabanel, Antoine Salaün
   
    
 This repository contains the implementation of a numerical non linear systems solver. Several numerical methods are implemented in C++: the bisection method, the chord method, the classic Newton and the modified Newton for simple non linear equations. The Newton method is also implemented for systems of equations. Finally, the Aitken acceleration method for the equation solver algorithms is also proposed.
@@ -10,7 +10,28 @@ First, the user can find a brief guide to install and use the program. Then, the
 
 ## Installation
 
+The code requires C++17. To compile it, you should first install the prerequisites:
+* GoogleTest 
+* Eigen
+
+````
+git submodule update --init
+````
+
+The building is done with CLion or in the terminal:
+
+````
+mkdir build
+cd build
+cmake ..
+make
+````
+
+
 ## How-to-use
+
+The user can use the code to solve a nonlinear equation or system of equations of the following form: f(x) = 0, with f and x scalar or vector.
+
 
 ## Flow of the program
 
