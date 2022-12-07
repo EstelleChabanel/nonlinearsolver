@@ -4,6 +4,7 @@
 
 #include "Equation_Solver.h"
 #include "exceptions/MaxIter.h"
+#include "exceptions/DivZero.h"
 #include <iostream>
 #include <cmath>
 
@@ -29,9 +30,15 @@ Equation_Solver::~Equation_Solver(){}
   */
 void Equation_Solver::Result(){
     std::cout << "------------------RESULTS------------------" << std::endl;
-    double res = Solve();
-    std::cout << "The finale estimation of the root is x_f=" << res << std::endl;
-    std::cout << "Verification : f(x_f)=" << (*function)(res) << std::endl;
+    try {
+        double res = Solve();
+        std::cout << "The finale estimation of the root is x_f=" << res << std::endl;
+        std::cout << "Verification : f(x_f)=" << (*function)(res) << std::endl;
+    } catch(DivZero& e){
+        e.PrintError();
+    } catch(MaxIter& f){
+        f.PrintError();
+    }
 }
 
 

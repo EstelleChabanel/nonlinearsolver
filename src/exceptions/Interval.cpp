@@ -5,7 +5,7 @@
 
 /// Constructor
 Interval::Interval()
-    : Exceptions("Wrong interval", "The chosen starting points are not correct, you need to find an x0 and b such that f(x0)*f(b) < 0") {}
+    : Exceptions("Wrong interval", "The chosen starting points are not correct, you need to find an a and b such that f(a)*f(b) < 0") {}
 
 /// Destructor
 Interval::~Interval() {}

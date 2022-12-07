@@ -9,6 +9,9 @@ CMakeFiles/main.dir/src/main.cpp.o: ../src/NR.h
 CMakeFiles/main.dir/src/main.cpp.o: ../src/Newton.h
 CMakeFiles/main.dir/src/main.cpp.o: ../src/Newton_System.h
 CMakeFiles/main.dir/src/main.cpp.o: ../src/System_Solver.h
+CMakeFiles/main.dir/src/main.cpp.o: ../src/exceptions/Exceptions.h
+CMakeFiles/main.dir/src/main.cpp.o: ../src/exceptions/Interval.h
+CMakeFiles/main.dir/src/main.cpp.o: ../src/exceptions/WrongDim.h
 CMakeFiles/main.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/main.dir/src/main.cpp.o: ../src/pcsc.h
 CMakeFiles/main.dir/src/main.cpp.o: ../test/test_functions.h

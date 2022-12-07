@@ -22,20 +22,11 @@
   <component name="ChangeListManager">
     <list default="true" id="92b9e9cb-5c3a-42eb-89cb-2dd913c141c9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/main.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcsc.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcsc.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/main" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/main" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test_pcsc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test_pcsc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bisection.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bisection.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bisection.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bisection.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chord.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chord.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chord.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chord.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Equation_Solver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Equation_Solver.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Equation_Solver.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Equation_Solver.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mama_Solver.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mama_Solver.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NR.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/NR.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Newton.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Newton.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Newton_System.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Newton_System.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/System_Solver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/System_Solver.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/System_Solver.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/System_Solver.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/Interval.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/Interval.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +127,7 @@
       <workItem from="1670235660937" duration="51000" />
       <workItem from="1670235714841" duration="12214000" />
       <workItem from="1670404055496" duration="8546000" />
-      <workItem from="1670434499711" duration="4426000" />
+      <workItem from="1670434499711" duration="8436000" />
     </task>
     <servers />
   </component>

@@ -18,6 +18,7 @@ CMakeFiles/pcsc.dir/src/Chord.cpp.o: ../src/exceptions/Interval.h
 CMakeFiles/pcsc.dir/src/Equation_Solver.cpp.o: ../src/Equation_Solver.cpp
 CMakeFiles/pcsc.dir/src/Equation_Solver.cpp.o: ../src/Equation_Solver.h
 CMakeFiles/pcsc.dir/src/Equation_Solver.cpp.o: ../src/Mama_Solver.h
+CMakeFiles/pcsc.dir/src/Equation_Solver.cpp.o: ../src/exceptions/DivZero.h
 CMakeFiles/pcsc.dir/src/Equation_Solver.cpp.o: ../src/exceptions/Exceptions.h
 CMakeFiles/pcsc.dir/src/Equation_Solver.cpp.o: ../src/exceptions/MaxIter.h
 
