@@ -28,7 +28,7 @@ public :
       * This method implements the Newton solving algorithm for non linear system
       * @return the guessed root
       */
-    vector<double> Solve();
+    vector<double> Solve() final;
 
 };
 

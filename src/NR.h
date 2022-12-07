@@ -4,6 +4,7 @@
 
 #ifndef NONLINEARSOLVER_NR_H
 #define NONLINEARSOLVER_NR_H
+
 #include "Newton.h"
 
 
@@ -29,7 +30,7 @@ public :
       * This method implements the Newton-Raphson solving algorithm
       * @return the guessed root
       */
-    double Solve();
+    double Solve() final;
 
 };
 

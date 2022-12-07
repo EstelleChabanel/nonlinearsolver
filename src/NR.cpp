@@ -4,8 +4,7 @@
 
 #include "NR.h"
 #include "exceptions/DivZero.h"
-#include <iostream>
-#include <cstdlib>
+
 
 /// Constructors
 NR::NR() : Newton(){}

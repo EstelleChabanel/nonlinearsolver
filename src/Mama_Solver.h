@@ -6,6 +6,7 @@
 #define NONLINEARSOLVER_MAMA_SOLVER_H
 
 
+
 /** \brief Mother super class for any kind of method and system to solve
   * This class is the mother class of every possible solving methods for both the equation and systems solving of type
   * f(x) = 0, with f and x 1D or 3D
@@ -31,6 +32,12 @@ public:
     /// Getters
     double GetTolerance();
     unsigned int GetMaxIter();
+
+    /** \brief Pretty method to compute and print the results
+      * This method computes and displays the results in a clear and comprehensive way
+      */
+    virtual void Result() = 0;
+
 };
 
 

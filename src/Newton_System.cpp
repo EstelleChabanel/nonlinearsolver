@@ -5,7 +5,6 @@
 #include "Newton_System.h"
 #include "exceptions/DivZero.h"
 #include <iostream>
-#include <cstdlib>
 using namespace std;
 
 

@@ -4,8 +4,7 @@
 
 #include "Bisection.h"
 #include "exceptions/Interval.h"
-#include <cstdlib>
-#include <iostream>
+
 
 /// Constructors
 Bisection::Bisection() : Equation_Solver(), b(200.0) {}

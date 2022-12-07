@@ -4,8 +4,6 @@
 
 #include "Chord.h"
 #include "exceptions/Interval.h"
-#include <cstdlib>
-#include <iostream>
 
 
 /// Constructors

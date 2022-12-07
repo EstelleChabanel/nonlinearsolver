@@ -3,8 +3,6 @@
 //
 
 #include "Mama_Solver.h"
-#include <vector>
-#include <iostream>
 
 
 /// Constructors

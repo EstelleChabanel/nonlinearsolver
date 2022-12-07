@@ -31,7 +31,7 @@ public:
       * This method implements the Chord solving algorithm
       * @return the guessed root
       */
-    double Solve();
+    double Solve() final;
 
 };
 

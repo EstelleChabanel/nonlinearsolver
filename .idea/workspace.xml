@@ -23,6 +23,19 @@
     <list default="true" id="92b9e9cb-5c3a-42eb-89cb-2dd913c141c9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/main" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test_pcsc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test_pcsc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bisection.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bisection.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bisection.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bisection.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chord.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chord.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chord.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chord.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Equation_Solver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Equation_Solver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Equation_Solver.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Equation_Solver.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mama_Solver.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mama_Solver.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NR.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/NR.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Newton.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Newton.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Newton_System.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Newton_System.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/System_Solver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/System_Solver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/System_Solver.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/System_Solver.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,19 +63,19 @@
     <option name="showLibraryContents" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/CMakeLists.txt",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/CMakeLists.txt&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="CMake Application.main">
     <configuration name="test_pcsc" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PCSC-project" TARGET_NAME="test_pcsc" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PCSC-project" RUN_TARGET_NAME="test_pcsc" TEST_MODE="SUITE_TEST">
       <method v="2">
@@ -76,11 +89,6 @@
       </method>
     </configuration>
     <configuration name="Unnamed" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PCSC-project" RUN_TARGET_NAME="test_pcsc" EXPLICIT_BUILD_TARGET_NAME="all">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -127,7 +135,8 @@
       <workItem from="1670081529356" duration="10089000" />
       <workItem from="1670235660937" duration="51000" />
       <workItem from="1670235714841" duration="12214000" />
-      <workItem from="1670404055496" duration="8405000" />
+      <workItem from="1670404055496" duration="8546000" />
+      <workItem from="1670434499711" duration="4426000" />
     </task>
     <servers />
   </component>

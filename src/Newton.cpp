@@ -3,7 +3,6 @@
 //
 
 #include "Newton.h"
-#include <iostream>
 
 
 /// Constructors
@@ -21,6 +20,6 @@ Newton::Newton(double (*fx)(double x), double (*fprime)(double x), bool acc, dou
     derivative = fprime;
 }
 
+
 /// Destructor
 Newton::~Newton(){}
-

@@ -4,7 +4,9 @@
 
 #ifndef NONLINEARSOLVER_SYSTEM_SOLVER_H
 #define NONLINEARSOLVER_SYSTEM_SOLVER_H
+
 #include "Mama_Solver.h"
+
 #include <vector>
 using namespace std;
 
@@ -44,14 +46,13 @@ public :
     /** \brief Pretty method to compute and print the results
       * This method computes and displays the results in a clear and comprehensive way
       */
-    void Result();
+    void Result() final;
 
     /** \brief Stopping criterion for the solving algorithm
       * This method evaluates the value of the stopping criterion for all daughter classes solving algorithm
       * @return a boolean that assert if the algorithm should stop or continue
       */
     bool Continuing(vector<double> guess, unsigned int iteration);
-
 };
 
 

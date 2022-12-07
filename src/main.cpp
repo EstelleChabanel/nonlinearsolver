@@ -9,8 +9,6 @@
 #include "../test/test_functions.h"
 
 #include <iostream>
-#include <sstream>
-#include <stdio.h>
 #include <unistd.h>
 #include <vector>
 
@@ -21,11 +19,12 @@ int main(int argc, char **argv) {
 
     // == Default parameters: ==
     std::string method = "bisection";
-    std::string function_name = "../test/test_functions.cpp";
-    std::string derivate_name = "../test/test_functions.cpp";
+    std::string function_name = "fx1";
+    std::string derivate_name = "fprime1";
     bool acc = false;
     double starting_point = -200.0;
     double starting_point2 = 200.0;
+    vector<double> starting_vec;
     int maxiter = 100;
     double tol = 1e-5;
 
@@ -33,8 +32,8 @@ int main(int argc, char **argv) {
     // == Parameters given in command line: ==
     int opt;
 
-    while((opt = getopt(argc, argv, ":f:d:m:a:b:i:t:q:")) != -1) {
-        switch(opt){
+    while ((opt = getopt(argc, argv, ":f:d:m:a:b:i:t:q:")) != -1) {
+        switch (opt) {
             case 'f':
                 function_name = optarg;
                 continue;
@@ -65,29 +64,53 @@ int main(int argc, char **argv) {
     }
 
     // optind is for the extra arguments which are not parsed
-    for(; optind < argc; optind++) {
+    for (; optind < argc; optind++) {
         std::cout << "extra arguments: \n" << argv[optind] << std::endl;
     }
 
-    // According to the method, instantiate an object of the right solver class
+    // == Initialize function == //
+    double (*function)(double);
+    double (*derivate)(double);
+    vector<double> (*functions)(vector<double>);
+    vector<vector<double>> (*inv_jaco)(vector<double>);
+
+    if (function_name == "fx1") {
+        function = fx1;
+        derivate = fprime1;
+    } else if (function_name == "fx2") {
+        function = fx2;
+        derivate = fprime2;
+    } else if (function_name == "fx3") {
+        function = fx3;
+        derivate = fprime3;
+    } else if (function_name == "fx4") {
+        function = fx4;
+        derivate = fprime4;
+    } else if (function_name == "g_system" || method == "newton system") {
+        functions = g_system;
+        inv_jaco = g_jac;
+    }
+
+
+    // Create a pointer to the Mama_Solver abstract class
+    Mama_Solver *solver = 0;
+
+    // According to the method, instantiate the pointer to the right solver class
     // and print the result of the algorithm
     if(method=="bisection") {
-        Bisection bi(*fx1, acc, starting_point, starting_point2, maxiter, tol);
-        bi.Result();
+        solver = new Bisection(*function, acc, starting_point, starting_point2, maxiter, tol);
     } else if (method=="chord") {
-        Chord ch(*fx1, acc, starting_point, starting_point2, maxiter, tol);
-        ch.Result();
+        solver = new Chord(*function, acc, starting_point, starting_point2, maxiter, tol);
     } else if (method=="NR") {
-        NR nr(*fx1, *fprime1, acc, starting_point, maxiter, tol);
-        nr.Result();
+        solver = new NR(*function, *derivate, acc, starting_point, maxiter, tol);
     } /*else if (method=="newton system") {
-        Newton_System ns(*g_system, *g_jac, starting_point, maxiter, tol);
-        ns.Result();
+        solver = new Newton_System(*functions, *inv_jaco, starting_point, maxiter, tol);
     }*/
 
 
-
-
+    // Compute and present result
+    solver->Result();
+    delete solver;
 
     return 0;
 }

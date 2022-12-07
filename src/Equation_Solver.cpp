@@ -28,8 +28,8 @@ Equation_Solver::~Equation_Solver(){}
   * This method computes and displays the results in a clear and comprehensive way
   */
 void Equation_Solver::Result(){
-    double res = Solve();
     std::cout << "------------------RESULTS------------------" << std::endl;
+    double res = Solve();
     std::cout << "The finale estimation of the root is x_f=" << res << std::endl;
     std::cout << "Verification : f(x_f)=" << (*function)(res) << std::endl;
 }

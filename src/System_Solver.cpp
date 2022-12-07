@@ -7,10 +7,9 @@
 #include "exceptions/WrongDim.h"
 #include <iostream>
 #include <cmath>
-using namespace std;
 #include <vector>
-#include <numeric>
 #include <cassert>
+using namespace std;
 
 
 /// Constructors
