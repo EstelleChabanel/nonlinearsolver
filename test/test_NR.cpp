@@ -5,7 +5,7 @@
 #include "../src/NR.h"
 #include "../src/exceptions/DivZero.h"
 #include "../src/exceptions/MaxIter.h"
-#include "test_functions.cpp"
+#include "test_functions.h"
 #include <gtest/gtest.h>
 
 

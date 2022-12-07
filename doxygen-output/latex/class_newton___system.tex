@@ -1,0 +1,87 @@
+\hypertarget{class_newton___system}{}\doxysection{Newton\+\_\+\+System Class Reference}
+\label{class_newton___system}\index{Newton\_System@{Newton\_System}}
+
+
+Daughter class for the \mbox{\hyperlink{class_newton}{Newton}} method for non liner system solving This class implements the \mbox{\hyperlink{class_newton}{Newton}} solving method for non linear system of type f(x) = 0, with f and x multidimensional.  
+
+
+
+
+{\ttfamily \#include $<$Newton\+\_\+\+System.\+h$>$}
+
+Inheritance diagram for Newton\+\_\+\+System\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_newton___system}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_newton___system_ada66fb540077b249bf67839fc4c0e073}{Newton\+\_\+\+System}} (unsigned int dimension, vector$<$ double $>$($\ast$fx)(vector$<$ double $>$ x), vector$<$ vector$<$ double $>$ $>$($\ast$\mbox{\hyperlink{class_system___solver_acac08660d10bff5784a8f1b7dfb320b9}{inv\+\_\+jaco}})(vector$<$ double $>$ x))
+\begin{DoxyCompactList}\small\item\em Constructors. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_newton___system_ac9003be21999adcb50717c521056161a}{Newton\+\_\+\+System}} (unsigned int dimension, vector$<$ double $>$($\ast$fx)(vector$<$ double $>$ x), vector$<$ vector$<$ double $>$ $>$($\ast$\mbox{\hyperlink{class_system___solver_acac08660d10bff5784a8f1b7dfb320b9}{inv\+\_\+jaco}})(vector$<$ double $>$ x), vector$<$ double $>$ starting\+\_\+points, double iter, double tol)
+\item 
+virtual \mbox{\hyperlink{class_newton___system_a28913d2bf34a12fa6cc801b4814b5364}{$\sim$\+Newton\+\_\+\+System}} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+vector$<$ double $>$ \mbox{\hyperlink{class_newton___system_ae7ad0fa1d08b2fac57e73c5f5bb10dab}{Solve}} ()
+\begin{DoxyCompactList}\small\item\em Overrided solving method This method implements the \mbox{\hyperlink{class_newton}{Newton}} solving algorithm for non linear system. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Daughter class for the \mbox{\hyperlink{class_newton}{Newton}} method for non liner system solving This class implements the \mbox{\hyperlink{class_newton}{Newton}} solving method for non linear system of type f(x) = 0, with f and x multidimensional. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_newton___system_ada66fb540077b249bf67839fc4c0e073}\label{class_newton___system_ada66fb540077b249bf67839fc4c0e073}} 
+\index{Newton\_System@{Newton\_System}!Newton\_System@{Newton\_System}}
+\index{Newton\_System@{Newton\_System}!Newton\_System@{Newton\_System}}
+\doxysubsubsection{\texorpdfstring{Newton\_System()}{Newton\_System()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Newton\+\_\+\+System\+::\+Newton\+\_\+\+System (\begin{DoxyParamCaption}\item[{unsigned int}]{dimension,  }\item[{vector$<$ double $>$($\ast$)(vector$<$ double $>$ x)}]{fx,  }\item[{vector$<$ vector$<$ double $>$ $>$($\ast$)(vector$<$ double $>$ x)}]{inv\+\_\+jaco }\end{DoxyParamCaption})}
+
+
+
+Constructors. 
+
+\mbox{\Hypertarget{class_newton___system_ac9003be21999adcb50717c521056161a}\label{class_newton___system_ac9003be21999adcb50717c521056161a}} 
+\index{Newton\_System@{Newton\_System}!Newton\_System@{Newton\_System}}
+\index{Newton\_System@{Newton\_System}!Newton\_System@{Newton\_System}}
+\doxysubsubsection{\texorpdfstring{Newton\_System()}{Newton\_System()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Newton\+\_\+\+System\+::\+Newton\+\_\+\+System (\begin{DoxyParamCaption}\item[{unsigned int}]{dimension,  }\item[{vector$<$ double $>$($\ast$)(vector$<$ double $>$ x)}]{fx,  }\item[{vector$<$ vector$<$ double $>$ $>$($\ast$)(vector$<$ double $>$ x)}]{inv\+\_\+jaco,  }\item[{vector$<$ double $>$}]{starting\+\_\+points,  }\item[{double}]{iter,  }\item[{double}]{tol }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_newton___system_a28913d2bf34a12fa6cc801b4814b5364}\label{class_newton___system_a28913d2bf34a12fa6cc801b4814b5364}} 
+\index{Newton\_System@{Newton\_System}!````~Newton\_System@{$\sim$Newton\_System}}
+\index{````~Newton\_System@{$\sim$Newton\_System}!Newton\_System@{Newton\_System}}
+\doxysubsubsection{\texorpdfstring{$\sim$Newton\_System()}{~Newton\_System()}}
+{\footnotesize\ttfamily Newton\+\_\+\+System\+::$\sim$\+Newton\+\_\+\+System (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Destructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_newton___system_ae7ad0fa1d08b2fac57e73c5f5bb10dab}\label{class_newton___system_ae7ad0fa1d08b2fac57e73c5f5bb10dab}} 
+\index{Newton\_System@{Newton\_System}!Solve@{Solve}}
+\index{Solve@{Solve}!Newton\_System@{Newton\_System}}
+\doxysubsubsection{\texorpdfstring{Solve()}{Solve()}}
+{\footnotesize\ttfamily vector$<$ double $>$ Newton\+\_\+\+System\+::\+Solve (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Overrided solving method This method implements the \mbox{\hyperlink{class_newton}{Newton}} solving algorithm for non linear system. 
+
+\begin{DoxyReturn}{Returns}
+the guessed root 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_system___solver_a925c6760cf0d1b5e8610691b7498e2e9}{System\+\_\+\+Solver}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{_newton___system_8h}{Newton\+\_\+\+System.\+h}}\item 
+src/\mbox{\hyperlink{_newton___system_8cpp}{Newton\+\_\+\+System.\+cpp}}\end{DoxyCompactItemize}

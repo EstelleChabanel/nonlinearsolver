@@ -1,0 +1,35 @@
+\hypertarget{_bisection_8h_source}{}\doxysection{Bisection.\+h}
+\label{_bisection_8h_source}\index{src/Bisection.h@{src/Bisection.h}}
+\mbox{\hyperlink{_bisection_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{//}}
+\DoxyCodeLine{2 \textcolor{comment}{// Created by eecha on 25/11/2022.}}
+\DoxyCodeLine{3 \textcolor{comment}{//}}
+\DoxyCodeLine{4 }
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#ifndef NONLINEARSOLVER\_BISECTION\_H}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#define NONLINEARSOLVER\_BISECTION\_H}}
+\DoxyCodeLine{7 }
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_equation___solver_8h}{Equation\_Solver.h}}"{}}}
+\DoxyCodeLine{9 }
+\DoxyCodeLine{14 \textcolor{keyword}{class }\mbox{\hyperlink{class_bisection}{Bisection}} : \textcolor{keyword}{public} \mbox{\hyperlink{class_equation___solver}{Equation\_Solver}} \{}
+\DoxyCodeLine{15 \textcolor{comment}{// the function needs to be continue entre a et b et f(a)<0 et f(b)>0}}
+\DoxyCodeLine{16 }
+\DoxyCodeLine{17 \textcolor{keyword}{private}:}
+\DoxyCodeLine{18     \textcolor{keywordtype}{double} b;}
+\DoxyCodeLine{19 }
+\DoxyCodeLine{20 \textcolor{keyword}{public}:}
+\DoxyCodeLine{22     \mbox{\hyperlink{class_bisection_a4783f039206573c232479d819517d7e5}{Bisection}}();}
+\DoxyCodeLine{23     \mbox{\hyperlink{class_bisection_a4783f039206573c232479d819517d7e5}{Bisection}}(\textcolor{keywordtype}{double} (*fx)(\textcolor{keywordtype}{double} x));}
+\DoxyCodeLine{24     \mbox{\hyperlink{class_bisection_a4783f039206573c232479d819517d7e5}{Bisection}}(\textcolor{keywordtype}{double} (*fx)(\textcolor{keywordtype}{double} x), \textcolor{keywordtype}{double} starting\_point, \textcolor{keywordtype}{double} b, \textcolor{keywordtype}{double} iter, \textcolor{keywordtype}{double} tol);}
+\DoxyCodeLine{25     \mbox{\hyperlink{class_bisection_a4783f039206573c232479d819517d7e5}{Bisection}}(\textcolor{keywordtype}{double} (*fx)(\textcolor{keywordtype}{double} x), \textcolor{keywordtype}{bool} acc, \textcolor{keywordtype}{double} starting\_point, \textcolor{keywordtype}{double} b, \textcolor{keywordtype}{double} iter, \textcolor{keywordtype}{double} tol);}
+\DoxyCodeLine{26 }
+\DoxyCodeLine{28     \mbox{\hyperlink{class_bisection_a44d6c2c0a557a6540980c23ef7eaa6a4}{\string~Bisection}}();}
+\DoxyCodeLine{29 }
+\DoxyCodeLine{34     \textcolor{keywordtype}{double} \mbox{\hyperlink{class_bisection_a4d9f705affd2881d7a12e4405ab1a6d9}{Solve}}();}
+\DoxyCodeLine{35 }
+\DoxyCodeLine{36 \};}
+\DoxyCodeLine{37 }
+\DoxyCodeLine{38 }
+\DoxyCodeLine{39 \textcolor{preprocessor}{\#endif }\textcolor{comment}{//NONLINEARSOLVER\_BISECTION\_H}}
+
+\end{DoxyCode}

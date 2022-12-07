@@ -1,0 +1,103 @@
+\hypertarget{class_n_r}{}\doxysection{NR Class Reference}
+\label{class_n_r}\index{NR@{NR}}
+
+
+Daughter class and mother class for the classic Newton-\/\+Raphson method for non liner equation solving This class implements the Newton-\/\+Raphson solving method for non linear equation of type f(x) = 0, with f and x 1D only.  
+
+
+
+
+{\ttfamily \#include $<$NR.\+h$>$}
+
+Inheritance diagram for NR\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{class_n_r}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_n_r_aca281aa3f5e3cf8f75cdc5b642239d14}{NR}} ()
+\begin{DoxyCompactList}\small\item\em Constructors. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_n_r_a5e184ab4f7beea3a5799130d299b019b}{NR}} (double($\ast$fx)(double x), double($\ast$fprime)(double x))
+\item 
+\mbox{\hyperlink{class_n_r_a3486c5179e7a27eb0f5e0ac5534be8dd}{NR}} (double($\ast$fx)(double x), double($\ast$fprime)(double x), double starting\+\_\+point, double iter, double tol)
+\item 
+\mbox{\hyperlink{class_n_r_a0948057a455295b3bfdeab6de20ac204}{NR}} (double($\ast$fx)(double x), double($\ast$fprime)(double x), bool acc, double starting\+\_\+point, double iter, double tol)
+\item 
+virtual \mbox{\hyperlink{class_n_r_a992ad8cf1abd89be63be749ea861821a}{$\sim$\+NR}} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_n_r_ab6592eaa317fad2cc830e1928437fed3}{Solve}} ()
+\begin{DoxyCompactList}\small\item\em Overrided solving method This method implements the Newton-\/\+Raphson solving algorithm. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Daughter class and mother class for the classic Newton-\/\+Raphson method for non liner equation solving This class implements the Newton-\/\+Raphson solving method for non linear equation of type f(x) = 0, with f and x 1D only. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_n_r_aca281aa3f5e3cf8f75cdc5b642239d14}\label{class_n_r_aca281aa3f5e3cf8f75cdc5b642239d14}} 
+\index{NR@{NR}!NR@{NR}}
+\index{NR@{NR}!NR@{NR}}
+\doxysubsubsection{\texorpdfstring{NR()}{NR()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily NR\+::\+NR (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructors. 
+
+\mbox{\Hypertarget{class_n_r_a5e184ab4f7beea3a5799130d299b019b}\label{class_n_r_a5e184ab4f7beea3a5799130d299b019b}} 
+\index{NR@{NR}!NR@{NR}}
+\index{NR@{NR}!NR@{NR}}
+\doxysubsubsection{\texorpdfstring{NR()}{NR()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily NR\+::\+NR (\begin{DoxyParamCaption}\item[{double($\ast$)(double x)}]{fx,  }\item[{double($\ast$)(double x)}]{fprime }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_n_r_a3486c5179e7a27eb0f5e0ac5534be8dd}\label{class_n_r_a3486c5179e7a27eb0f5e0ac5534be8dd}} 
+\index{NR@{NR}!NR@{NR}}
+\index{NR@{NR}!NR@{NR}}
+\doxysubsubsection{\texorpdfstring{NR()}{NR()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily NR\+::\+NR (\begin{DoxyParamCaption}\item[{double($\ast$)(double x)}]{fx,  }\item[{double($\ast$)(double x)}]{fprime,  }\item[{double}]{starting\+\_\+point,  }\item[{double}]{iter,  }\item[{double}]{tol }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_n_r_a0948057a455295b3bfdeab6de20ac204}\label{class_n_r_a0948057a455295b3bfdeab6de20ac204}} 
+\index{NR@{NR}!NR@{NR}}
+\index{NR@{NR}!NR@{NR}}
+\doxysubsubsection{\texorpdfstring{NR()}{NR()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily NR\+::\+NR (\begin{DoxyParamCaption}\item[{double($\ast$)(double x)}]{fx,  }\item[{double($\ast$)(double x)}]{fprime,  }\item[{bool}]{acc,  }\item[{double}]{starting\+\_\+point,  }\item[{double}]{iter,  }\item[{double}]{tol }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_n_r_a992ad8cf1abd89be63be749ea861821a}\label{class_n_r_a992ad8cf1abd89be63be749ea861821a}} 
+\index{NR@{NR}!````~NR@{$\sim$NR}}
+\index{````~NR@{$\sim$NR}!NR@{NR}}
+\doxysubsubsection{\texorpdfstring{$\sim$NR()}{~NR()}}
+{\footnotesize\ttfamily NR\+::$\sim$\+NR (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Destructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_n_r_ab6592eaa317fad2cc830e1928437fed3}\label{class_n_r_ab6592eaa317fad2cc830e1928437fed3}} 
+\index{NR@{NR}!Solve@{Solve}}
+\index{Solve@{Solve}!NR@{NR}}
+\doxysubsubsection{\texorpdfstring{Solve()}{Solve()}}
+{\footnotesize\ttfamily double NR\+::\+Solve (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Overrided solving method This method implements the Newton-\/\+Raphson solving algorithm. 
+
+\begin{DoxyReturn}{Returns}
+the guessed root 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_equation___solver_a4a79cac1131c35f610c0b3ceb0135be4}{Equation\+\_\+\+Solver}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{_n_r_8h}{NR.\+h}}\item 
+src/\mbox{\hyperlink{_n_r_8cpp}{NR.\+cpp}}\end{DoxyCompactItemize}

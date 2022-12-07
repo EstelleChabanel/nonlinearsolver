@@ -57,9 +57,35 @@ include CMakeFiles/pcsc.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/pcsc.dir/flags.make
 
+CMakeFiles/pcsc.dir/src/Mama_Solver.cpp.o: CMakeFiles/pcsc.dir/flags.make
+CMakeFiles/pcsc.dir/src/Mama_Solver.cpp.o: ../src/Mama_Solver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pcsc.dir/src/Mama_Solver.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcsc.dir/src/Mama_Solver.cpp.o -c /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Mama_Solver.cpp
+
+CMakeFiles/pcsc.dir/src/Mama_Solver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcsc.dir/src/Mama_Solver.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Mama_Solver.cpp > CMakeFiles/pcsc.dir/src/Mama_Solver.cpp.i
+
+CMakeFiles/pcsc.dir/src/Mama_Solver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcsc.dir/src/Mama_Solver.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Mama_Solver.cpp -o CMakeFiles/pcsc.dir/src/Mama_Solver.cpp.s
+
+CMakeFiles/pcsc.dir/src/Equation_Solver.cpp.o: CMakeFiles/pcsc.dir/flags.make
+CMakeFiles/pcsc.dir/src/Equation_Solver.cpp.o: ../src/Equation_Solver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pcsc.dir/src/Equation_Solver.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcsc.dir/src/Equation_Solver.cpp.o -c /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Equation_Solver.cpp
+
+CMakeFiles/pcsc.dir/src/Equation_Solver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcsc.dir/src/Equation_Solver.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Equation_Solver.cpp > CMakeFiles/pcsc.dir/src/Equation_Solver.cpp.i
+
+CMakeFiles/pcsc.dir/src/Equation_Solver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcsc.dir/src/Equation_Solver.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Equation_Solver.cpp -o CMakeFiles/pcsc.dir/src/Equation_Solver.cpp.s
+
 CMakeFiles/pcsc.dir/src/pcsc.cpp.o: CMakeFiles/pcsc.dir/flags.make
 CMakeFiles/pcsc.dir/src/pcsc.cpp.o: ../src/pcsc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pcsc.dir/src/pcsc.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pcsc.dir/src/pcsc.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcsc.dir/src/pcsc.cpp.o -c /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/pcsc.cpp
 
 CMakeFiles/pcsc.dir/src/pcsc.cpp.i: cmake_force
@@ -70,17 +96,201 @@ CMakeFiles/pcsc.dir/src/pcsc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcsc.dir/src/pcsc.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/pcsc.cpp -o CMakeFiles/pcsc.dir/src/pcsc.cpp.s
 
+CMakeFiles/pcsc.dir/src/Bisection.cpp.o: CMakeFiles/pcsc.dir/flags.make
+CMakeFiles/pcsc.dir/src/Bisection.cpp.o: ../src/Bisection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pcsc.dir/src/Bisection.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcsc.dir/src/Bisection.cpp.o -c /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Bisection.cpp
+
+CMakeFiles/pcsc.dir/src/Bisection.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcsc.dir/src/Bisection.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Bisection.cpp > CMakeFiles/pcsc.dir/src/Bisection.cpp.i
+
+CMakeFiles/pcsc.dir/src/Bisection.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcsc.dir/src/Bisection.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Bisection.cpp -o CMakeFiles/pcsc.dir/src/Bisection.cpp.s
+
+CMakeFiles/pcsc.dir/src/Chord.cpp.o: CMakeFiles/pcsc.dir/flags.make
+CMakeFiles/pcsc.dir/src/Chord.cpp.o: ../src/Chord.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pcsc.dir/src/Chord.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcsc.dir/src/Chord.cpp.o -c /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Chord.cpp
+
+CMakeFiles/pcsc.dir/src/Chord.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcsc.dir/src/Chord.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Chord.cpp > CMakeFiles/pcsc.dir/src/Chord.cpp.i
+
+CMakeFiles/pcsc.dir/src/Chord.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcsc.dir/src/Chord.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Chord.cpp -o CMakeFiles/pcsc.dir/src/Chord.cpp.s
+
+CMakeFiles/pcsc.dir/src/Newton.cpp.o: CMakeFiles/pcsc.dir/flags.make
+CMakeFiles/pcsc.dir/src/Newton.cpp.o: ../src/Newton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/pcsc.dir/src/Newton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcsc.dir/src/Newton.cpp.o -c /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Newton.cpp
+
+CMakeFiles/pcsc.dir/src/Newton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcsc.dir/src/Newton.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Newton.cpp > CMakeFiles/pcsc.dir/src/Newton.cpp.i
+
+CMakeFiles/pcsc.dir/src/Newton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcsc.dir/src/Newton.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Newton.cpp -o CMakeFiles/pcsc.dir/src/Newton.cpp.s
+
+CMakeFiles/pcsc.dir/src/NR.cpp.o: CMakeFiles/pcsc.dir/flags.make
+CMakeFiles/pcsc.dir/src/NR.cpp.o: ../src/NR.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/pcsc.dir/src/NR.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcsc.dir/src/NR.cpp.o -c /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/NR.cpp
+
+CMakeFiles/pcsc.dir/src/NR.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcsc.dir/src/NR.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/NR.cpp > CMakeFiles/pcsc.dir/src/NR.cpp.i
+
+CMakeFiles/pcsc.dir/src/NR.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcsc.dir/src/NR.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/NR.cpp -o CMakeFiles/pcsc.dir/src/NR.cpp.s
+
+CMakeFiles/pcsc.dir/src/System_Solver.cpp.o: CMakeFiles/pcsc.dir/flags.make
+CMakeFiles/pcsc.dir/src/System_Solver.cpp.o: ../src/System_Solver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/pcsc.dir/src/System_Solver.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcsc.dir/src/System_Solver.cpp.o -c /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/System_Solver.cpp
+
+CMakeFiles/pcsc.dir/src/System_Solver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcsc.dir/src/System_Solver.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/System_Solver.cpp > CMakeFiles/pcsc.dir/src/System_Solver.cpp.i
+
+CMakeFiles/pcsc.dir/src/System_Solver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcsc.dir/src/System_Solver.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/System_Solver.cpp -o CMakeFiles/pcsc.dir/src/System_Solver.cpp.s
+
+CMakeFiles/pcsc.dir/src/Newton_System.cpp.o: CMakeFiles/pcsc.dir/flags.make
+CMakeFiles/pcsc.dir/src/Newton_System.cpp.o: ../src/Newton_System.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/pcsc.dir/src/Newton_System.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcsc.dir/src/Newton_System.cpp.o -c /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Newton_System.cpp
+
+CMakeFiles/pcsc.dir/src/Newton_System.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcsc.dir/src/Newton_System.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Newton_System.cpp > CMakeFiles/pcsc.dir/src/Newton_System.cpp.i
+
+CMakeFiles/pcsc.dir/src/Newton_System.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcsc.dir/src/Newton_System.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Newton_System.cpp -o CMakeFiles/pcsc.dir/src/Newton_System.cpp.s
+
+CMakeFiles/pcsc.dir/test/test_functions.cpp.o: CMakeFiles/pcsc.dir/flags.make
+CMakeFiles/pcsc.dir/test/test_functions.cpp.o: ../test/test_functions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/pcsc.dir/test/test_functions.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcsc.dir/test/test_functions.cpp.o -c /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/test/test_functions.cpp
+
+CMakeFiles/pcsc.dir/test/test_functions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcsc.dir/test/test_functions.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/test/test_functions.cpp > CMakeFiles/pcsc.dir/test/test_functions.cpp.i
+
+CMakeFiles/pcsc.dir/test/test_functions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcsc.dir/test/test_functions.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/test/test_functions.cpp -o CMakeFiles/pcsc.dir/test/test_functions.cpp.s
+
+CMakeFiles/pcsc.dir/src/exceptions/Exceptions.cpp.o: CMakeFiles/pcsc.dir/flags.make
+CMakeFiles/pcsc.dir/src/exceptions/Exceptions.cpp.o: ../src/exceptions/Exceptions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/pcsc.dir/src/exceptions/Exceptions.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcsc.dir/src/exceptions/Exceptions.cpp.o -c /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/exceptions/Exceptions.cpp
+
+CMakeFiles/pcsc.dir/src/exceptions/Exceptions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcsc.dir/src/exceptions/Exceptions.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/exceptions/Exceptions.cpp > CMakeFiles/pcsc.dir/src/exceptions/Exceptions.cpp.i
+
+CMakeFiles/pcsc.dir/src/exceptions/Exceptions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcsc.dir/src/exceptions/Exceptions.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/exceptions/Exceptions.cpp -o CMakeFiles/pcsc.dir/src/exceptions/Exceptions.cpp.s
+
+CMakeFiles/pcsc.dir/src/exceptions/Interval.cpp.o: CMakeFiles/pcsc.dir/flags.make
+CMakeFiles/pcsc.dir/src/exceptions/Interval.cpp.o: ../src/exceptions/Interval.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/pcsc.dir/src/exceptions/Interval.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcsc.dir/src/exceptions/Interval.cpp.o -c /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/exceptions/Interval.cpp
+
+CMakeFiles/pcsc.dir/src/exceptions/Interval.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcsc.dir/src/exceptions/Interval.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/exceptions/Interval.cpp > CMakeFiles/pcsc.dir/src/exceptions/Interval.cpp.i
+
+CMakeFiles/pcsc.dir/src/exceptions/Interval.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcsc.dir/src/exceptions/Interval.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/exceptions/Interval.cpp -o CMakeFiles/pcsc.dir/src/exceptions/Interval.cpp.s
+
+CMakeFiles/pcsc.dir/src/exceptions/DivZero.cpp.o: CMakeFiles/pcsc.dir/flags.make
+CMakeFiles/pcsc.dir/src/exceptions/DivZero.cpp.o: ../src/exceptions/DivZero.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/pcsc.dir/src/exceptions/DivZero.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcsc.dir/src/exceptions/DivZero.cpp.o -c /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/exceptions/DivZero.cpp
+
+CMakeFiles/pcsc.dir/src/exceptions/DivZero.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcsc.dir/src/exceptions/DivZero.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/exceptions/DivZero.cpp > CMakeFiles/pcsc.dir/src/exceptions/DivZero.cpp.i
+
+CMakeFiles/pcsc.dir/src/exceptions/DivZero.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcsc.dir/src/exceptions/DivZero.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/exceptions/DivZero.cpp -o CMakeFiles/pcsc.dir/src/exceptions/DivZero.cpp.s
+
+CMakeFiles/pcsc.dir/src/exceptions/MaxIter.cpp.o: CMakeFiles/pcsc.dir/flags.make
+CMakeFiles/pcsc.dir/src/exceptions/MaxIter.cpp.o: ../src/exceptions/MaxIter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/pcsc.dir/src/exceptions/MaxIter.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcsc.dir/src/exceptions/MaxIter.cpp.o -c /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/exceptions/MaxIter.cpp
+
+CMakeFiles/pcsc.dir/src/exceptions/MaxIter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcsc.dir/src/exceptions/MaxIter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/exceptions/MaxIter.cpp > CMakeFiles/pcsc.dir/src/exceptions/MaxIter.cpp.i
+
+CMakeFiles/pcsc.dir/src/exceptions/MaxIter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcsc.dir/src/exceptions/MaxIter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/exceptions/MaxIter.cpp -o CMakeFiles/pcsc.dir/src/exceptions/MaxIter.cpp.s
+
+CMakeFiles/pcsc.dir/src/exceptions/WrongDim.cpp.o: CMakeFiles/pcsc.dir/flags.make
+CMakeFiles/pcsc.dir/src/exceptions/WrongDim.cpp.o: ../src/exceptions/WrongDim.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/pcsc.dir/src/exceptions/WrongDim.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pcsc.dir/src/exceptions/WrongDim.cpp.o -c /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/exceptions/WrongDim.cpp
+
+CMakeFiles/pcsc.dir/src/exceptions/WrongDim.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcsc.dir/src/exceptions/WrongDim.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/exceptions/WrongDim.cpp > CMakeFiles/pcsc.dir/src/exceptions/WrongDim.cpp.i
+
+CMakeFiles/pcsc.dir/src/exceptions/WrongDim.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcsc.dir/src/exceptions/WrongDim.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/exceptions/WrongDim.cpp -o CMakeFiles/pcsc.dir/src/exceptions/WrongDim.cpp.s
+
 # Object files for target pcsc
 pcsc_OBJECTS = \
-"CMakeFiles/pcsc.dir/src/pcsc.cpp.o"
+"CMakeFiles/pcsc.dir/src/Mama_Solver.cpp.o" \
+"CMakeFiles/pcsc.dir/src/Equation_Solver.cpp.o" \
+"CMakeFiles/pcsc.dir/src/pcsc.cpp.o" \
+"CMakeFiles/pcsc.dir/src/Bisection.cpp.o" \
+"CMakeFiles/pcsc.dir/src/Chord.cpp.o" \
+"CMakeFiles/pcsc.dir/src/Newton.cpp.o" \
+"CMakeFiles/pcsc.dir/src/NR.cpp.o" \
+"CMakeFiles/pcsc.dir/src/System_Solver.cpp.o" \
+"CMakeFiles/pcsc.dir/src/Newton_System.cpp.o" \
+"CMakeFiles/pcsc.dir/test/test_functions.cpp.o" \
+"CMakeFiles/pcsc.dir/src/exceptions/Exceptions.cpp.o" \
+"CMakeFiles/pcsc.dir/src/exceptions/Interval.cpp.o" \
+"CMakeFiles/pcsc.dir/src/exceptions/DivZero.cpp.o" \
+"CMakeFiles/pcsc.dir/src/exceptions/MaxIter.cpp.o" \
+"CMakeFiles/pcsc.dir/src/exceptions/WrongDim.cpp.o"
 
 # External object files for target pcsc
 pcsc_EXTERNAL_OBJECTS =
 
+libpcsc.a: CMakeFiles/pcsc.dir/src/Mama_Solver.cpp.o
+libpcsc.a: CMakeFiles/pcsc.dir/src/Equation_Solver.cpp.o
 libpcsc.a: CMakeFiles/pcsc.dir/src/pcsc.cpp.o
+libpcsc.a: CMakeFiles/pcsc.dir/src/Bisection.cpp.o
+libpcsc.a: CMakeFiles/pcsc.dir/src/Chord.cpp.o
+libpcsc.a: CMakeFiles/pcsc.dir/src/Newton.cpp.o
+libpcsc.a: CMakeFiles/pcsc.dir/src/NR.cpp.o
+libpcsc.a: CMakeFiles/pcsc.dir/src/System_Solver.cpp.o
+libpcsc.a: CMakeFiles/pcsc.dir/src/Newton_System.cpp.o
+libpcsc.a: CMakeFiles/pcsc.dir/test/test_functions.cpp.o
+libpcsc.a: CMakeFiles/pcsc.dir/src/exceptions/Exceptions.cpp.o
+libpcsc.a: CMakeFiles/pcsc.dir/src/exceptions/Interval.cpp.o
+libpcsc.a: CMakeFiles/pcsc.dir/src/exceptions/DivZero.cpp.o
+libpcsc.a: CMakeFiles/pcsc.dir/src/exceptions/MaxIter.cpp.o
+libpcsc.a: CMakeFiles/pcsc.dir/src/exceptions/WrongDim.cpp.o
 libpcsc.a: CMakeFiles/pcsc.dir/build.make
 libpcsc.a: CMakeFiles/pcsc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libpcsc.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX static library libpcsc.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/pcsc.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pcsc.dir/link.txt --verbose=$(VERBOSE)
 

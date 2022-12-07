@@ -4,7 +4,7 @@
 
 #include "../src/Newton_System.h"
 #include "../src/exceptions/WrongDim.h"
-#include "test_functions.cpp"
+#include "test_functions.h"
 #include <gtest/gtest.h>
 #include <iostream>
 

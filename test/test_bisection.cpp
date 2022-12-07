@@ -4,7 +4,7 @@
 
 #include "../src/Bisection.h"
 #include "../src/exceptions/Interval.h"
-#include "test_functions.cpp"
+#include "test_functions.h"
 #include <iostream>
 #include <gtest/gtest.h>
 
