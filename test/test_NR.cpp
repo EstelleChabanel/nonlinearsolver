@@ -32,6 +32,7 @@ TEST(TestNR, Acceleratedsolver) {
     ASSERT_NEAR(0, (*fx4)(nr4.Solve()), 1e-5);
 }
 
+
 /*
 TEST(TestNR, NoConvergence) {
     Nr nr()
@@ -42,3 +43,4 @@ TEST(TestNR, NoConvergence) {
 
 
 // encore des choses à faire
+

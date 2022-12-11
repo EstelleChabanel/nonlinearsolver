@@ -5,6 +5,8 @@
 #include "Newton_System.h"
 #include "exceptions/DivZero.h"
 #include <iostream>
+#include "../test/test_functions.h"
+
 using namespace std;
 
 
@@ -16,11 +18,24 @@ Newton_System::Newton_System(unsigned int dimension, vector<double> (*fx)(vector
 /// Destructor
 Newton_System::~Newton_System(){}
 
+vector<double> Newton_System::Solve() {
+    cout << "NR not instanced" << endl;
+    NR nr(*fx1, *fprime1, false, -1.0, 100, 1e-5);
+    cout << "NR instantiated" << endl;
+    vector<double> a (dim,0);
+    vector<double> b (dim);
+    b = nr.Solve_template(a);
+    return b ;
+}
+
+
+
 
 /** \brief Overrided solving method
   * This method implements the Newton solving algorithm for non linear system
   * @return the guessed root
   */
+  /*
 vector<double> Newton_System::Solve() {
     unsigned int i = 0;
     cout << "size (x0) " << x0.size() << endl;
@@ -51,5 +66,5 @@ vector<double> Newton_System::Solve() {
 
     return x0;
 }
-
+*/
 

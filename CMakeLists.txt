@@ -11,8 +11,8 @@ add_library(pcsc
         src/Bisection.cpp
         src/Chord.cpp
         src/Newton.cpp
-        src/NR.cpp
         src/System_Solver.cpp
+        src/NR.cpp
         src/Newton_System.cpp
         #Functions to test
         test/test_functions.cpp
@@ -24,7 +24,7 @@ add_library(pcsc
         src/exceptions/WrongDim.cpp
         )
 
-#add_subdirectory(googletest)
+add_subdirectory(googletest)
 
 add_executable(main src/main.cpp)
 target_link_libraries(main pcsc)
@@ -48,3 +48,4 @@ target_link_libraries(test_pcsc gtest_main gtest pthread pcsc )
 
 
 add_custom_target(test ./test_pcsc DEPENDS test_pcsc)
+
