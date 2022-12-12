@@ -41,7 +41,7 @@ double Bisection::Solve() {
     unsigned int i = 0;
 
     //while((abs((*function)(guess)) > tolerance) && (i < max_iter)){
-    while(Continuing(guess,i)){
+    while(Continuing(guess,function,i)){
 
         // For debbugging
         //std::cout << "------iteration " << i << std::endl;

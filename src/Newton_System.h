@@ -21,7 +21,6 @@ protected :
 
 public :
     /// Constructors
-    //Newton_System();
     Newton_System(unsigned int dimension, vector<double> (*fx)(vector<double> x), vector<vector<double>> (*inv_jaco)(vector<double> x));
     Newton_System(unsigned int dimension, vector<double>  (*fx)(vector<double> x), vector<vector<double>> (*inv_jaco)(vector<double> x), vector<double> starting_points, double iter, double tol);
 
@@ -32,13 +31,8 @@ public :
       * This method implements the Newton solving algorithm for non linear system
       * @return the guessed root
       */
-
     vector<double> Solve() final;
-    template <typename T> friend T Solve_template(T double_or_vector);
-
-
 
 };
-
 
 #endif //NONLINEARSOLVER_NEWTON_SYSTEM_H

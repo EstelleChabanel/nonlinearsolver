@@ -38,6 +38,12 @@ public:
       */
     virtual void Result() = 0;
 
+    /** \brief Stopping criterion for the solving algorithm
+      * This method evaluates the value of the stopping criterion for all daughter classes solving algorithm
+      * @return a boolean that assert if the algorithm should stop or continue
+      */
+    template <typename T> bool Continuing(T x, T (*fx)(T x), unsigned int iteration);
+
 };
 
 

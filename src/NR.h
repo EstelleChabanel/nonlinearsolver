@@ -19,8 +19,6 @@
 class NR : public Newton {
 
 protected :
-    // variables en commun des Newton Classic et Newton Alternatif
-    double inv_derivative(double x0);
 
 public :
     /// Constructors
@@ -37,11 +35,7 @@ public :
       * @return the guessed root
       */
     double Solve();
-    template <typename T> T Solve_template(T double_or_vector);
 
 };
-
-
-
 
 #endif //NONLINEARSOLVER_NR_H

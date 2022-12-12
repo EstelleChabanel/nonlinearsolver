@@ -42,7 +42,7 @@ double Chord::Solve() {
     //std::cout << "<tol ? " << (std::abs(function(next))<tolerance) << std::endl;
     //std::cout << "continues ?" << Continuing(next,i) << std::endl;
 
-    while(Continuing(next,i)) {
+    while(Continuing(next,function,i)) {
         if((*function)(next) == 0) {
             // ToDo: peut pas arriver normalement si ??
             //std::cout << "f(next) = " << (*function)(next) << " break !" << std::endl;

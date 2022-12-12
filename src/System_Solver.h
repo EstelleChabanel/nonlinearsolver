@@ -13,7 +13,7 @@ using namespace std;
 
 /// Overwritten operator * for matrix multiplication
 vector<double> operator* (vector<vector<double>> A, vector <double> b);
-/// Overwritten operator - for matrix substraction
+/// Overwritten operator - for vector substraction
 vector<double> operator- (vector<double>  a, vector<double> b);
 
 

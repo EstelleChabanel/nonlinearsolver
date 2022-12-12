@@ -18,23 +18,26 @@ Newton_System::Newton_System(unsigned int dimension, vector<double> (*fx)(vector
 /// Destructor
 Newton_System::~Newton_System(){}
 
+/** \brief Overrided solving method
+  * This method implements the Newton solving algorithm for non linear system
+  * @return the guessed root
+  */
 vector<double> Newton_System::Solve() {
-    cout << "NR not instanced" << endl;
-    NR nr(*fx1, *fprime1, false, -1.0, 100, 1e-5);
-    cout << "NR instantiated" << endl;
-    vector<double> a (dim,0);
-    vector<double> b (dim);
-    b = nr.Solve_template(a);
-    return b ;
+    unsigned int i = 0;
+    vector<double> next;
+
+    do{
+        x0 = x0 - inv_jaco(x0)*functions(x0);
+        i+=1;
+    }while(Mama_Solver::Continuing(x0, functions, i));
+    return x0;
 }
 
 
 
 
-/** \brief Overrided solving method
-  * This method implements the Newton solving algorithm for non linear system
-  * @return the guessed root
-  */
+
+
   /*
 vector<double> Newton_System::Solve() {
     unsigned int i = 0;

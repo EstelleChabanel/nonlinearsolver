@@ -38,12 +38,6 @@ public :
       */
     void Result() final;
 
-    /** \brief Stopping criterion for the solving algorithm
-      * This method evaluates the value of the stopping criterion for all daughter classes solving algorithm
-      * @return a boolean that assert if the algorithm should stop or continue
-      */
-    bool Continuing(double guess, unsigned int iteration);
-
     /** \brief Aitken acceleration method
       * This method implements the next "root value" to test according to the Aitken acceleration method
       * @return next *root value" to try

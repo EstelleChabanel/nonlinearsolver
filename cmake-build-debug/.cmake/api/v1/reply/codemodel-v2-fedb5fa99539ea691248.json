@@ -192,14 +192,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test-Debug-f72ba138df3f1bfbbd04.json",
+					"jsonFile" : "target-test-Debug-ffd00063740ec7758c1d.json",
 					"name" : "test",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "test_pcsc::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test_pcsc-Debug-ecc56c1c8f2f017ebe9c.json",
+					"jsonFile" : "target-test_pcsc-Debug-53652236ac9b346cda87.json",
 					"name" : "test_pcsc",
 					"projectIndex" : 0
 				}

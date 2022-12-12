@@ -31,7 +31,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 46,
+				"line" : 42,
 				"parent" : 0
 			}
 		]
@@ -83,15 +83,15 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "pcsc::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 2,
 			"id" : "gtest::@f95b5c00bd49b3b4698d"
 		},
 		{
 			"backtrace" : 2,
 			"id" : "gtest_main::@f95b5c00bd49b3b4698d"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "pcsc::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "test_pcsc::@6890427a1f51a3e7e1df",
