@@ -22,11 +22,12 @@ void user_interface() {
     std::cout << "Which method would you like to use ?" << std::endl;
     std::cout << "Be careful: methods specification:" << std::endl;
     std::cout << "-For systems of equations, choose 'Newton_System'; " << std::endl;
-    std::cout << "-For equation, choose between Chord, Bisection, Newton-Raphson and Modified_Newton" << std::endl;
+    std::cout << "-For equations with complex roots, choose 'Modified_Newton'; " << std::endl;
+    std::cout << "-For equation, choose between Chord, Bisection, Newton-Raphson" << std::endl;
     std::cout << "               -'Chord' requires continuous functions, with negative and non negative values" << std::endl;
     std::cout << "               -'Bisection' requires continuous functions, with negative and non negative values" << std::endl;
     std::cout << "               -'Newton-Raphson' requires non zero derivative of the functions" << std::endl;
-    std::cout << "               -'Modified Newton' requires non zero derivative of the functions" << std::endl;
+    std::cout << "               -'Modified Newton' requires non zero derivatives of the functions" << std::endl;
 
     std::cin >> method;
     std::cout << std::endl;
@@ -74,6 +75,7 @@ void user_interface() {
             NR nr(*fx1, *fprime1, acc, x0, maxiter, tol);
             nr.Result();
         } /*else if (method=="Newton system"){
+ * // dimension ???
             std::vector<double> x00 ;
             std::cout << "starting point:" ;
             std::cin >> x00 ;
@@ -82,6 +84,7 @@ void user_interface() {
         }*/
     }
 
+    // ne pas mettre newto et Hirano ensemble
     /*if (method == "Newton-Raphson" || method == "Modified Newton") {
         std::cout << "derivative of the function:" << std::endl;
     }*/

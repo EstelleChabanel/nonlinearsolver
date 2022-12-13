@@ -7,6 +7,7 @@
 #include <vector>
 #include <cmath>
 #include "exceptions/MaxIter.h"
+#include "complex"
 using namespace std;
 
 /// Constructors
@@ -56,7 +57,7 @@ bool Mama_Solver::Continuing(T x, T (*fx) (T x) ,unsigned int iteration){
         continues = false;
     }
     else if(iteration>=max_iter){
-        std::cout<<"Computation did not converge in " << iteration << " iterations (make it an exception)"<< std::endl;
+        std::cout<<"Computation did not converge in " << iteration << " iterations"<< std::endl;
         throw(MaxIter(max_iter));
     }
     return continues;
@@ -64,4 +65,3 @@ bool Mama_Solver::Continuing(T x, T (*fx) (T x) ,unsigned int iteration){
 
 template bool Mama_Solver::Continuing<double> (double, double (*)(double), unsigned int );
 template bool Mama_Solver::Continuing<vector<double>> (vector<double>, vector<double> (*)(vector<double>), unsigned int );
-

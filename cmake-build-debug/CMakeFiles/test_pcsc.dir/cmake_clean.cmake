@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/test_pcsc.dir/test/test_bisection.cpp.o.d"
   "CMakeFiles/test_pcsc.dir/test/test_chord.cpp.o"
   "CMakeFiles/test_pcsc.dir/test/test_chord.cpp.o.d"
+  "CMakeFiles/test_pcsc.dir/test/test_hirano.cpp.o"
+  "CMakeFiles/test_pcsc.dir/test/test_hirano.cpp.o.d"
   "CMakeFiles/test_pcsc.dir/test/test_newton_system.cpp.o"
   "CMakeFiles/test_pcsc.dir/test/test_newton_system.cpp.o.d"
   "test_pcsc"

@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/pcsc.dir/src/Chord.cpp.o.d"
   "CMakeFiles/pcsc.dir/src/Equation_Solver.cpp.o"
   "CMakeFiles/pcsc.dir/src/Equation_Solver.cpp.o.d"
+  "CMakeFiles/pcsc.dir/src/Hirano.cpp.o"
+  "CMakeFiles/pcsc.dir/src/Hirano.cpp.o.d"
   "CMakeFiles/pcsc.dir/src/Mama_Solver.cpp.o"
   "CMakeFiles/pcsc.dir/src/Mama_Solver.cpp.o.d"
   "CMakeFiles/pcsc.dir/src/NR.cpp.o"

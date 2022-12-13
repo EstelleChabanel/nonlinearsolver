@@ -426,6 +426,12 @@
 		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/Equation_Solver.h">
 			<Option target="pcsc"/>
 		</Unit>
+		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/Hirano.cpp">
+			<Option target="pcsc"/>
+		</Unit>
+		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/Hirano.h">
+			<Option target="pcsc"/>
+		</Unit>
 		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/Mama_Solver.cpp">
 			<Option target="pcsc"/>
 		</Unit>
@@ -509,6 +515,9 @@
 		</Unit>
 		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/test/test_functions.h">
 			<Option target="pcsc"/>
+		</Unit>
+		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/test/test_hirano.cpp">
+			<Option target="test_pcsc"/>
 		</Unit>
 		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/test/test_newton_system.cpp">
 			<Option target="test_pcsc"/>

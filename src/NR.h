@@ -6,8 +6,6 @@
 #define NONLINEARSOLVER_NR_H
 
 #include "Newton.h"
-#include "Newton_System.h"
-
 
 
 
@@ -19,6 +17,7 @@
 class NR : public Newton {
 
 protected :
+    double (*derivative)(double);
 
 public :
     /// Constructors

@@ -16,9 +16,6 @@
   */
 
 class Newton_System : public System_Solver {
-protected :
-
-
 public :
     /// Constructors
     Newton_System(unsigned int dimension, vector<double> (*fx)(vector<double> x), vector<vector<double>> (*inv_jaco)(vector<double> x));

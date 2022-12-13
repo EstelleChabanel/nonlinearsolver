@@ -5,6 +5,7 @@
 #include<cmath>
 #include<cstdlib>
 #include<vector>
+#include<complex>
 
 #ifndef PCSC_PROJECT_TEST_FUNCTIONS_H
 #define PCSC_PROJECT_TEST_FUNCTIONS_H
@@ -29,9 +30,21 @@ double fx4(double x) ;
 double fprime4(double x) ;
 
 // size 2
-std::vector<double> g_system (std::vector<double> x) ;
+/** \brief System
+      * take as input the vector of the variables (x, y)
+      * @return a vector of the values of each equation of the system (f1(x,y),f2(x,y)
+      */
+std::vector<double> g_system (std::vector<double> x) ; // system of two equations
 
-std::vector<std::vector<double>> g_jac (std::vector<double> x) ;
+std::vector<std::vector<double>> g_jac (std::vector<double> x) ; // jacobian of the g_system
 
+/** \brief Complex functions
+      * They are implemented differently than the regular functions
+      * because a lot of derivative order are needed in Hirano
+      * @return the k-th order derivative of the function
+      */
+std::complex<double> comp_fx1 (std::complex<double> x, int k);
+std::complex<double> comp_fx2 (std::complex<double> x, int k);
+std::complex<double> comp_fx3 (std::complex<double> x, int k);
 
 #endif //PCSC_PROJECT_TEST_FUNCTIONS_H

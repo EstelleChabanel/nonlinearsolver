@@ -7,6 +7,7 @@
 #include<cmath>
 #include<cstdlib>
 #include<vector>
+#include<complex>
 
 // Simple linear function
 double fx1(double x) {
@@ -65,3 +66,34 @@ std::vector<double> df2 ={ 0, 1 };
     return jac;
 
 }
+
+
+
+// complex functions (ha
+std::complex<double> comp_fx1 (std::complex<double> x, int k){
+    if(k==0){return  3.0*x + 4.0;}
+    if(k==1){return  3.0;}
+    if(k==2){return  0.;}
+    if(k==3){return  0.;}
+    // TO DO Raise wrong dimension
+    return 0;
+}
+
+std::complex<double> comp_fx2 (std::complex<double> x, int k){
+    if(k==0){return  3.0*x*x*x + 4.0*x*x + 5.0;}
+    if(k==1){return  9.0*x*x + 8.0*x;}
+    if(k==2){return  19.0*x + 8.0;}
+    if(k==3){return  19.;}
+    return 0;
+
+}
+
+std::complex<double> comp_fx3 (std::complex<double> x, int k){
+    if(k==0){return  3.0*x*x + 1.0;}
+    if(k==1){return  6.0*x;}
+    if(k==2){return  6.0;}
+    if(k==3){return  0.;}
+    return 0;
+
+}
+

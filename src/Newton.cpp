@@ -4,21 +4,13 @@
 
 #include "Newton.h"
 
-
 /// Constructors
-Newton::Newton() : Equation_Solver(), derivative(nullptr){}
-
-Newton::Newton(double (*fx)(double x), double (*fprime)(double x)) : Equation_Solver(*fx) {
-    derivative = fprime;
-}
-Newton::Newton(double (*fx)(double x), double (*fprime)(double x), double starting_point, double iter, double tol)
-        : Equation_Solver((*fx), starting_point, iter, tol) {
-    derivative = fprime;
-}
-Newton::Newton(double (*fx)(double x), double (*fprime)(double x), bool acc, double starting_point, double iter, double tol)
-    : Equation_Solver((*fx), acc, starting_point, iter, tol) {
-    derivative = fprime;
-}
+Newton::Newton() : Equation_Solver(){}
+Newton::Newton(double (*fx)(double x)) : Equation_Solver(*fx) {}
+Newton::Newton(double (*fx)(double x), double starting_point, double iter, double tol)
+        : Equation_Solver((*fx), starting_point, iter, tol) {}
+Newton::Newton(double (*fx)(double x),  bool acc, double starting_point, double iter, double tol)
+    : Equation_Solver((*fx), acc, starting_point, iter, tol) {}
 
 
 /// Destructor

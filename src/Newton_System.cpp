@@ -3,8 +3,6 @@
 //
 
 #include "Newton_System.h"
-#include "exceptions/DivZero.h"
-#include <iostream>
 #include "../test/test_functions.h"
 
 using namespace std;
@@ -18,10 +16,7 @@ Newton_System::Newton_System(unsigned int dimension, vector<double> (*fx)(vector
 /// Destructor
 Newton_System::~Newton_System(){}
 
-/** \brief Overrided solving method
-  * This method implements the Newton solving algorithm for non linear system
-  * @return the guessed root
-  */
+
 vector<double> Newton_System::Solve() {
     unsigned int i = 0;
     vector<double> next;
@@ -32,42 +27,3 @@ vector<double> Newton_System::Solve() {
     }while(Mama_Solver::Continuing(x0, functions, i));
     return x0;
 }
-
-
-
-
-
-
-  /*
-vector<double> Newton_System::Solve() {
-    unsigned int i = 0;
-    cout << "size (x0) " << x0.size() << endl;
-    cout << "size of functions(x0) " << functions(x0).size() << endl;
-
-
-    do{
-        // For debugging
-        cout<<"Iteration : "<< i << endl;
-        cout << "x0 = ";
-        for (int j(0); j<x0.size(); ++j){
-            cout << x0.at(j) << " ";}
-        cout << endl;
-
-        cout << "functions(x0) = ";
-        for (int j(0); j<functions(x0).size(); ++j){
-            cout << functions(x0).at(j) << " ";}
-        cout << endl;
-        // end of debugging
-
-        x0 = x0 - inv_jaco(x0)*functions(x0);
-        i+=1;
-
-
-        //-> guess = "<< x0 <<" and f(guess) = "<< function(x0)
-
-    }while(Continuing(x0, i));
-
-    return x0;
-}
-*/
-
