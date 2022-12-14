@@ -63,9 +63,9 @@ INSERER DIAGRAM DU FLOW AVEC : initialization des paramètres et appel de la fon
 ## List of features 
 
 This program does the following :
-- it asks the user to choose the method and enter all of the relevant methods in a didactic and user-friendly way.
+- it asks the user to choose the method and enter all the relevant methods in a didactic and user-friendly way.
 - It declares the corresponding class and uses its Solve method to promt the roots.
-- It returns the root or an error. Prompted errors are always meaningful and usually correspond to the entry of wrong imputs by the user.
+- It returns the root or an error. Prompted errors are always meaningful and usually correspond to the entry of wrong inputs by the user.
 
 ## Architecture
 

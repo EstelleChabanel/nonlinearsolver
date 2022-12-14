@@ -1446,8 +1446,7 @@ CMakeFiles/test_pcsc.dir/test/test_chord.cpp.o: ../test/test_chord.cpp \
 
 CMakeFiles/test_pcsc.dir/test/test_hirano.cpp.o: ../test/test_hirano.cpp \
   ../src/Hirano.h \
-  ../src/Newton.h \
-  ../src/Equation_Solver.h \
+  ../src/Complex_Solver.h \
   ../src/Mama_Solver.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/complex \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config \
@@ -3196,6 +3195,8 @@ CMakeFiles/test_pcsc.dir/test/test_newton_system.cpp.o: ../test/test_newton_syst
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/nl_types.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/reverse_iterator.h:
+
+../src/Complex_Solver.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_errno_t.h:
 

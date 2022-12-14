@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/Bisection.cpp" "CMakeFiles/pcsc.dir/src/Bisection.cpp.o" "gcc" "CMakeFiles/pcsc.dir/src/Bisection.cpp.o.d"
   "/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/Chord.cpp" "CMakeFiles/pcsc.dir/src/Chord.cpp.o" "gcc" "CMakeFiles/pcsc.dir/src/Chord.cpp.o.d"
+  "/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/Complex_Solver.cpp" "CMakeFiles/pcsc.dir/src/Complex_Solver.cpp.o" "gcc" "CMakeFiles/pcsc.dir/src/Complex_Solver.cpp.o.d"
   "/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/Equation_Solver.cpp" "CMakeFiles/pcsc.dir/src/Equation_Solver.cpp.o" "gcc" "CMakeFiles/pcsc.dir/src/Equation_Solver.cpp.o.d"
   "/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/Hirano.cpp" "CMakeFiles/pcsc.dir/src/Hirano.cpp.o" "gcc" "CMakeFiles/pcsc.dir/src/Hirano.cpp.o.d"
   "/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/Mama_Solver.cpp" "CMakeFiles/pcsc.dir/src/Mama_Solver.cpp.o" "gcc" "CMakeFiles/pcsc.dir/src/Mama_Solver.cpp.o.d"

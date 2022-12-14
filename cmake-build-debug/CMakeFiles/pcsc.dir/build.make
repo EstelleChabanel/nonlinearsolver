@@ -209,10 +209,24 @@ CMakeFiles/pcsc.dir/src/Hirano.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcsc.dir/src/Hirano.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/Hirano.cpp" -o CMakeFiles/pcsc.dir/src/Hirano.cpp.s
 
+CMakeFiles/pcsc.dir/src/Complex_Solver.cpp.o: CMakeFiles/pcsc.dir/flags.make
+CMakeFiles/pcsc.dir/src/Complex_Solver.cpp.o: ../src/Complex_Solver.cpp
+CMakeFiles/pcsc.dir/src/Complex_Solver.cpp.o: CMakeFiles/pcsc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/pcsc.dir/src/Complex_Solver.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pcsc.dir/src/Complex_Solver.cpp.o -MF CMakeFiles/pcsc.dir/src/Complex_Solver.cpp.o.d -o CMakeFiles/pcsc.dir/src/Complex_Solver.cpp.o -c "/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/Complex_Solver.cpp"
+
+CMakeFiles/pcsc.dir/src/Complex_Solver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcsc.dir/src/Complex_Solver.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/Complex_Solver.cpp" > CMakeFiles/pcsc.dir/src/Complex_Solver.cpp.i
+
+CMakeFiles/pcsc.dir/src/Complex_Solver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcsc.dir/src/Complex_Solver.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/Complex_Solver.cpp" -o CMakeFiles/pcsc.dir/src/Complex_Solver.cpp.s
+
 CMakeFiles/pcsc.dir/test/test_functions.cpp.o: CMakeFiles/pcsc.dir/flags.make
 CMakeFiles/pcsc.dir/test/test_functions.cpp.o: ../test/test_functions.cpp
 CMakeFiles/pcsc.dir/test/test_functions.cpp.o: CMakeFiles/pcsc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/pcsc.dir/test/test_functions.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/pcsc.dir/test/test_functions.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pcsc.dir/test/test_functions.cpp.o -MF CMakeFiles/pcsc.dir/test/test_functions.cpp.o.d -o CMakeFiles/pcsc.dir/test/test_functions.cpp.o -c "/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/test/test_functions.cpp"
 
 CMakeFiles/pcsc.dir/test/test_functions.cpp.i: cmake_force
@@ -226,7 +240,7 @@ CMakeFiles/pcsc.dir/test/test_functions.cpp.s: cmake_force
 CMakeFiles/pcsc.dir/src/exceptions/Exceptions.cpp.o: CMakeFiles/pcsc.dir/flags.make
 CMakeFiles/pcsc.dir/src/exceptions/Exceptions.cpp.o: ../src/exceptions/Exceptions.cpp
 CMakeFiles/pcsc.dir/src/exceptions/Exceptions.cpp.o: CMakeFiles/pcsc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/pcsc.dir/src/exceptions/Exceptions.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/pcsc.dir/src/exceptions/Exceptions.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pcsc.dir/src/exceptions/Exceptions.cpp.o -MF CMakeFiles/pcsc.dir/src/exceptions/Exceptions.cpp.o.d -o CMakeFiles/pcsc.dir/src/exceptions/Exceptions.cpp.o -c "/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/exceptions/Exceptions.cpp"
 
 CMakeFiles/pcsc.dir/src/exceptions/Exceptions.cpp.i: cmake_force
@@ -240,7 +254,7 @@ CMakeFiles/pcsc.dir/src/exceptions/Exceptions.cpp.s: cmake_force
 CMakeFiles/pcsc.dir/src/exceptions/Interval.cpp.o: CMakeFiles/pcsc.dir/flags.make
 CMakeFiles/pcsc.dir/src/exceptions/Interval.cpp.o: ../src/exceptions/Interval.cpp
 CMakeFiles/pcsc.dir/src/exceptions/Interval.cpp.o: CMakeFiles/pcsc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/pcsc.dir/src/exceptions/Interval.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/pcsc.dir/src/exceptions/Interval.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pcsc.dir/src/exceptions/Interval.cpp.o -MF CMakeFiles/pcsc.dir/src/exceptions/Interval.cpp.o.d -o CMakeFiles/pcsc.dir/src/exceptions/Interval.cpp.o -c "/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/exceptions/Interval.cpp"
 
 CMakeFiles/pcsc.dir/src/exceptions/Interval.cpp.i: cmake_force
@@ -254,7 +268,7 @@ CMakeFiles/pcsc.dir/src/exceptions/Interval.cpp.s: cmake_force
 CMakeFiles/pcsc.dir/src/exceptions/DivZero.cpp.o: CMakeFiles/pcsc.dir/flags.make
 CMakeFiles/pcsc.dir/src/exceptions/DivZero.cpp.o: ../src/exceptions/DivZero.cpp
 CMakeFiles/pcsc.dir/src/exceptions/DivZero.cpp.o: CMakeFiles/pcsc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/pcsc.dir/src/exceptions/DivZero.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/pcsc.dir/src/exceptions/DivZero.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pcsc.dir/src/exceptions/DivZero.cpp.o -MF CMakeFiles/pcsc.dir/src/exceptions/DivZero.cpp.o.d -o CMakeFiles/pcsc.dir/src/exceptions/DivZero.cpp.o -c "/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/exceptions/DivZero.cpp"
 
 CMakeFiles/pcsc.dir/src/exceptions/DivZero.cpp.i: cmake_force
@@ -268,7 +282,7 @@ CMakeFiles/pcsc.dir/src/exceptions/DivZero.cpp.s: cmake_force
 CMakeFiles/pcsc.dir/src/exceptions/MaxIter.cpp.o: CMakeFiles/pcsc.dir/flags.make
 CMakeFiles/pcsc.dir/src/exceptions/MaxIter.cpp.o: ../src/exceptions/MaxIter.cpp
 CMakeFiles/pcsc.dir/src/exceptions/MaxIter.cpp.o: CMakeFiles/pcsc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/pcsc.dir/src/exceptions/MaxIter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/pcsc.dir/src/exceptions/MaxIter.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pcsc.dir/src/exceptions/MaxIter.cpp.o -MF CMakeFiles/pcsc.dir/src/exceptions/MaxIter.cpp.o.d -o CMakeFiles/pcsc.dir/src/exceptions/MaxIter.cpp.o -c "/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/exceptions/MaxIter.cpp"
 
 CMakeFiles/pcsc.dir/src/exceptions/MaxIter.cpp.i: cmake_force
@@ -282,7 +296,7 @@ CMakeFiles/pcsc.dir/src/exceptions/MaxIter.cpp.s: cmake_force
 CMakeFiles/pcsc.dir/src/exceptions/WrongDim.cpp.o: CMakeFiles/pcsc.dir/flags.make
 CMakeFiles/pcsc.dir/src/exceptions/WrongDim.cpp.o: ../src/exceptions/WrongDim.cpp
 CMakeFiles/pcsc.dir/src/exceptions/WrongDim.cpp.o: CMakeFiles/pcsc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/pcsc.dir/src/exceptions/WrongDim.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/pcsc.dir/src/exceptions/WrongDim.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pcsc.dir/src/exceptions/WrongDim.cpp.o -MF CMakeFiles/pcsc.dir/src/exceptions/WrongDim.cpp.o.d -o CMakeFiles/pcsc.dir/src/exceptions/WrongDim.cpp.o -c "/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/exceptions/WrongDim.cpp"
 
 CMakeFiles/pcsc.dir/src/exceptions/WrongDim.cpp.i: cmake_force
@@ -305,6 +319,7 @@ pcsc_OBJECTS = \
 "CMakeFiles/pcsc.dir/src/NR.cpp.o" \
 "CMakeFiles/pcsc.dir/src/Newton_System.cpp.o" \
 "CMakeFiles/pcsc.dir/src/Hirano.cpp.o" \
+"CMakeFiles/pcsc.dir/src/Complex_Solver.cpp.o" \
 "CMakeFiles/pcsc.dir/test/test_functions.cpp.o" \
 "CMakeFiles/pcsc.dir/src/exceptions/Exceptions.cpp.o" \
 "CMakeFiles/pcsc.dir/src/exceptions/Interval.cpp.o" \
@@ -325,6 +340,7 @@ libpcsc.a: CMakeFiles/pcsc.dir/src/System_Solver.cpp.o
 libpcsc.a: CMakeFiles/pcsc.dir/src/NR.cpp.o
 libpcsc.a: CMakeFiles/pcsc.dir/src/Newton_System.cpp.o
 libpcsc.a: CMakeFiles/pcsc.dir/src/Hirano.cpp.o
+libpcsc.a: CMakeFiles/pcsc.dir/src/Complex_Solver.cpp.o
 libpcsc.a: CMakeFiles/pcsc.dir/test/test_functions.cpp.o
 libpcsc.a: CMakeFiles/pcsc.dir/src/exceptions/Exceptions.cpp.o
 libpcsc.a: CMakeFiles/pcsc.dir/src/exceptions/Interval.cpp.o
@@ -333,7 +349,7 @@ libpcsc.a: CMakeFiles/pcsc.dir/src/exceptions/MaxIter.cpp.o
 libpcsc.a: CMakeFiles/pcsc.dir/src/exceptions/WrongDim.cpp.o
 libpcsc.a: CMakeFiles/pcsc.dir/build.make
 libpcsc.a: CMakeFiles/pcsc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX static library libpcsc.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX static library libpcsc.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/pcsc.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pcsc.dir/link.txt --verbose=$(VERBOSE)
 

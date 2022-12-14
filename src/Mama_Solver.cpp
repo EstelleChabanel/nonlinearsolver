@@ -11,7 +11,7 @@
 using namespace std;
 
 /// Constructors
-Mama_Solver::Mama_Solver(double iter, double tol) : tolerance(tol), max_iter(iter) {}
+Mama_Solver::Mama_Solver(unsigned int iter, double tol) : tolerance(tol), max_iter(iter) {}
 Mama_Solver::Mama_Solver() : tolerance(1e-5) , max_iter(100) {}
 
 /// Destructor

@@ -420,6 +420,12 @@
 		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/Chord.h">
 			<Option target="pcsc"/>
 		</Unit>
+		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/Complex_Solver.cpp">
+			<Option target="pcsc"/>
+		</Unit>
+		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/Complex_Solver.h">
+			<Option target="pcsc"/>
+		</Unit>
 		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/Equation_Solver.cpp">
 			<Option target="pcsc"/>
 		</Unit>

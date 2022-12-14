@@ -19,7 +19,7 @@ protected:
 public:
     /// Constructors
     Mama_Solver();
-    Mama_Solver(double iter, double tol);
+    Mama_Solver(unsigned int iter, double tol);
 
     /// Destructor
     virtual ~Mama_Solver();

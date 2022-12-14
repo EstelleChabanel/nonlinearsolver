@@ -13,14 +13,11 @@ using namespace std;
 
 /// Constructors
 
-Hirano::Hirano() : Newton(){}
-Hirano::Hirano(complex<double> (*complex_fx)(complex<double>, int) , complex<double> starting_point, double b, double d, double tolerance, unsigned int iter) : Newton(){
-    complex_x0 = starting_point;
-    complex_function = complex_fx;
+Hirano::Hirano() : Complex_Solver(){}
+Hirano::Hirano(complex<double> (*complex_fx)(complex<double>, int) , complex<double> starting_point, double b, double d, double tolerance, unsigned int iter) :
+    Complex_Solver(complex_fx, starting_point, iter, tolerance ){
     beta = b;
     delta = d;
-    SetTolerance( tolerance);
-    SetMaxIter(iter);
 }
 
 /// Destructor
@@ -39,7 +36,7 @@ double Hirano::factorial(const int n)
 }
 
 
-complex<double> Hirano::Complex_Solve(){
+complex<double> Hirano::Solve(){
 
     unsigned int iteration = 0;
     unsigned int order = 4; // only works for up to order 4 (the other derivatives are not implemented
@@ -88,15 +85,13 @@ do {
     } while(continuation_condition);
 
     complex_x0 = complex_x0 + nu_m;
+    cout << "complex x0 = " << complex_x0 << endl;
     iteration += 1;
 }while(Continuing_complex(complex_x0,complex_function, iteration));
 
     return complex_x0;
 }
 
-double Hirano::Solve(){
-    return 0;
-}
 
 
 bool Hirano::Continuing_complex(complex<double> x, complex<double> (*fx) (complex<double> x, int order) ,unsigned int iteration){

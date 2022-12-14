@@ -15,6 +15,7 @@ add_library(pcsc
         src/NR.cpp
         src/Newton_System.cpp
         src/Hirano.cpp
+        src/Complex_Solver.cpp
         #Functions to test
         test/test_functions.cpp
         #Exceptions classes
