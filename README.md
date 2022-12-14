@@ -3,7 +3,7 @@
 ### Estelle Chabanel, Antoine Salaün
   
    
-This repository contains the implementation of a numerical non linear systems solver. Several numerical methods are implemented in C++: the bisection method, the chord method, the classic Newton and the modified Newton for simple non linear equations. The Newton method is also implemented for systems of equations. Finally, the Aitken acceleration method for the equation solver algorithms is also proposed.
+This repository contains the implementation of a numerical non linear systems solver. Several numerical methods are implemented in C++: the bisection method, the chord method, the classic Newton and the Hirano methode (modified Newton) for simple non linear equations. The Newton method is also implemented for systems of equations. Finally, the Aitken acceleration method for the equation solver algorithms is also proposed.
 
 First, the user can find a brief guide to install and use the program. Then, the architecture choices and the different methods used in the implementation are presented more precisely.
 
@@ -62,8 +62,10 @@ INSERER DIAGRAM DU FLOW AVEC : initialization des paramètres et appel de la fon
 
 ## List of features 
 
-JE SAIS PAS TROP CE QUE CA VEUT DIRE CA
-
+This program does the following :
+- it asks the user to choose the method and enter all of the relevant methods in a didactic and user-friendly way.
+- It declares the corresponding class and uses its Solve method to promt the roots.
+- It returns the root or an error. Prompted errors are always meaningful and usually correspond to the entry of wrong imputs by the user.
 
 ## Architecture
 
@@ -87,3 +89,9 @@ To run all the tests at once, go in the ``cmake-build-debug`` folder and run
 
 
 ## Limitations and problems
+
+One of the main limitation of this implementation is the modularity with complex numbers. Hence, Hirano's method is able to solve equations with complex roots. However, a lot of the attributes and methods inherited by Hirano's method could not be re-used because they do not fonction with complex numbers (Such as starting points, the Solve methode or the mathematical function).
+
+Also, complex functions are implemented in a different way than the classial functions (and its derivatives) or the systems (and its jacobian). Complex functions take two arguments : the input of the function and the order of the derivative (0-th derivative is the function itself).
+
+An improvement for this implementation could be to re-code all of these attributes and methods as templates (the same way that the Continuing function works both for simple equations or systems).
