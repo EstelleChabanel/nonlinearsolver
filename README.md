@@ -78,10 +78,10 @@ INSERER DIAGRAMME CLASSES SOLVER
 
 PARLER AUSSI DES EXCEPTIONS ET METTRE DIAGRAMME CLASSES EXCEPTIONS
 
-Moreover, another virtual super-class, ``Exceptions`` is implemented to gather all the possible exceptions that could be encountered during the solving of different equations. Each daugther class represents a different type of error that could prevent the algorithm to work well. The implemented exceptions are listed below, there are then thrown and catch in the concerned methods or in the suer interface.
+Moreover, another virtual super-class, ``Exceptions`` is implemented to gather all the possible exceptions that could be encountered during the solving of different equations. Each daugther class represents a different type of error that could prevent the algorithm to work well. The implemented exceptions are listed below, there are then thrown and catch in the concerned methods or in themain function. A scheme of these classes is visible below.
 
 * ``DivZero`` prevents the algorithm from possible error due to a division by zero
-* ``Interval`` prevents a wrong initialization of the solving methods ``Chord`` and ``Bisection`` that requires two initial poitns a and b, with f(a)*f(b) < 0
+* ``Interval`` prevents a wrong initialization of the solving methods ``Chord`` and ``Bisection`` that requires two initial poitns a and b, with f(a)* f(b) < 0
 * ``MaxIter`` is thrown when the solving algorithm reaches the meximum number of iteration without converging to an acceptable solution
 * ``WrongDim`` is thrown when ones try to initialize an instance of ``System_Solver`` with an initial point of different dimensions than the given attribute dimensions 
 
