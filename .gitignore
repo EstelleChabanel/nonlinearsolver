@@ -78,3 +78,7 @@ cmake-build-debug/codes/nonlinearsolver.cbp
 cmake-build-debug/Makefile
 cmake-build-debug/Nonlinearsolver.cbp
 cmake-build-debug/Testing/Temporary/LastTest.log
+
+#external libraries
+googletest/
+eigen-library/

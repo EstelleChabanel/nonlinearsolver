@@ -3,7 +3,7 @@
 ### Estelle Chabanel, Antoine Salaün
   
    
-This repository contains the implementation of a numerical non linear systems solver. Several numerical methods are implemented in C++: the bisection method, the chord method, the classic Newton and the Hirano methode (modified Newton) for simple non linear equations. The Newton method is also implemented for systems of equations. Finally, the Aitken acceleration method for the equation solver algorithms is also proposed.
+This repository contains the implementation of a numerical non linear systems solver. Several numerical methods are implemented in C++: the bisection method, the chord method, the classic Newton and the Hirano method (modified Newton) for simple non linear equations. The Newton method is also implemented for systems of equations. Finally, the Aitken acceleration method for the equation solver algorithms is also proposed.
 
 First, the user can find a brief guide to install and use the program. Then, the architecture choices and the different methods used in the implementation are presented more precisely.
 
@@ -69,13 +69,21 @@ This program does the following :
 
 ## Architecture
 
-The different implemented solving methods are connected  through a big super-class, \textit{Mama\_Solver}, that is a pure virtual class, implemented to increase the efficiency of our architecture. From that, two daughters, but also virtual class are derived, the \textit{Equation\_Solver} to gather simple non linear equation solving algorithms, and the \textit{System\_Solver}, for systems of equations. Finally, the inheritors daughter classes each implement a different solving method.
+The different implemented solving methods are connected  through a big super-class, ``Mama_Solver``, that is a pure virtual class, implemented to increase the efficiency of our architecture. From that, three daughters, but also virtual classes are derived, the ``Equation_Solver`` to gather simple non linear equation solving algorithms, the ``Complex_Solver`` to gather 1D complex equation solving algorithms and the ``System_Solver``, for systems of equations. Finally, the inheritors daughter classes each implement a different solving method.
+
+The overall architecture is visbile on the scheme below. The final solving methdos are implemented in the "last lines" classes.
 
 INSERER DIAGRAMME CLASSES SOLVER
 
 
 PARLER AUSSI DES EXCEPTIONS ET METTRE DIAGRAMME CLASSES EXCEPTIONS
 
+Moreover, another virtual super-class, ``Exceptions`` is implemented to gather all the possible exceptions that could be encountered during the solving of different equations. Each daugther class represents a different type of error that could prevent the algorithm to work well. The implemented exceptions are listed below, there are then thrown and catch in the concerned methods or in themain function. A scheme of these classes is visible below.
+
+* ``DivZero`` prevents the algorithm from possible error due to a division by zero
+* ``Interval`` prevents a wrong initialization of the solving methods ``Chord`` and ``Bisection`` that requires two initial points a and b, with f(a)* f(b) < 0
+* ``MaxIter`` is thrown when the solving algorithm reaches the meximum number of iteration without converging to an acceptable solution
+* ``WrongDim`` is thrown when ones try to initialize an instance of ``System_Solver`` with an initial point of different dimensions than the given attribute dimensions 
 
 
 ## Tests
@@ -94,4 +102,4 @@ One of the main limitation of this implementation is the modularity with complex
 
 Also, complex functions are implemented in a different way than the classial functions (and its derivatives) or the systems (and its jacobian). Complex functions take two arguments : the input of the function and the order of the derivative (0-th derivative is the function itself).
 
-An improvement for this implementation could be to re-code all of these attributes and methods as templates (the same way that the Continuing function works both for simple equations or systems).
+An improvement for this implementation could be to re-code all of these attributes and methods as templates (the same way that the Continuing function works both for simple equations, complex equations or systems).
