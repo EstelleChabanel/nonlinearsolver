@@ -34,3 +34,19 @@ void Complex_Solver::Result(){
 }
 
 
+bool Complex_Solver::Continuing_complex(complex<double> x, complex<double> (*fx) (complex<double> x, int order) ,unsigned int iteration){
+    bool continues = true;
+    bool result_is_satisfying = abs(fx(x,0))<tolerance;
+
+    if (result_is_satisfying==true){
+        std::cout<<"Computation converged within tolerance " << tolerance <<  " in " << iteration <<  " iterations " << std::endl;
+        continues = false;
+    }
+    else if(iteration>=max_iter){
+        std::cout<<"Computation did not converge in " << iteration << " iterations"<< std::endl;
+        throw(MaxIter(max_iter));
+    }
+    return continues;
+}
+
+

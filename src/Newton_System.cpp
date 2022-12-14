@@ -25,5 +25,6 @@ vector<double> Newton_System::Solve() {
         x0 = x0 - inv_jaco(x0)*functions(x0);
         i+=1;
     }while(Mama_Solver::Continuing(x0, functions, i));
+
     return x0;
 }

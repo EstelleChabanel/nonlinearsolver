@@ -9,10 +9,14 @@
 #include <complex>
 using namespace std;
 
+
+/** \brief Daughter class for the Hirano method for non linear complex equation solving
+  * This class implements the Hirano solving method for non linear equation of type
+  * f(x) = 0, with f and x complex 1D
+  */
 class Hirano : public Complex_Solver {
 protected:
-
-    // complex functions are implemented differently, the second int represents the order of the derivatives
+    // parameters for the solving algorithm
     double beta;
     double delta;
 
@@ -25,22 +29,16 @@ public:
     /// Destructor
     virtual ~Hirano();
 
-    double factorial(const int n);
+    double Factorial(const int n);
 
-    /** \brief Overides the Solve function
-      * Since a different solving method is used, this methods overides the pure virtual Solve
-      * to make sur the class is actually instantiable
-      * @return 0
+    /** \brief Overriden solving method
+      * This method implements the Hirano's solving algorithm as in https://epubs.siam.org/doi/abs/10.1137/0719055
+      * The method uses the Taylor expansion of order 4, but it can be generalized to higher order if one defines higher
+      * derivatives order of the function to solve.
+      * @return the guessed complex root
       */
     complex<double> Solve();
 
-    /** \brief Continuing crierion used in complax solve
-      * As the complex functions take two arguments instead of one, it cannot use the Continuing template
-      * made in Mama_Solver
-      * @return a bool that decides wether to keep looping or not
-      */
-    bool Continuing_complex(complex<double> x, complex<double> (*fx) (complex<double> x, int order) ,unsigned int iteration);
-
-    };
+};
 
 #endif //PCSC_PROJECT_HIRANO_H

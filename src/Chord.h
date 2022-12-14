@@ -21,13 +21,13 @@ public:
     /// Constructors
     Chord();
     Chord(double (*fx)(double x));
-    Chord(double (*fx)(double x), double starting_point, double b_, double iter, double tol);
-    Chord(double (*fx)(double x), bool acc, double starting_point, double b_, double iter, double tol);
+    Chord(double (*fx)(double x), double starting_point, double b_, unsigned int iter, double tol);
+    Chord(double (*fx)(double x), bool acc, double starting_point, double b_, unsigned int iter, double tol);
 
     /// Desctructor
     ~Chord();
 
-    /** \brief Overrided solving method
+    /** \brief Overriden solving method
       * This method implements the Chord solving algorithm
       * @return the guessed root
       */

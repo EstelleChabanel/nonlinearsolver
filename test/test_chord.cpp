@@ -11,8 +11,9 @@
 
 
 TEST(TestChord, solver) {
-    Chord ch(*fx1);
-    ASSERT_NEAR(0, (*fx1)(ch.Solve()), 1e-5);
+    //Chord ch(*fx1);
+    Chord ch(*fx1, -200.0, 200.0, 100, 1e-9);
+    ASSERT_NEAR(0, (*fx1)(ch.Solve()), 1e-9);
     Chord ch1(*fx2);
     ASSERT_NEAR(0, (*fx2)(ch1.Solve()), 1e-5);
     //Chord ch2(*fx3, -100.0, 200.0, 500, 1e-5);

@@ -10,22 +10,16 @@ using namespace std;
 
 /// Constructors
 NR::NR() : Newton(){}
-NR::NR(double (*fx)(double x), double (*fprime)(double x)) : Newton(*fx) {
-    derivative = fprime;
-}
+NR::NR(double (*fx)(double x), double (*fprime)(double x)) : Newton(*fx, *fprime) {}
 NR::NR(double (*fx)(double x), double (*fprime)(double x), double starting_point, double iter, double tol)
-    : Newton(*fx,  starting_point, iter, tol) {
-    derivative = fprime;
-}
+    : Newton(*fx, *fprime,  starting_point, iter, tol) {}
 NR::NR(double (*fx)(double x), double (*fprime)(double x), bool acc, double starting_point, double iter, double tol)
-    : Newton(*fx,  acc, starting_point, iter, tol) {
-    derivative = fprime;
-}
+    : Newton(*fx, fprime,  acc, starting_point, iter, tol) {}
 
 /// Destructor
 NR::~NR(){}
 
-/** \brief Overrided solving method
+/** \brief Overriden solving method
       * This method implements the Newton-Raphson solving algorithm
       * @return the guessed root
       */
@@ -42,7 +36,7 @@ double NR::Solve(){
             double next2 = next -  function(next) / derivative(next)  ;
             x0 = Accelerate(x0, next, next2); // Aitken accleration implemented
         } else {
-            x0 = next; // if no accelaration we pass the new value straight away
+            x0 = next; // if no acceleration we pass the new value straight away
         }
         i+=1;
 

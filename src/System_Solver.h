@@ -17,7 +17,7 @@ vector<double> operator* (vector<vector<double>> A, vector <double> b);
 vector<double> operator- (vector<double>  a, vector<double> b);
 
 
-/** \brief 2nd line super class for any king of methods for non liner system solving
+/** \brief Virtual class for any king of methods for non liner system solving
   * This class is for every possible solving methods for non linear system solving of type
   * f(x) = 0, with f and x multidimensional
   */
@@ -34,12 +34,13 @@ public :
     System_Solver();
     System_Solver(unsigned int dimension, vector<double> (*functions)(vector<double> x ), vector<vector<double>> (*inv_jaco)(vector<double> x));
     System_Solver(unsigned int dimension, vector<double> (*functions)(vector<double> x ), vector<vector<double>> (*inv_jaco)(vector<double> x), vector<double> starting_points, double iter, double tol);
+
     /// Destructor
     virtual ~System_Solver();
 
-    /** \brief Pure virtual method for solving method
+    /** \brief Pure virtual method for solving algorithm
       * This pure virtual method should be overriden with daughter classes specific solving algorithm
-      * @return the guessed root, which is a vector for systems
+      * @return the guessed root, which is a vector
       */
     virtual vector<double> Solve() = 0;
 
@@ -48,11 +49,6 @@ public :
       */
     void Result() final;
 
-    /** \brief Stopping criterion for the solving algorithm
-      * This method evaluates the value of the stopping criterion for all daughter classes solving algorithm
-      * @return a boolean that assert if the algorithm should stop or continue
-      */
-    bool Continuing(vector<double> guess, unsigned int iteration);
 };
 
 

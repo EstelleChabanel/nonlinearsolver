@@ -8,6 +8,7 @@
 #include <cmath>
 #include <istream>
 #include <complex>
+#include <climits>
 
 using namespace std;
 
@@ -24,10 +25,10 @@ Hirano::Hirano(complex<double> (*complex_fx)(complex<double>, int) , complex<dou
 Hirano::~Hirano(){}
 
 /** \brief Factorial
-      * useful in complex_solve
+      * useful in Solve
       * @return the factorial of an int
       */
-double Hirano::factorial(const int n)
+double Hirano::Factorial(const int n)
 {
     double f = 1;
     for (int i=1; i<=n; ++i)
@@ -39,14 +40,14 @@ double Hirano::factorial(const int n)
 complex<double> Hirano::Solve(){
 
     unsigned int iteration = 0;
-    unsigned int order = 4; // only works for up to order 4 (the other derivatives are not implemented
+    unsigned int order = 4; // only works for up to order 4 (the other derivatives are not implemented)
 
 
 do {
-    // step 1 : computing the coefficients of the taylor polynomail
+    // step 1 : computing the coefficients of the taylor polynomial
     vector<complex<double>> a_coef(order);
     for (unsigned int k = 0; k < a_coef.size(); k++) {
-        a_coef[k] = complex_function(complex_x0, k) / factorial(k);
+        a_coef[k] = complex_function(complex_x0, k) / Factorial(k);
     }
 
     // step 2
@@ -85,28 +86,11 @@ do {
     } while(continuation_condition);
 
     complex_x0 = complex_x0 + nu_m;
-    cout << "complex x0 = " << complex_x0 << endl;
     iteration += 1;
-}while(Continuing_complex(complex_x0,complex_function, iteration));
+
+    }while(Continuing_complex(complex_x0,complex_function, iteration));
 
     return complex_x0;
-}
-
-
-
-bool Hirano::Continuing_complex(complex<double> x, complex<double> (*fx) (complex<double> x, int order) ,unsigned int iteration){
-    bool continues = true;
-    bool result_is_satisfying = abs(fx(x,0))<tolerance;
-
-    if (result_is_satisfying==true){
-        std::cout<<"Computation converged within tolerance " << tolerance <<  " in " << iteration <<  " iterations " << std::endl;
-        continues = false;
-    }
-    else if(iteration>=max_iter){
-        std::cout<<"Computation did not converge in " << iteration << " iterations"<< std::endl;
-        throw(MaxIter(max_iter));
-    }
-    return continues;
 }
 
 

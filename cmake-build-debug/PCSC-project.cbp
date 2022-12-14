@@ -8,554 +8,582 @@
 		<Option virtualFolders="CMake Files\;CMake Files\googletest\;CMake Files\googletest\googlemock\;CMake Files\googletest\googlemock\cmake\;CMake Files\googletest\googletest\;CMake Files\googletest\googletest\cmake\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug"/>
+				<Option working_dir="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="pcsc">
-				<Option output="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug/libpcsc.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 pcsc"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="pcsc/fast">
-				<Option output="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug/libpcsc.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 pcsc/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="main">
-				<Option output="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="main/fast">
-				<Option output="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="test_pcsc">
-				<Option output="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug/test_pcsc" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googletest/include"/>
-					<Add directory="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googletest"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_pcsc"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="test_pcsc/fast">
-				<Option output="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug/test_pcsc" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googletest/include"/>
-					<Add directory="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googletest"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_pcsc/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="test">
-				<Option working_dir="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="list_install_components">
-				<Option working_dir="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="install">
-				<Option working_dir="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="install/local">
-				<Option working_dir="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/strip">
-				<Option working_dir="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug"/>
+				<Option working_dir="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="gmock">
-				<Option output="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug/lib/libgmock.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googlemock"/>
+			<Target title="install/local">
+				<Option working_dir="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_pcsc">
+				<Option output="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/test_pcsc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googletest/include"/>
+					<Add directory="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_pcsc"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_pcsc/fast">
+				<Option output="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/test_pcsc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googletest/include"/>
+					<Add directory="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_pcsc/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pcsc">
+				<Option output="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/libpcsc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googlemock/include"/>
-					<Add directory="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googlemock"/>
-					<Add directory="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googletest/include"/>
-					<Add directory="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googletest"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 pcsc"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="gmock/fast">
-				<Option output="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug/lib/libgmock.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googlemock"/>
+			<Target title="pcsc/fast">
+				<Option output="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/libpcsc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googlemock/include"/>
-					<Add directory="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googlemock"/>
-					<Add directory="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googletest/include"/>
-					<Add directory="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googletest"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 pcsc/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock_main">
-				<Option output="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug/lib/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googlemock"/>
+				<Option output="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/lib/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googlemock/include"/>
-					<Add directory="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googlemock"/>
-					<Add directory="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googletest/include"/>
-					<Add directory="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googletest"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googlemock/include"/>
+					<Add directory="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googlemock"/>
+					<Add directory="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googletest/include"/>
+					<Add directory="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock_main/fast">
-				<Option output="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug/lib/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googlemock"/>
+				<Option output="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/lib/libgmock_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googlemock/include"/>
-					<Add directory="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googlemock"/>
-					<Add directory="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googletest/include"/>
-					<Add directory="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googletest"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googlemock/include"/>
+					<Add directory="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googlemock"/>
+					<Add directory="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googletest/include"/>
+					<Add directory="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="gtest">
-				<Option output="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug/lib/libgtest.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googletest"/>
+			<Target title="gmock">
+				<Option output="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/lib/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googletest/include"/>
-					<Add directory="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googletest"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googlemock/include"/>
+					<Add directory="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googlemock"/>
+					<Add directory="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googletest/include"/>
+					<Add directory="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="gtest/fast">
-				<Option output="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug/lib/libgtest.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googletest"/>
+			<Target title="gmock/fast">
+				<Option output="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/lib/libgmock.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googletest/include"/>
-					<Add directory="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googletest"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googlemock/include"/>
+					<Add directory="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googlemock"/>
+					<Add directory="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googletest/include"/>
+					<Add directory="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main">
-				<Option output="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug/lib/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googletest"/>
+				<Option output="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/lib/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googletest/include"/>
-					<Add directory="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googletest"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googletest/include"/>
+					<Add directory="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main/fast">
-				<Option output="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug/lib/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googletest"/>
+				<Option output="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/lib/libgtest_main.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googletest/include"/>
-					<Add directory="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googletest"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googletest/include"/>
+					<Add directory="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nounou/Desktop/EPFL/M5/Programming\ concepts\ for\ scientific\ computing/pcsc/nonlinearsolver/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/lib/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googletest/include"/>
+					<Add directory="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/lib/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googletest/include"/>
+					<Add directory="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googletest"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/cmake-build-debug/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googlemock/src/gmock-all.cc">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googlemock/src/gmock-all.cc">
 			<Option target="gmock"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googlemock/src/gmock_main.cc">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googlemock/src/gmock_main.cc">
 			<Option target="gmock_main"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googletest/src/gtest-all.cc">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googletest/src/gtest-all.cc">
 			<Option target="gtest"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googletest/src/gtest_main.cc">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googletest/src/gtest_main.cc">
 			<Option target="gtest_main"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/Bisection.cpp">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Bisection.cpp">
 			<Option target="pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/Bisection.h">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Bisection.h">
 			<Option target="pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/Chord.cpp">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Chord.cpp">
 			<Option target="pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/Chord.h">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Chord.h">
 			<Option target="pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/Complex_Solver.cpp">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Complex_Solver.cpp">
 			<Option target="pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/Complex_Solver.h">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Complex_Solver.h">
 			<Option target="pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/Equation_Solver.cpp">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Equation_Solver.cpp">
 			<Option target="pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/Equation_Solver.h">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Equation_Solver.h">
 			<Option target="pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/Hirano.cpp">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Hirano.cpp">
 			<Option target="pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/Hirano.h">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Hirano.h">
 			<Option target="pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/Mama_Solver.cpp">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Mama_Solver.cpp">
 			<Option target="pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/Mama_Solver.h">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Mama_Solver.h">
 			<Option target="pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/NR.cpp">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/NR.cpp">
 			<Option target="pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/NR.h">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/NR.h">
 			<Option target="pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/Newton.cpp">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Newton.cpp">
 			<Option target="pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/Newton.h">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Newton.h">
 			<Option target="pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/Newton_System.cpp">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Newton_System.cpp">
 			<Option target="pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/Newton_System.h">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/Newton_System.h">
 			<Option target="pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/System_Solver.cpp">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/System_Solver.cpp">
 			<Option target="pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/System_Solver.h">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/System_Solver.h">
 			<Option target="pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/exceptions/DivZero.cpp">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/exceptions/DivZero.cpp">
 			<Option target="pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/exceptions/DivZero.h">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/exceptions/DivZero.h">
 			<Option target="pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/exceptions/Exceptions.cpp">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/exceptions/Exceptions.cpp">
 			<Option target="pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/exceptions/Exceptions.h">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/exceptions/Exceptions.h">
 			<Option target="pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/exceptions/Interval.cpp">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/exceptions/Interval.cpp">
 			<Option target="pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/exceptions/Interval.h">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/exceptions/Interval.h">
 			<Option target="pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/exceptions/MaxIter.cpp">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/exceptions/MaxIter.cpp">
 			<Option target="pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/exceptions/MaxIter.h">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/exceptions/MaxIter.h">
 			<Option target="pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/exceptions/WrongDim.cpp">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/exceptions/WrongDim.cpp">
 			<Option target="pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/exceptions/WrongDim.h">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/exceptions/WrongDim.h">
 			<Option target="pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/main.cpp">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/main.cpp">
 			<Option target="main"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/pcsc.cpp">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/pcsc.cpp">
 			<Option target="pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/src/pcsc.h">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/src/pcsc.h">
 			<Option target="pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/test/test_NR.cpp">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/test/test_NR.cpp">
 			<Option target="test_pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/test/test_bisection.cpp">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/test/test_bisection.cpp">
 			<Option target="test_pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/test/test_chord.cpp">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/test/test_chord.cpp">
 			<Option target="test_pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/test/test_functions.cpp">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/test/test_functions.cpp">
 			<Option target="pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/test/test_functions.h">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/test/test_functions.h">
 			<Option target="pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/test/test_hirano.cpp">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/test/test_hirano.cpp">
 			<Option target="test_pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/test/test_newton_system.cpp">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/test/test_newton_system.cpp">
 			<Option target="test_pcsc"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/CMakeLists.txt">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/CMakeLists.txt">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\googletest\"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googlemock/CMakeLists.txt">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googlemock/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\googletest\googlemock\"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googlemock/cmake/gmock.pc.in">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googlemock/cmake/gmock.pc.in">
 			<Option virtualFolder="CMake Files\googletest\googlemock\cmake\"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googlemock/cmake/gmock_main.pc.in">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googlemock/cmake/gmock_main.pc.in">
 			<Option virtualFolder="CMake Files\googletest\googlemock\cmake\"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googletest/CMakeLists.txt">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\googletest\googletest\"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googletest/cmake/Config.cmake.in">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googletest/cmake/Config.cmake.in">
 			<Option virtualFolder="CMake Files\googletest\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googletest/cmake/gtest.pc.in">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googletest/cmake/gtest.pc.in">
 			<Option virtualFolder="CMake Files\googletest\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googletest/cmake/gtest_main.pc.in">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googletest/cmake/gtest_main.pc.in">
 			<Option virtualFolder="CMake Files\googletest\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/Users/nounou/Desktop/EPFL/M5/Programming concepts for scientific computing/pcsc/nonlinearsolver/googletest/googletest/cmake/internal_utils.cmake">
+		<Unit filename="/mnt/c/Users/eecha/OneDrive/Documents/EPFL-Master/Semestre3/nonlinearsolver/googletest/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\googletest\googletest\cmake\"/>
 		</Unit>
 	</Project>
