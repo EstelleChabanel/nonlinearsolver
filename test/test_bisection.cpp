@@ -4,6 +4,7 @@
 
 #include "../src/Bisection.h"
 #include "../src/exceptions/Interval.h"
+#include "../src/exceptions/MaxIter.h"
 #include "test_functions.h"
 #include <iostream>
 #include <gtest/gtest.h>
@@ -35,6 +36,11 @@ TEST(TestBisection, acceleratesolver){
 
 TEST(TestBisection, Interval){
     ASSERT_THROW(Bisection bi(*fx1, 5.0, 10.0, 100, 1e-5), Interval);
+}
+
+TEST(TestBisection, NoConvergence){
+    Bisection bi(*fx1, -200, 200, 4, 1e-5);
+    ASSERT_THROW(bi.Solve(), MaxIter);
 }
 
 

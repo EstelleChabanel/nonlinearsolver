@@ -29,253 +29,15 @@
   <component name="ChangeListManager">
     <list default="true" id="92b9e9cb-5c3a-42eb-89cb-2dd913c141c9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/main" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcsc.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/pcsc.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_pcsc.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test_pcsc.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/test_pcsc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test_pcsc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/_aitken_8cpp.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/_aitken_8h.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/_aitken_8h_source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/_bisection_8cpp.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/_bisection_8h.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/_bisection_8h_source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/_chord_8cpp.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/_chord_8h.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/_chord_8h_source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/_equation___solver_8cpp.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/_equation___solver_8h.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/_equation___solver_8h_source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/_mama___solver_8cpp.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/_mama___solver_8h.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/_mama___solver_8h_source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/_n_r_8cpp.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/_n_r_8h.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/_n_r_8h_source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/_newton_8cpp.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/_newton_8h.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/_newton_8h_source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/_newton___system_8cpp.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/_newton___system_8h.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/_newton___system_8h_source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/_system___solver_8cpp.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/_system___solver_8h.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/_system___solver_8h_source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/annotated.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/bc_s.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/bc_sd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/bdwn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/class_aitken-members.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/class_aitken.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/class_aitken.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/class_bisection-members.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/class_bisection.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/class_bisection.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/class_chord-members.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/class_chord.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/class_chord.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/class_equation___solver-members.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/class_equation___solver.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/class_equation___solver.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/class_mama___solver-members.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/class_mama___solver.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/class_mama___solver.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/class_n_r-members.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/class_n_r.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/class_n_r.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/class_newton-members.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/class_newton.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/class_newton.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/class_newton___system-members.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/class_newton___system.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/class_newton___system.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/class_system___solver-members.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/class_system___solver.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/class_system___solver.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/closed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/dir_68267d1309a1af8e8297ef4c3efbcdba.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/doc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/docd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/doxygen.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/doxygen.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/dynsections.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/files.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/folderclosed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/folderopen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/functions.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/functions_func.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/functions_vars.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/globals.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/globals_func.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/hierarchy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/main_8cpp.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/menu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/menudata.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/nav_f.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/nav_fd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/nav_g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/nav_h.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/nav_hd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/open.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/pcsc_8cpp.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/pcsc_8h.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/pcsc_8h_source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/all_0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/all_1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/all_10.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/all_11.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/all_2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/all_3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/all_4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/all_5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/all_6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/all_7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/all_8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/all_9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/all_a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/all_b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/all_c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/all_d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/all_e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/all_f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/classes_0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/classes_1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/classes_2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/classes_3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/classes_4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/classes_5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/classes_6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/close.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/files_0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/files_1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/files_2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/files_3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/files_4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/files_5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/files_6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/files_7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/files_8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/functions_0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/functions_1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/functions_2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/functions_3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/functions_4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/functions_5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/functions_6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/functions_7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/functions_8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/functions_9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/functions_a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/functions_b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/mag.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/mag_d.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/mag_sel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/mag_seld.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/search.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/searchdata.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/variables_0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/variables_1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/variables_2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/variables_3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/variables_4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/variables_5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/search/variables_6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/splitbar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/splitbard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/sync_off.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/sync_on.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/tab_a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/tab_ad.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/tab_b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/tab_bd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/tab_h.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/tab_hd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/tab_s.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/tab_sd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/tabs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/html/user__interface_8cpp.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/_aitken_8cpp.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/_aitken_8h.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/_aitken_8h_source.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/_bisection_8cpp.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/_bisection_8h.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/_bisection_8h_source.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/_chord_8cpp.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/_chord_8h.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/_chord_8h_source.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/_equation___solver_8cpp.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/_equation___solver_8h.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/_equation___solver_8h_source.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/_mama___solver_8cpp.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/_mama___solver_8h.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/_mama___solver_8h_source.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/_n_r_8cpp.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/_n_r_8h.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/_n_r_8h_source.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/_newton_8cpp.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/_newton_8h.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/_newton_8h_source.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/_newton___system_8cpp.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/_newton___system_8h.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/_newton___system_8h_source.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/_system___solver_8cpp.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/_system___solver_8h.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/_system___solver_8h_source.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/annotated.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/class_aitken.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/class_aitken.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/class_bisection.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/class_bisection.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/class_chord.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/class_chord.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/class_equation___solver.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/class_equation___solver.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/class_mama___solver.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/class_mama___solver.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/class_n_r.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/class_n_r.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/class_newton.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/class_newton.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/class_newton___system.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/class_newton___system.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/class_system___solver.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/class_system___solver.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/dir_68267d1309a1af8e8297ef4c3efbcdba.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/doxygen.sty" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/files.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/hierarchy.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/longtable_doxygen.sty" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/main_8cpp.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/make.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/pcsc_8cpp.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/pcsc_8h.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/pcsc_8h_source.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/refman.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/tabu_doxygen.sty" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doxygen-output/latex/user__interface_8cpp.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bisection.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bisection.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chord.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chord.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Complex_Solver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Complex_Solver.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Complex_Solver.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Complex_Solver.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Equation_Solver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Equation_Solver.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Hirano.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hirano.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hirano.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hirano.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mama_Solver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mama_Solver.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NR.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/NR.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Newton.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Newton.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Newton_System.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Newton_System.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Newton_System.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Newton_System.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/System_Solver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/System_Solver.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/System_Solver.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/System_Solver.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptions/DivZero.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/DivZero.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptions/Exceptions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/Exceptions.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptions/Interval.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/Interval.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptions/MaxIter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/MaxIter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptions/WrongDim.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/WrongDim.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_functions.h" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_functions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_NR.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_NR.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_bisection.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_bisection.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_hirano.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_hirano.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_newton_system.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_newton_system.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -316,7 +78,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="CMake Application.main">
+  <component name="RunManager" selected="Google Test.test_pcsc">
     <configuration name="test_pcsc" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PCSC-project" TARGET_NAME="test_pcsc" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PCSC-project" RUN_TARGET_NAME="test_pcsc" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -329,11 +91,6 @@
       </method>
     </configuration>
     <configuration name="Unnamed" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PCSC-project" RUN_TARGET_NAME="test_pcsc" EXPLICIT_BUILD_TARGET_NAME="all">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -409,6 +166,7 @@
       <workItem from="1670603197501" duration="1046000" />
       <workItem from="1670744294669" duration="51213000" />
       <workItem from="1671095994436" duration="4512000" />
+      <workItem from="1671119190268" duration="2901000" />
     </task>
     <servers />
   </component>
@@ -432,11 +190,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/test/test_NR.cpp</url>
-          <line>23</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src/Equation_Solver.cpp</url>
           <line>4</line>

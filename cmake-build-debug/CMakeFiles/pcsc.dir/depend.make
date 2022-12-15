@@ -33,8 +33,6 @@ CMakeFiles/pcsc.dir/src/Hirano.cpp.o: ../src/Complex_Solver.h
 CMakeFiles/pcsc.dir/src/Hirano.cpp.o: ../src/Hirano.cpp
 CMakeFiles/pcsc.dir/src/Hirano.cpp.o: ../src/Hirano.h
 CMakeFiles/pcsc.dir/src/Hirano.cpp.o: ../src/Mama_Solver.h
-CMakeFiles/pcsc.dir/src/Hirano.cpp.o: ../src/exceptions/Exceptions.h
-CMakeFiles/pcsc.dir/src/Hirano.cpp.o: ../src/exceptions/MaxIter.h
 
 CMakeFiles/pcsc.dir/src/Mama_Solver.cpp.o: ../src/Mama_Solver.cpp
 CMakeFiles/pcsc.dir/src/Mama_Solver.cpp.o: ../src/Mama_Solver.h
@@ -62,6 +60,8 @@ CMakeFiles/pcsc.dir/src/Newton_System.cpp.o: ../src/Newton.h
 CMakeFiles/pcsc.dir/src/Newton_System.cpp.o: ../src/Newton_System.cpp
 CMakeFiles/pcsc.dir/src/Newton_System.cpp.o: ../src/Newton_System.h
 CMakeFiles/pcsc.dir/src/Newton_System.cpp.o: ../src/System_Solver.h
+CMakeFiles/pcsc.dir/src/Newton_System.cpp.o: ../src/exceptions/Exceptions.h
+CMakeFiles/pcsc.dir/src/Newton_System.cpp.o: ../src/exceptions/WrongDim.h
 CMakeFiles/pcsc.dir/src/Newton_System.cpp.o: ../test/test_functions.h
 
 CMakeFiles/pcsc.dir/src/System_Solver.cpp.o: ../src/Mama_Solver.h

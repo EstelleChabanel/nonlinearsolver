@@ -3,7 +3,6 @@
 //
 
 #include "Hirano.h"
-#include "../src/exceptions/MaxIter.h"
 #include <vector>
 #include <cmath>
 #include <complex>

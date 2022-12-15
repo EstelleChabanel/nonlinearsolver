@@ -58,6 +58,7 @@ CMakeFiles/test_pcsc.dir/test/test_bisection.cpp.o: ../src/Equation_Solver.h
 CMakeFiles/test_pcsc.dir/test/test_bisection.cpp.o: ../src/Mama_Solver.h
 CMakeFiles/test_pcsc.dir/test/test_bisection.cpp.o: ../src/exceptions/Exceptions.h
 CMakeFiles/test_pcsc.dir/test/test_bisection.cpp.o: ../src/exceptions/Interval.h
+CMakeFiles/test_pcsc.dir/test/test_bisection.cpp.o: ../src/exceptions/MaxIter.h
 CMakeFiles/test_pcsc.dir/test/test_bisection.cpp.o: ../test/test_bisection.cpp
 CMakeFiles/test_pcsc.dir/test/test_bisection.cpp.o: ../test/test_functions.h
 
@@ -148,6 +149,7 @@ CMakeFiles/test_pcsc.dir/test/test_newton_system.cpp.o: ../src/Newton.h
 CMakeFiles/test_pcsc.dir/test/test_newton_system.cpp.o: ../src/Newton_System.h
 CMakeFiles/test_pcsc.dir/test/test_newton_system.cpp.o: ../src/System_Solver.h
 CMakeFiles/test_pcsc.dir/test/test_newton_system.cpp.o: ../src/exceptions/Exceptions.h
+CMakeFiles/test_pcsc.dir/test/test_newton_system.cpp.o: ../src/exceptions/MaxIter.h
 CMakeFiles/test_pcsc.dir/test/test_newton_system.cpp.o: ../src/exceptions/WrongDim.h
 CMakeFiles/test_pcsc.dir/test/test_newton_system.cpp.o: ../test/test_functions.h
 CMakeFiles/test_pcsc.dir/test/test_newton_system.cpp.o: ../test/test_newton_system.cpp

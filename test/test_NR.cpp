@@ -33,14 +33,9 @@ TEST(TestNR, Acceleratedsolver) {
 }
 
 
-/*
 TEST(TestNR, NoConvergence) {
-    Nr nr()
-}*/
-
-// ToDo: Find a function for which we have a division by zero
-//TEST(TestNR, Divbyzero) {}
-
-
-// encore des choses à faire
+    NR nr(*fx2, *fprime2, -1.0, 2, 1e-5);
+    ASSERT_THROW(nr.Solve(), MaxIter);
+}
+s
 

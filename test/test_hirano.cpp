@@ -16,3 +16,8 @@ TEST(TestHirano, solver) {
     Hirano hira3(*comp_fx3, 2.0,.3, .3, 1e-5, 100);
     ASSERT_NEAR(0, abs((*comp_fx3)(hira3.Solve(),0)), 1e-5);
 }
+
+TEST(TestHirano, NoConvergence) {
+    Hirano hira(*comp_fx2, 3.0, .3, .3, 1e-5, 4);
+    ASSERT_THROW(hira.Solve(), MaxIter);
+}
