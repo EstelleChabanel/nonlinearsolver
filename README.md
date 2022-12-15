@@ -30,26 +30,22 @@ make
 
 ## How-to-use
 
-The user can use the code to solve a nonlinear equation or system of equations of the following form: f(x) = 0, with f and x scalar or vector.
-Chosen parameters and methods can be given in the command line.
-Thee solving method can be specified by putting -m followed by the right typo of the method: bisection, chord, newton-raphson and modified newton for 1D system and newton-system for multidimensional systems. The other parameters can also be specified, according to the chosen method, followed by the corresponding prefix:
-* -f : for the name of the chosen function, to choose in the file *test/function_test.cpp
-* -m : for the method
-* -a : for the starting point (first one if bisection or chord method is chosen)
-* -b : for the second starting point when bisection or chord method is chosen
-* -q : to be filled with true to apply the Aitken acceleration, false for no acceleration
-* -i : maximal number of iterations
-* -t : tolerance
+The user can use the code to solve a nonlinear equation or system of equations of the following form: f(x) = 0, with f and x scalar, complex or vector. The functions to solve need to be provided in the ``test/test_functions.cc`` file. For convenience and rapidity of use adn check, several random functions of each type are already provided. However, the user familiar with basic C++ can redifined one of the given functions to another one of its choice, to solve any kind of equation. For that, be careful to define the function under the right "names": "f..." for simple 1D functions, "comp_f..." for complex functions, and "g_system..." for multidimensional functions.
 
-The ability to choose the right parameters according to the method is left to the user. An initialization of a unnecessary parametr won't throw any error as it will just as no effect and not prevent the solver for working right. Moreover, not initialized parameters are set to default values in the code.
-
-An example call to the code is presented below:
-
+The user can use the program in two different ways:
+* by running, in the `cmake-build-debug/` folder:
 ````
-./main -m Chord -f fx3 -a -10.0 -b 10.0 -q true -i 200 -t 10e-7
+./main 0
 ````
+the user is then asked to type the name of the function he wants to use. The corresponding possible methods to solve the problem are displayed and the user can choose one of them by typing its name in the terminal. The programm will then display default parameters that it uses to solve the problem.
 
-The above command as to be run in the folder ``cmake-build-debug``.
+* by running, agian in the `cmake-build-debug/` folder:
+````
+./main
+````
+as in the previous version, the user is aked to enter the name of the function and the name of the methods he wants to use. however this time, the all freedom of choosing the parameters is left to the user: according to the chosen methods, the user is asked to enter the parameters that are used by the solving algorithm.
+
+For both case, the results are displayed in the terminal, along with a verification.
 
 
 ## Flow of the program
@@ -77,13 +73,13 @@ The overall architecture is visbile on the scheme below. The final solving methd
   <img src="https://github.com/EstelleChabanel/nonlinearsolver/blob/main/doxygen_output/html/class_mama___solver.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
-![alt text](https://github.com/EstelleChabanel/nonlinearsolver/blob/main/doxygen_output/html/class_mama___solver.png?raw=true)
-
 PARLER AUSSI DES EXCEPTIONS ET METTRE DIAGRAMME CLASSES EXCEPTIONS
 
 Moreover, another virtual super-class, ``Exceptions`` is implemented to gather all the possible exceptions that could be encountered during the solving of different equations. Each daugther class represents a different type of error that could prevent the algorithm to work well. The implemented exceptions are listed below, there are then thrown and catch in the concerned methods or in themain function. A scheme of these classes is visible below.
 
-![alt text](https://github.com/EstelleChabanel/nonlinearsolver/blob/main/doxygen_output/html_excpetion/class_exceptions.png?raw=true)
+<p align="center">
+  <img src="https://github.com/EstelleChabanel/nonlinearsolver/blob/main/doxygen_output/html_excpetion/class_exceptions.png?raw=true" alt="Sublime's custom image"/>
+</p>
 
 * ``DivZero`` prevents the algorithm from possible error due to a division by zero
 * ``Interval`` prevents a wrong initialization of the solving methods ``Chord`` and ``Bisection`` that requires two initial points a and b, with f(a)* f(b) < 0
