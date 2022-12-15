@@ -73,18 +73,13 @@ The different implemented solving methods are connected  through a big super-cla
 
 The overall architecture is visbile on the scheme below. The final solving methdos are implemented in the "last lines" classes.
 
-INSERER DIAGRAMME CLASSES SOLVER
-
 ![alt text](https://github.com/EstelleChabanel/nonlinearsolver/blob/main/doxygen_output/html/class_mama___solver.png?raw=true)
-[My image](EstelleChabanel.github.com/nonlinearsolver/doxygen_output/html/class_mama__solver.png)
-![Distibuted Structure Graph](https://raw.githubusercontent.com/EstelleChabanel/nonlinearsolver/tree/main/doxygen_output/html/class_mama__solver.png)
-
 
 PARLER AUSSI DES EXCEPTIONS ET METTRE DIAGRAMME CLASSES EXCEPTIONS
 
 Moreover, another virtual super-class, ``Exceptions`` is implemented to gather all the possible exceptions that could be encountered during the solving of different equations. Each daugther class represents a different type of error that could prevent the algorithm to work well. The implemented exceptions are listed below, there are then thrown and catch in the concerned methods or in themain function. A scheme of these classes is visible below.
 
-[My image](EstelleChabanel.github.com/nonlinearsolver/doxygen_output/html_exceptions/class_exceptions.png)
+![alt text](https://github.com/EstelleChabanel/nonlinearsolver/blob/main/doxygen_output/html_excpetion/class_exceptions.png?raw=true)
 
 * ``DivZero`` prevents the algorithm from possible error due to a division by zero
 * ``Interval`` prevents a wrong initialization of the solving methods ``Chord`` and ``Bisection`` that requires two initial points a and b, with f(a)* f(b) < 0
