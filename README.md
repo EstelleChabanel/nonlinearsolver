@@ -45,7 +45,7 @@ the user is then asked to type the name of the function he wants to use. The cor
 ````
 as in the previous version, the user is aked to enter the name of the function and the name of the methods he wants to use. however this time, the all freedom of choosing the parameters is left to the user: according to the chosen methods, the user is asked to enter the parameters that are used by the solving algorithm.
 
-For both case, the results are displayed in the terminal, along with a verification.
+In both cases, the results are displayed in the terminal, along with a verification.
 
 
 ## Flow of the program
@@ -73,7 +73,7 @@ The overall architecture is visbile on the scheme below. The final solving methd
   <img src="https://github.com/EstelleChabanel/nonlinearsolver/blob/main/doxygen_output/html/class_mama___solver.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
-PARLER AUSSI DES EXCEPTIONS ET METTRE DIAGRAMME CLASSES EXCEPTIONS
+PARLER PLUS DE L'ARCHITECTURE
 
 Moreover, another virtual super-class, ``Exceptions`` is implemented to gather all the possible exceptions that could be encountered during the solving of different equations. Each daugther class represents a different type of error that could prevent the algorithm to work well. The implemented exceptions are listed below, there are then thrown and catch in the concerned methods or in themain function. A scheme of these classes is visible below.
 
@@ -99,8 +99,11 @@ To run all the tests at once, go in the ``cmake-build-debug`` folder and run
 
 ## Limitations and problems
 
-One of the main limitation of this implementation is the modularity with complex numbers. Hence, Hirano's method is able to solve equations with complex roots. However, a lot of the attributes and methods inherited by Hirano's method could not be re-used because they do not fonction with complex numbers (Such as starting points, the Solve methode or the mathematical function).
+* One of the main limitation of this implementation is the modularity with complex numbers. Hence, Hirano's method is able to solve equations with complex roots. However, a lot of the attributes and methods inherited by Hirano's method could not be re-used because they do not work with complex numbers (Such as starting points, the ``Solve()`` method or the mathematical function).
+Also, complex functions are implemented in a different way than the classical functions (and its derivatives) or the systems (and its jacobian). Complex functions take two arguments: the input of the function and the order of the derivative (0-th derivative is the function itself).
 
-Also, complex functions are implemented in a different way than the classial functions (and its derivatives) or the systems (and its jacobian). Complex functions take two arguments : the input of the function and the order of the derivative (0-th derivative is the function itself).
+* Another limitation encountered is in the passing of the function to solve. Indeed, in the current implementation, only functions chosen by the coders can be solved, the user need to redefine some functions in the `test/test_functions.cpp`` file to be able to solve its own equation. This could be improved by integrating a way to read ``.cpp`` file in the *main* function (not as a include, but by opening and reading a file in the programm), or by including libraries to be able to translate functions entered in the terminal in C++ language. However, both solutions were considered quite complex outside of this course's spetrum.
 
-An improvement for this implementation could be to re-code all of these attributes and methods as templates (the same way that the Continuing function works both for simple equations, complex equations or systems).
+* For the user, the choice of the method to use to solve the problem is only limited to the dimensionnality and type of the function chosen (1D, complex 1D or 2D+), even if it is known that some method do not work for all the functions: some methods requires the functions to be continuous and the researcg interval for example. An improvment could be to code a verification of the validity conditions of the choosen method on the chosen function.
+
+* Another improvement for this implementation could be to re-code all of these attributes and methods as templates (the same way that the Continuing function works both for simple equations, complex equations or systems).
