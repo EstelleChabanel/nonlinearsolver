@@ -52,8 +52,9 @@ In both cases, the results are displayed in the terminal, along with a verificat
 
 After running the program with the methods presented above, the program follows the below routine.
 
-INSERER DIAGRAM DU FLOW AVEC : initialization des paramètres et appel de la fonction dans separate file  >  Initialization d'un pointeru vers l'abstract class Mama_Solver puis vers la classe correspondant à la methode choisie    >    solve   >   print result    >     est-ce qu'on rajoute sauvegarde param et résultats dans un txt file ?
-
+<p align="center">
+  <img src="https://github.com/EstelleChabanel/nonlinearsolver/blob/main/doxygen_output/Programm_flow.jpeg?raw=true" alt="Sublime's custom image"/>
+</p>
 
 
 ## List of features 
