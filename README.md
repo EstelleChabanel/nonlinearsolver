@@ -53,7 +53,7 @@ In both cases, the results are displayed in the terminal, along with a verificat
 After running the program with the methods presented above, the program follows the below routine.
 
 <p align="center">
-  <img src="https://github.com/EstelleChabanel/nonlinearsolver/blob/main/doxygen_output/Program_flow.jpeg?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/EstelleChabanel/nonlinearsolver/tree/main/doxygen_output/Program_flow.jpg?raw=true" alt="Sublime's custom image"/>
 </p>
 
 
