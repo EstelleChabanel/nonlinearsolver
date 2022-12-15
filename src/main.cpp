@@ -22,8 +22,31 @@ int main(int argc, char **argv) {
 
     // Which function ?
     std::string f;
-    std::cout << "Which function would you like to solve ? Choose between the following:" << std::endl;
+    std::cout << "Which equations would you like to solve ? Choose between the following:" << std::endl;
     std::cout << "fx1, fx2, fx3, fx4, g_system_1, g_system_2, g_system_3, g_system_4, comp_fx1, comp_fx2, comp_fx3" << std::endl;
+    std::cout << "fx1(x) = 3x + 4 = 0" << std::endl;
+    std::cout << "fx2(x) = 3sin(x) = 0" << std::endl;
+    std::cout << "fx3(x) = 6x^3 + 2x^2 + x + 9 = 0" << std::endl;
+    std::cout << "fx4(x) = 3exp(x) -2 = 0" << std::endl;
+    std::cout << "g_system_1 : " << std::endl;
+    std::cout << "6x + 3y^2 = 0" << std::endl;
+    std::cout << "y + 3 = 0 " << std::endl;
+    std::cout << "g_system_2 : " << std::endl;
+    std::cout << "x + y - 2 = 0" << std::endl;
+    std::cout << "4x - y - 6 = 0 " << std::endl;
+    std::cout << "g_system_3 : " << std::endl;
+    std::cout << "y + z = 0" << std::endl;
+    std::cout << "x + y - 2 = 0 " << std::endl;
+    std::cout << "z - 3 = 0 " << std::endl;
+    std::cout << "g_system_4" << std::endl;
+    std::cout << "x^2 + exp(y) - 25 = 0" << std::endl;
+    std::cout << "y - 2 = 0 " << std::endl;
+    std::cout << "x + 3z^3 = 0 " << std::endl;
+    std::cout << "comp_fx1(z) = 3z + 4 = 0" << std::endl;
+    std::cout << "comp_fx2(z) = 3z^3 + 4z^2 + 5 = 0" << std::endl;
+    std::cout << "comp_fx3(z) = 3z^2 + 1 = 0" << std::endl;
+
+
     std::cin >> f;
     std::cout << std::endl;
 

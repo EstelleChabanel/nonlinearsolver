@@ -74,7 +74,13 @@ The overall architecture is visbile on the scheme below. The final solving methd
   <img src="https://github.com/EstelleChabanel/nonlinearsolver/blob/main/doxygen_output/html/class_mama___solver.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
-PARLER PLUS DE L'ARCHITECTURE
+The idea behind ths architecture is the following :
+* Mama_Solver contains the attributes that are used in all solvers such as tolerence, max_iter, a pure virtual Result method (that prints the roots) and the Continuation criterion template.
+* Complex_Solver, Equation_Solver and System_Solver contain the elemets that are specific to different types of functions (starting points, functions, derivatives). It also contains the virtual Solve() methods.
+* Finally, the final classes override the Solve() method and declare all attributes and methods needed to run each specific Solve().
+Even if some classes might seem useless (such as Newton for example), this architecture allows one to extend this program to many more algorithms very easily.
+
+Note : Hirano is a modified Newton method but does not inherit Newton since it is a complex solver. 
 
 Moreover, another virtual super-class, ``Exceptions`` is implemented to gather all the possible exceptions that could be encountered during the solving of different equations. Each daugther class represents a different type of error that could prevent the algorithm to work well. The implemented exceptions are listed below, there are then thrown and catch in the concerned methods or in themain function. A scheme of these classes is visible below.
 
