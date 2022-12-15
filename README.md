@@ -37,7 +37,7 @@ The user can use the program in two different ways:
 ````
 ./main 0
 ````
-the user is then asked to type the name of the function he wants to use. The corresponding possible methods to solve the problem are displayed and the user can choose one of them by typing its name in the terminal. The programm will then display default parameters that it uses to solve the problem.
+the user is then asked to type the name of the function he wants to use. The corresponding possible methods to solve the problem are displayed and the user can choose one of them by typing its name in the terminal. The program will then display default parameters that it uses to solve the problem.
 
 * by running, agian in the `cmake-build-debug/` folder:
 ````
@@ -102,8 +102,8 @@ To run all the tests at once, go in the ``cmake-build-debug`` folder and run
 * One of the main limitation of this implementation is the modularity with complex numbers. Hence, Hirano's method is able to solve equations with complex roots. However, a lot of the attributes and methods inherited by Hirano's method could not be re-used because they do not work with complex numbers (Such as starting points, the ``Solve()`` method or the mathematical function).
 Also, complex functions are implemented in a different way than the classical functions (and its derivatives) or the systems (and its jacobian). Complex functions take two arguments: the input of the function and the order of the derivative (0-th derivative is the function itself).
 
-* Another limitation encountered is in the passing of the function to solve. Indeed, in the current implementation, only functions chosen by the coders can be solved, the user need to redefine some functions in the `test/test_functions.cpp`` file to be able to solve its own equation. This could be improved by integrating a way to read ``.cpp`` file in the *main* function (not as a include, but by opening and reading a file in the programm), or by including libraries to be able to translate functions entered in the terminal in C++ language. However, both solutions were considered quite complex outside of this course's spetrum.
+* Another limitation encountered is in the passing of the function to solve. Indeed, in the current implementation, only functions chosen by the coders can be solved, the user need to redefine some functions in the `test/test_functions.cpp`` file to be able to solve its own equation. This could be improved by integrating a way to read ``.cpp`` file in the *main* function (not as a include, but by opening and reading a file in the program), or by including libraries to be able to translate functions entered in the terminal in C++ language. However, both solutions were considered quite complex outside of this course's spetrum.
 
-* For the user, the choice of the method to use to solve the problem is only limited to the dimensionnality and type of the function chosen (1D, complex 1D or 2D+), even if it is known that some method do not work for all the functions: some methods requires the functions to be continuous and the researcg interval for example. An improvment could be to code a verification of the validity conditions of the choosen method on the chosen function.
+* For the user, the choice of the method to use to solve the problem is only limited to the dimensionnality and type of the function chosen (1D, complex 1D or 2D+), even if it is known that some method do not work for all the functions: some methods requires the functions to be continuous and the research interval for example. An improvment could be to code a verification of the validity conditions of the choosen method on the chosen function.
 
 * Another improvement for this implementation could be to re-code all of these attributes and methods as templates (the same way that the Continuing function works both for simple equations, complex equations or systems).
