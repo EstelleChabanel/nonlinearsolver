@@ -71,7 +71,7 @@ The different implemented solving methods are connected  through a big super-cla
 The overall architecture is visbile on the scheme below. The final solving methdos are implemented in the "last lines" classes.
 
 <p align="center">
-  <img src="https://github.com/EstelleChabanel/nonlinearsolver/blob/main/doxygen_output/html/class_mama___solver.png?raw=true" alt="Sublime's custom image"/>
+  <img src="https://github.com/EstelleChabanel/nonlinearsolver/blob/main/doxygen_output/html/class_mama___solver.png?raw=true" alt="Sublime's custom image"  width="200"/>
 </p>
 
 PARLER PLUS DE L'ARCHITECTURE
