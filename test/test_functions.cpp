@@ -68,6 +68,84 @@ std::vector<double> df2 ={ 0, 1 };
 }
 
 
+std::vector<double> g_system_2 (std::vector<double> x){
+    double a = x.at(0);
+    double b = x.at(1);
+
+    double f1 =  a + b - 2;
+    double f2 = 4*a -b - 6 ;
+
+    std::vector<double> resultat;
+    return { f1, f2 };
+}
+
+std::vector<std::vector<double>> g_jac_2 (std::vector<double> x){
+    double a = x.at(0);
+    double b = x.at(1);
+
+    std::vector<double> df1 ={ 0.2 , 0.2};
+    std::vector<double> df2 ={ 0.8 , -0.2 };
+
+    std::vector<std::vector<double>> jac = {df1,df2};
+    return jac;
+
+}
+
+
+std::vector<double> g_system_3 (std::vector<double> x){
+    double a = x.at(0);
+    double b = x.at(1);
+    double c = x.at(2);
+
+    double f1 = b + c ;
+    double f2 = a+ b - 2 ;
+    double f3 = c - 3 ;
+
+
+    std::vector<double> resultat{ f1, f2 , f3};
+    return resultat;
+}
+
+std::vector<std::vector<double>> g_jac_3 (std::vector<double> x){
+    std::vector<double> df1 ={-1.0 , 1.0 , 1.0 };
+    std::vector<double> df2 ={ 1.0 , 0.0 , -1.0};
+    std::vector<double> df3 ={ 0.0 , 0.0 , 1.0};
+
+
+    std::vector<std::vector<double>> jac = {df1,df2,df3};
+    return jac;
+
+}
+
+std::vector<double> g_system_4 (std::vector<double> x){
+    double a = x.at(0);
+    double b = x.at(1);
+    double c = x.at(2);
+
+    double f1 = a*a + exp(b) - 25 ;
+    double f2 = b - 2 ;
+    double f3 = a + c*c*c - 3 ;
+
+
+    std::vector<double> resultat{ f1, f2 , f3};
+    return resultat;
+}
+
+std::vector<std::vector<double>> g_jac_4 (std::vector<double> x){
+    double a = x.at(0);
+    double b = x.at(1);
+    double c = x.at(2);
+
+    std::vector<double> df1 ={1.0/(2.0*a) , (-exp(b))/(2.0*a) , 0.0 };
+    std::vector<double> df2 ={ 0.0 , 1.0 , 0.0};
+    std::vector<double> df3 ={ -1.0/(6*a*c*c) , exp(b)/(6*a*c*c), 1.0/(3*c*c)};
+
+
+    std::vector<std::vector<double>> jac = {df1,df2,df3};
+    return jac;
+
+}
+
 
 // complex functions (ha
 std::complex<double> comp_fx1 (std::complex<double> x, int k){

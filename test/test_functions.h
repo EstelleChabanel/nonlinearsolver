@@ -43,8 +43,16 @@ double fprime4(double x) ;
       * @return a vector of the values of each equation of the system (f1(x,y),f2(x,y)
       */
 std::vector<double> g_system (std::vector<double> x) ; // system of two equations
-
 std::vector<std::vector<double>> g_jac (std::vector<double> x) ; // jacobian of the g_system
+
+std::vector<double> g_system_2 (std::vector<double> x);
+std::vector<std::vector<double>> g_jac_2 (std::vector<double> x);
+
+std::vector<double> g_system_3 (std::vector<double> x);
+std::vector<std::vector<double>> g_jac_3 (std::vector<double> x);
+
+std::vector<double> g_system_4 (std::vector<double> x);
+std::vector<std::vector<double>> g_jac_4 (std::vector<double> x);
 
 /** \brief Complex functions
       * They are implemented differently than the regular functions
