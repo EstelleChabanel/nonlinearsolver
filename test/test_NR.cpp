@@ -37,5 +37,5 @@ TEST(TestNR, NoConvergence) {
     NR nr(*fx2, *fprime2, -1.0, 2, 1e-5);
     ASSERT_THROW(nr.Solve(), MaxIter);
 }
-s
+
 
