@@ -75,8 +75,10 @@ The overall architecture is visbile on the scheme below. The final solving methd
 
 INSERER DIAGRAMME CLASSES SOLVER
 
-![alt text](https://github.com/EstelleChabanel/nonlinearsolver/doxygen_output/html/class_mama__solver.png?raw=true)
+![alt text](https://github.com/EstelleChabanel/nonlinearsolver/tree/main/doxygen_output/html/class_mama__solver.png?raw=true)
 [My image](EstelleChabanel.github.com/nonlinearsolver/doxygen_output/html/class_mama__solver.png)
+![Distibuted Structure Graph](https://raw.githubusercontent.com/CHILIpReading/.github/main/images/distributed_structure.png)
+
 
 PARLER AUSSI DES EXCEPTIONS ET METTRE DIAGRAMME CLASSES EXCEPTIONS
 
