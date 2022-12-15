@@ -10,8 +10,16 @@
 #ifndef PCSC_PROJECT_TEST_FUNCTIONS_H
 #define PCSC_PROJECT_TEST_FUNCTIONS_H
 
+/** \brief 1D functions
+  * take as input a double
+  * @return a double corresponding to the value of the function applied at the input point
+  */
 double fx1(double x) ;
 
+/** \brief Derivatives of the 1D functions
+  * take as input a double
+  * @return a double corresponding to the value of the function applied at the input point
+  */
 double fprime1(double x) ;
 
 //Simple trigonometric function

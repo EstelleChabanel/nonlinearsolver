@@ -16,8 +16,8 @@
 class Newton_System : public System_Solver {
 public :
     /// Constructors
-    Newton_System(unsigned int dimension, vector<double> (*fx)(vector<double> x), vector<vector<double>> (*inv_jaco)(vector<double> x));
-    Newton_System(unsigned int dimension, vector<double>  (*fx)(vector<double> x), vector<vector<double>> (*inv_jaco)(vector<double> x), vector<double> starting_points, double iter, double tol);
+    Newton_System(unsigned int dimension, vector<double> (*fx)(vector<double> x), vector<vector<double>> (*inv_J)(vector<double> x));
+    Newton_System(unsigned int dimension, vector<double>  (*fx)(vector<double> x), vector<vector<double>> (*inv_J)(vector<double> x), vector<double> starting_points, double iter, double tol);
 
     /// Destructor
     virtual ~Newton_System();

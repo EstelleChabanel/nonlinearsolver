@@ -25,7 +25,8 @@ protected:
 public:
     /// Constructors
     Complex_Solver();
-    Complex_Solver(complex<double>  (*complex_function)(complex<double> , int), complex<double> starting_complex, unsigned int iter, double tol);
+    Complex_Solver(complex<double>  (*fx)(complex<double> , int));
+    Complex_Solver(complex<double>  (*fx)(complex<double> , int), complex<double> starting_complex, unsigned int iter, double tol);
 
     /// Destructor
     virtual ~Complex_Solver();

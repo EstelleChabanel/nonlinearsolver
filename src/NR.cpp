@@ -8,7 +8,7 @@ using namespace std;
 
 
 
-/// Constructors
+// Constructors
 NR::NR() : Newton(){}
 NR::NR(double (*fx)(double x), double (*fprime)(double x)) : Newton(*fx, *fprime) {}
 NR::NR(double (*fx)(double x), double (*fprime)(double x), double starting_point, double iter, double tol)
@@ -16,14 +16,10 @@ NR::NR(double (*fx)(double x), double (*fprime)(double x), double starting_point
 NR::NR(double (*fx)(double x), double (*fprime)(double x), bool acc, double starting_point, double iter, double tol)
     : Newton(*fx, fprime,  acc, starting_point, iter, tol) {}
 
-/// Destructor
+// Destructor
 NR::~NR(){}
 
-/** \brief Overriden solving method
-      * This method implements the Newton-Raphson solving algorithm
-      * @return the guessed root
-      */
-
+// Overriden solving method
 double NR::Solve(){
     unsigned int i = 0;
     double next;

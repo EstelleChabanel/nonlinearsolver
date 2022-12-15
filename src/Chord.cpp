@@ -6,7 +6,7 @@
 #include "exceptions/Interval.h"
 
 
-/// Constructors
+// Constructors
 Chord::Chord() : Equation_Solver(), acceleration(false), b(200.0){}
 Chord::Chord(double (*fx)(double x)) : Equation_Solver(*fx), b(200.0){}
 Chord::Chord(double (*fx)(double x), double starting_point, double b_, unsigned int iter, double tol)
@@ -25,14 +25,11 @@ Chord::Chord(double (*fx)(double x), bool acc, double starting_point, double b_,
     }
 
 
-/// Desctructor
+// Desctructor
 Chord::~Chord() {}
 
 
-/** \brief Overriden solving method
-  * This method implements the Chord solving algorithm
-  * @return the guessed root
-  */
+// Overriden solving method
 double Chord::Solve() {
     double next = x0 - (*function)(x0)*(b - x0)/((*function)(b) - (*function)(x0));
     unsigned int i = 0;

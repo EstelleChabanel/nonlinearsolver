@@ -4,14 +4,14 @@
 
 #include "MaxIter.h"
 
-/// Constructor
+// Constructor
 MaxIter::MaxIter(double iter) : maxiter(iter), Exceptions("Maximum number of iteration reached", "The computation did not converge in ") {}
 
-/// Destructor
+// Destructor
 MaxIter::~MaxIter() {}
 
 
-/// Print method
+// Print method
 void MaxIter::PrintError() {
     std::cerr << "** Error (" << tag << ") **\n";
     std::cerr << "Problem: " << problem << maxiter << " iterations. \n\n" << std::endl;

@@ -4,15 +4,15 @@
 
 #include "WrongDim.h"
 
-/// Constructor
+// Constructor
 WrongDim::WrongDim()
     : Exceptions("Wrong dimensions", "The chosen attributes (function, dimension, jacobian, starting vector) do not have the same dimensions. Please check the attributes dimensions.") {};
 
-/// Destructor
+// Destructor
 WrongDim::~WrongDim() {}
 
 
-/// Print method
+// Print method
 void WrongDim::PrintError() {
     std::cerr << "** Error ("<<tag<<") **\n";
     std::cerr << "Problem: " << problem << "\n\n" << std::endl ;

@@ -10,14 +10,14 @@
 using namespace std;
 
 
-/// Constructors
-System_Solver::System_Solver() : Mama_Solver(), x0(), functions(nullptr) {}
+// Constructors
+System_Solver::System_Solver() : Mama_Solver(), dim(2), x0(), functions(nullptr) {}
 System_Solver::System_Solver(unsigned int dimension, vector<double> (*fx)(vector<double> x ),vector<vector<double>> (*inv_J)(vector<double> x)) : Mama_Solver() {
     dim = dimension;
     functions = fx;
     inv_jaco = inv_J;
     x0.resize(dim);
-    fill(x0.begin() , x0.end() , 0.0);
+    fill(x0.begin() , x0.end() , -2.0);
     if (dim != x0.size() || dim != functions(x0).size() || dim != inv_jaco(x0).size()){
         throw(WrongDim());
     }
@@ -32,13 +32,11 @@ System_Solver::System_Solver(unsigned int dimension, vector<double> (*fx)(vector
 }
 
 
-/// Destructor
+// Destructor
 System_Solver::~System_Solver(){}
 
 
-/** \brief Pretty method to compute and print the results
-      * This method computes and displays the results in a clear and comprehensive way
-      */
+// Pretty method to compute and print the results
 void System_Solver::Result(){
     vector <double> res = Solve();
     cout << "------------------RESULTS------------------" << endl;
@@ -52,7 +50,7 @@ void System_Solver::Result(){
 
 
 
-/// Overwritten operator * for matrix multiplication
+// Overwritten operator * for matrix multiplication
 vector<double> operator* (vector<vector<double>> M, vector<double> x){
 
     unsigned int dim = x.size();
@@ -69,7 +67,7 @@ vector<double> operator* (vector<vector<double>> M, vector<double> x){
 }
 
 
-/// Overwritten operator - for matrix substraction
+// Overwritten operator - for matrix substraction
 vector <double> operator- (vector <double> a, vector <double> b)
 {
     assert(a.size()==b.size());

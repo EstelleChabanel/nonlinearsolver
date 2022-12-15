@@ -6,28 +6,27 @@
 #include "../src/exceptions/MaxIter.h"
 #include <vector>
 #include <cmath>
-#include <istream>
 #include <complex>
 #include <climits>
 
 using namespace std;
 
-/// Constructors
-
-Hirano::Hirano() : Complex_Solver(){}
+// Constructors
+Hirano::Hirano() : beta(0.3), delta(0.3), Complex_Solver(){}
+Hirano::Hirano(complex<double> (*complex_fx)(complex<double>, int)) : beta(0.3), delta(0.3), Complex_Solver(complex_fx){}
 Hirano::Hirano(complex<double> (*complex_fx)(complex<double>, int) , complex<double> starting_point, double b, double d, double tolerance, unsigned int iter) :
     Complex_Solver(complex_fx, starting_point, iter, tolerance ){
     beta = b;
     delta = d;
 }
 
-/// Destructor
+// Destructor
 Hirano::~Hirano(){}
 
-/** \brief Factorial
-      * useful in Solve
-      * @return the factorial of an int
-      */
+/* Factorial
+ * useful in Solve
+ * @return the factorial of an int
+ */
 double Hirano::Factorial(const int n)
 {
     double f = 1;
@@ -37,11 +36,11 @@ double Hirano::Factorial(const int n)
 }
 
 
+// Overriden solving method
 complex<double> Hirano::Solve(){
 
     unsigned int iteration = 0;
     unsigned int order = 4; // only works for up to order 4 (the other derivatives are not implemented)
-
 
 do {
     // step 1 : computing the coefficients of the taylor polynomial

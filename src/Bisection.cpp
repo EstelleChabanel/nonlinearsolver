@@ -6,7 +6,7 @@
 #include "exceptions/Interval.h"
 
 
-/// Constructors
+// Constructors
 Bisection::Bisection() : Equation_Solver(), b(200.0) {}
 Bisection::Bisection(double (*fx)(double x)) : b(200.0), Equation_Solver(*fx) {}
 Bisection::Bisection(double (*fx)(double x), double starting_point, double b_, unsigned int iter, double tol)
@@ -25,14 +25,11 @@ Bisection::Bisection(double (*fx)(double x), bool acc, double starting_point, do
     }
 
 
-/// Destructor
+// Destructor
 Bisection::~Bisection() {}
 
 
-/** \brief Overrided solving method
-  * This method implements the bisection solving algorithm
-  * @return the guessed root
-  */
+// Overriden solving method
 double Bisection::Solve() {
 
     double guess = 0.5*(x0+b);

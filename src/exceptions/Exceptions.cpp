@@ -4,14 +4,14 @@
 #include "Exceptions.h"
 #include <iostream>
 
-/// Constructor
+// Constructor
 Exceptions::Exceptions(std::string tag_, std::string problem_) : tag(tag_), problem(problem_) {}
 
-/// Destructor
+// Destructor
 Exceptions::~Exceptions() {}
 
 
-/// Print method to describe error
+// Print method to describe error
 void Exceptions::PrintError() {
 std::cerr << "** Error ("<<tag<<") **\n";
 std::cerr << "Problem: " << problem << "\n\n" << std::endl ;

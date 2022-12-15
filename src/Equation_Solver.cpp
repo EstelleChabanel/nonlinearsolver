@@ -8,7 +8,7 @@
 #include <iostream>
 #include <cmath>
 
-/// Constructors
+// Constructors
 Equation_Solver::Equation_Solver() : Mama_Solver(), x0(-200.0), function(nullptr), acceleration(false) {}
 Equation_Solver::Equation_Solver(double (*fx)(double x)) : Mama_Solver(), x0(-200.0), acceleration(false) {
     function = fx;
@@ -20,11 +20,11 @@ Equation_Solver::Equation_Solver(double (*fx)(double x), bool acc, double starti
     function = fx;
 }
 
-/// Destructor
+// Destructor
 Equation_Solver::~Equation_Solver(){}
 
 
-/** \brief Pretty method to compute and print the results
+/* Pretty method to compute and print the results
   * This method computes and displays the results in a clear and comprehensive way
   */
 void Equation_Solver::Result(){
@@ -41,7 +41,7 @@ void Equation_Solver::Result(){
 }
 
 
-/** \brief Aitken acceleration method
+/* Aitken acceleration method
   * This method implements the next "root value" to test according to the Aitken acceleration method
   * @return next *root value" to try
   */

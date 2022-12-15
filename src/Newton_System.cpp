@@ -8,15 +8,16 @@
 using namespace std;
 
 
-/// Constructors
-Newton_System::Newton_System(unsigned int dimension, vector<double> (*fx)(vector<double> x), vector<vector<double>> (*inv_jaco)(vector<double> x)) : System_Solver(dimension, *fx, *inv_jaco) {};
-Newton_System::Newton_System(unsigned int dimension, vector<double> (*fx)(vector<double> x), vector<vector<double>> (*inv_jaco)(vector<double> x), vector<double> starting_points, double iter, double tol) : System_Solver(dimension,*fx, *inv_jaco , starting_points,  iter, tol) {};
+// Constructors
+Newton_System::Newton_System(unsigned int dimension, vector<double> (*fx)(vector<double> x), vector<vector<double>> (*inv_J)(vector<double> x)) : System_Solver(dimension, *fx, *inv_J) {};
+Newton_System::Newton_System(unsigned int dimension, vector<double> (*fx)(vector<double> x), vector<vector<double>> (*inv_J)(vector<double> x), vector<double> starting_points, double iter, double tol) : System_Solver(dimension,*fx, *inv_J , starting_points,  iter, tol) {};
 
 
-/// Destructor
+// Destructor
 Newton_System::~Newton_System(){}
 
 
+// Overriden solving method
 vector<double> Newton_System::Solve() {
     unsigned int i = 0;
     vector<double> next;

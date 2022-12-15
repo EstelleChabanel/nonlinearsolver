@@ -11,15 +11,22 @@
 
 using namespace std;
 
-Complex_Solver::Complex_Solver() : Mama_Solver(){};
+// Constructors
+Complex_Solver::Complex_Solver() : complex_x0(0.5, 2), complex_function(nullptr), Mama_Solver(){}
+Complex_Solver::Complex_Solver(complex<double>  (*fx)(complex<double> , int)) : complex_x0(0.5, 2), Mama_Solver() {
+    complex_function = fx;
+}
 Complex_Solver::Complex_Solver(complex<double>  (*fx)(complex<double> x , int j), complex<double> starting_complex, unsigned int iter, double tol)
 : Mama_Solver(iter,tol){
 complex_x0 = starting_complex;
 complex_function = fx;
 }
 
+// Destructor
 Complex_Solver::~Complex_Solver(){};
 
+
+// View result method
 void Complex_Solver::Result(){
     cout << "------------------RESULTS------------------" << std::endl;
     try {
@@ -34,6 +41,7 @@ void Complex_Solver::Result(){
 }
 
 
+// Continuing criterion method
 bool Complex_Solver::Continuing_complex(complex<double> x, complex<double> (*fx) (complex<double> x, int order) ,unsigned int iteration){
     bool continues = true;
     bool result_is_satisfying = abs(fx(x,0))<tolerance;

@@ -4,7 +4,7 @@
 
 #include "Newton.h"
 
-/// Constructors
+// Constructors
 Newton::Newton() : Equation_Solver(){}
 Newton::Newton(double (*fx)(double x), double (*fxprime)(double x)) : Equation_Solver(*fx) {
     derivative = fxprime;
@@ -19,5 +19,5 @@ Newton::Newton(double (*fx)(double x), double (*fxprime)(double x), bool acc, do
 }
 
 
-/// Destructor
+// Destructor
 Newton::~Newton(){}

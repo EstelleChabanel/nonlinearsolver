@@ -3,26 +3,23 @@
 //
 
 #include "Mama_Solver.h"
-#include <iostream>
-#include <vector>
-#include <cmath>
 #include "exceptions/MaxIter.h"
 #include "exceptions/WrongDim.h"
 #include "complex"
+#include <iostream>
+#include <vector>
+#include <cmath>
 using namespace std;
 
-/// Constructors
+// Constructors
 Mama_Solver::Mama_Solver(unsigned int iter, double tol) : tolerance(tol), max_iter(iter) {}
 Mama_Solver::Mama_Solver() : tolerance(1e-5) , max_iter(100) {}
 
-/// Destructor
+// Destructor
 Mama_Solver::~Mama_Solver() {}
 
 
-/** \brief Stopping criterion for the solving algorithm
-  * This method evaluates the value of the stopping criterion for all daughter classes solving algorithm
-  * @return a boolean that assert if the algorithm should stop or continue
-  */
+// Stopping criterion for the solving algorithm
 template <typename T>
 bool Mama_Solver::Continuing(T x, T (*fx) (T x) ,unsigned int iteration){
     bool continues = true;
@@ -43,10 +40,7 @@ template bool Mama_Solver::Continuing<double> (double, double (*)(double), unsig
 template bool Mama_Solver::Continuing<vector<double>> (vector<double>, vector<double> (*)(vector<double>), unsigned int );
 
 
-/** \brief Overriden * operator as the scalar product
-  * it multiplies the two vectors element-wise
-  * @return a double that is the scalar product
-  */
+// Overriden * operator as the scalar product
 double operator* (vector<double> a, vector<double> b){
     unsigned int dim = a.size();
     if(b.size()!=dim){
