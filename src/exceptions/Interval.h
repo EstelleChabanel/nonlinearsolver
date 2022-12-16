@@ -18,8 +18,6 @@ public:
     /// Destructor
     ~Interval();
 
-    /// Print method
-    void PrintError();
 };
 
 #endif //NONLINEARSOLVER_INTERVAL_H

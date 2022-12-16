@@ -18,10 +18,13 @@ class NR : public Newton {
 protected :
 
 public :
-    /// Constructors
+    /// Default constructor
     NR();
+    /// Constructor with function and its derivative and default values
     NR(double (*fx)(double x), double (*fprime)(double x));
+    /// Constructor with all attributes, except for the acceleration set to false
     NR(double (*fx)(double x), double (*fprime)(double x), double starting_point, double iter, double tol);
+    /// Constructor with all attributes
     NR(double (*fx)(double x), double (*fprime)(double x), bool acc, double starting_point, double iter, double tol);
 
     /// Destructor

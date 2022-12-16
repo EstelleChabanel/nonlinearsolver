@@ -17,10 +17,13 @@ protected :
     double (*derivative)(double);
 
 public :
-    /// Constructors
+    /// Constructor
     Newton();
+    //// Constructor with function and its derivative and default values
     Newton(double (*fx)(double x), double (*fxprime)(double x));
+    /// Constructor with all attributes, except for the acceleration set to false
     Newton(double (*fx)(double x), double (*fxprime)(double x), double starting_point, double iter, double tol);
+    /// Constructor with all attributes
     Newton(double (*fx)(double x), double (*fxprime)(double x), bool acc, double starting_point, double iter, double tol);
     /// Destructor
     virtual ~Newton();

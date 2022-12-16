@@ -18,9 +18,6 @@ public:
 
     /// Destructor
     ~DivZero();
-
-    /// Print method
-    void PrintError();
 };
 
 #endif //NONLINEARSOLVER_DIVZERO_H

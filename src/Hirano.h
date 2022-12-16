@@ -21,9 +21,11 @@ protected:
     double delta;
 
 public:
-    /// Constructors
+    /// Default constructor
     Hirano();
+    /// Constructor with function and default values
     Hirano(complex<double> (*complex_fx)(complex<double>, int));
+    /// Constructor with all attributes
     Hirano(complex<double> (*complex_fx)(complex<double>, int) , complex<double> starting_point, double beta, double delta, double tolerance, unsigned int iter);
 
 

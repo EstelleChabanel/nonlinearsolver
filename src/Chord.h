@@ -18,10 +18,13 @@ private:
     bool acceleration;
 
 public:
-    /// Constructors
+    /// Default Constructor
     Chord();
+    /// Constructor with function and default values
     Chord(double (*fx)(double x));
+    /// Constructor with all attributes, except for the acceleration set to false
     Chord(double (*fx)(double x), double starting_point, double b_, unsigned int iter, double tol);
+    /// Constructor with all attributes
     Chord(double (*fx)(double x), bool acc, double starting_point, double b_, unsigned int iter, double tol);
 
     /// Desctructor

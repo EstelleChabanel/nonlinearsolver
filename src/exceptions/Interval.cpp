@@ -9,10 +9,3 @@ Interval::Interval()
 
 // Destructor
 Interval::~Interval() {}
-
-
-// Print method
-void Interval::PrintError() {
-    std::cerr << "** Error ("<<tag<<") **\n";
-    std::cerr << "Problem: " << problem << "\n\n" << std::endl ;
-}

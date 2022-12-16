@@ -19,11 +19,15 @@ protected :
     bool acceleration; // whether to use Aitken acceleration or not
 
 public :
-    /// Constructors
+    /// Default constructor
     Equation_Solver();
+    /// Constructor with function and default values
     Equation_Solver(double (*fx)(double x));
+    /// Constructor with all attributes, except for the acceleration set to false
     Equation_Solver(double (*fx)(double x), double starting_point, unsigned int iter, double tol);
+    /// Constructor with all attributes
     Equation_Solver(double (*fx)(double x), bool acc, double starting_point, unsigned int iter, double tol);
+
     /// Destructor
     virtual ~Equation_Solver();
 

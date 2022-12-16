@@ -28,8 +28,9 @@ protected:
     unsigned int max_iter;
 
 public:
-    /// Constructors
+    /// Default constructor
     Mama_Solver();
+    /// Constructor with all attributes
     Mama_Solver(unsigned int iter, double tol);
 
     /// Destructor

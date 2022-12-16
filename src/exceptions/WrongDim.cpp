@@ -10,10 +10,3 @@ WrongDim::WrongDim()
 
 // Destructor
 WrongDim::~WrongDim() {}
-
-
-// Print method
-void WrongDim::PrintError() {
-    std::cerr << "** Error ("<<tag<<") **\n";
-    std::cerr << "Problem: " << problem << "\n\n" << std::endl ;
-}

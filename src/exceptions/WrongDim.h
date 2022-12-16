@@ -19,8 +19,6 @@ public:
     /// Destructor
     ~WrongDim();
 
-    /// Print method
-    void PrintError();
 };
 
 

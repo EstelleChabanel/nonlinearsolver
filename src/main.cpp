@@ -8,6 +8,8 @@
 #include "Hirano.h"
 #include "Newton_System.h"
 #include "exceptions/Interval.h"
+#include "exceptions/MaxIter.h"
+#include "exceptions/DivZero.h"
 #include "exceptions/WrongDim.h"
 #include "../test/test_functions.h"
 
@@ -23,7 +25,8 @@ int main(int argc, char **argv) {
     // Which function ?
     std::string f;
     std::cout << "Which equations would you like to solve ? Choose between the following:" << std::endl;
-    std::cout << "fx1, fx2, fx3, fx4, g_system_1, g_system_2, g_system_3, g_system_4, comp_fx1, comp_fx2, comp_fx3" << std::endl;
+    std::cout << "fx1, fx2, fx3, fx4, g_system_1, g_system_2, g_system_3, g_system_4, comp_fx1, comp_fx2, comp_fx3"
+              << std::endl;
     std::cout << "fx1(x) = 3x + 4 = 0" << std::endl;
     std::cout << "fx2(x) = 3sin(x) = 0" << std::endl;
     std::cout << "fx3(x) = 6x^3 + 2x^2 + x + 9 = 0" << std::endl;
@@ -57,11 +60,11 @@ int main(int argc, char **argv) {
     double (*derivate)(double);
     vector<double> (*functions)(vector<double>);
     vector<vector<double>> (*inv_jaco)(vector<double>);
-    complex<double>  (*complex_function)(complex<double> , int);
+    complex<double> (*complex_function)(complex<double>, int);
     unsigned int dim;
 
 
-    if (f == "fx1" || f == "fx2" || f == "fx3" || f == "fx4"){
+    if (f == "fx1" || f == "fx2" || f == "fx3" || f == "fx4") {
         std::cout << "Which method would you like to use ?" << std::endl;
         std::cout << "Be careful: methods specification:" << std::endl;
         std::cout << "-For 1D equation, choose between Chord, Bisection, Newton-Raphson" << std::endl;
@@ -71,8 +74,9 @@ int main(int argc, char **argv) {
                   << std::endl;
         std::cout << "               -'Newton-Raphson' requires non zero derivative of the functions" << std::endl;
         std::cin >> method;
-        if (method != "Bisection" && method != "Chord" && method != "Newton-Raphson"){
+        if (method != "Bisection" && method != "Chord" && method != "Newton-Raphson") {
             std::cerr << "This method is not compatible with the chosen function, try again!" << std::endl;
+            return 1;
         }
         if (f == "fx1") {
             function = fx1;
@@ -112,17 +116,17 @@ int main(int argc, char **argv) {
             inv_jaco = g_jac_4;
             dim = 3;
         }
-    } else if (f == "comp_fx1" or f == "comp_fx2" or f == "comp_fx3"){
+    } else if (f == "comp_fx1" or f == "comp_fx2" or f == "comp_fx3") {
         std::cout << "Which method would you like to use ?" << std::endl;
         std::cout << "-For complex 1D equation, the only available method is 'Hirano'; " << std::endl;
         method = "Hirano";
-        if (f == "comp_fx1"){
+        if (f == "comp_fx1") {
             complex_function = comp_fx1;
         }
-        if (f == "comp_fx2"){
+        if (f == "comp_fx2") {
             complex_function = comp_fx2;
         }
-        if (f == "comp_fx3"){
+        if (f == "comp_fx3") {
             complex_function = comp_fx3;
         }
     } else {
@@ -135,16 +139,16 @@ int main(int argc, char **argv) {
 
 
     // If the user used the argument 0, put default parameters
-    if(argc == 2 and *argv[1] == '0') {
-        std::cout << "We are using the following default parameter:" << std::endl ;
-        std::cout << "Maximal number of iterations : 100 " << std::endl ;
+    if (argc == 2 and *argv[1] == '0') {
+        std::cout << "We are using the following default parameter:" << std::endl;
+        std::cout << "Maximal number of iterations : 100 " << std::endl;
         std::cout << "Tolerance : 1e-5" << std::endl;
 
-        if(method == "Bisection" || method == "Chord") {
+        if (method == "Bisection" || method == "Chord") {
             std::cout << "Aitken acceleration = 0 for false " << std::endl;
             std::cout << "Left starting point: -200.0 " << std::endl;
             std::cout << "Enter right starting point:  200.0 " << std::endl;
-            if(method == "Bisection") {
+            if (method == "Bisection") {
                 solver = new Bisection(*function);
             } else {
                 solver = new Chord(*function);
@@ -153,24 +157,23 @@ int main(int argc, char **argv) {
             std::cout << "Aitken acceleration = 0 for false " << std::endl;
             std::cout << "Starting point: -200.0 ";
             solver = new NR(*function, *derivate);
-        }
-        else if(method == "Hirano"){
+        } else if (method == "Hirano") {
             std::cout << "Enter starting point: -0.5 + 2i " << std::endl;
             std::cout << "Coefficient beta: 0.3" << std::endl;
             std::cout << "Enter coefficient delta: 0.3" << std::endl;
             solver = new Hirano(*complex_function);
-        } else if (method=="Newton_System"){
-            if(f == "g_system_1" or f == "g_system_2"){
+        } else if (method == "Newton_System") {
+            /*if(f == "g_system_1" or f == "g_system_2"){
                 dim = 2;
             }else if(f == "g_system_3" or f == "g_system_4"){
                 dim = 3;
-            }
+            }*/
             std::cout << "Dim (2 or 3): " << dim << std::endl;
             std::cout << "Starting point: (-2.0, 4.0)" << std::endl;
             solver = new Newton_System(dim, *functions, *inv_jaco);
         }
 
-    // if no argument were used in the call of the main function, let the user choose all the arguments
+        // if no argument were used in the call of the main function, let the user choose all the arguments
     } else {
 
         unsigned int iter;
@@ -220,20 +223,20 @@ int main(int argc, char **argv) {
             c = (cr, ci);
             std::cout << "Enter coefficient beta (between 0 & 1), recommended ~0.3 : ";
             std::cin >> beta;
-            if (beta <= 0 or beta >= 1){
+            if (beta <= 0 or beta >= 1) {
                 std::cerr << "Wrong coefficient, should be between 0 and 1" << std::endl;
                 return 1;
             }
             std::cout << endl;
             std::cout << "Enter coefficient delta (between 0 & 1), recommended ~0.3 : ";
             std::cin >> delta;
-            if (delta <= 0 or delta >= 1){
+            if (delta <= 0 or delta >= 1) {
                 std::cerr << "Wrong coefficient, should be between 0 and 1" << std::endl;
                 return 1;
             }
             std::cout << endl;
         } else if (method == "Newton_System") {
-            if (dim != 2 and dim != 3){
+            if (dim != 2 and dim != 3) {
                 std::cerr << "Wrong dimensions, should be 2 or 3" << std::endl;
                 return 1;
             }
@@ -267,12 +270,17 @@ int main(int argc, char **argv) {
         } catch (WrongDim &w) {
             w.PrintError();
         }
-
     }
 
+    try {
+        // Compute and present results
+        solver->Result();
+    } catch (MaxIter &m) {
+        m.PrintError();
+    } catch (DivZero &d) {
+        d.PrintError();
+    }
 
-    // Compute and present results
-    solver->Result();
     delete solver;
 
 

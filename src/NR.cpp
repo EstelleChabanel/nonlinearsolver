@@ -25,10 +25,15 @@ double NR::Solve(){
     double next;
 
     do{
+        if(derivative(next) == 0){
+            throw(DivZero());
+        }
         next = x0 - function(x0)/derivative(x0); // Classic Newton method
 
-        if(acceleration==true) {
-            if(derivative(next) == 0){throw(DivZero());} // making sure the denominator is not 0
+        if(acceleration==true) { // making sure the denominator is not 0
+            if(derivative(next) == 0){
+                throw(DivZero());
+            }
             double next2 = next -  function(next) / derivative(next)  ;
             x0 = Accelerate(x0, next, next2); // Aitken accleration implemented
         } else {

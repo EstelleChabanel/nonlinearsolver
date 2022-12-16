@@ -30,9 +30,11 @@ protected :
 
 
 public :
-    /// Constructors
+    /// Default constructor
     System_Solver();
+    /// Constructor with function and its jacobian and default values
     System_Solver(unsigned int dimension, vector<double> (*fx)(vector<double> x ), vector<vector<double>> (*inv_J)(vector<double> x));
+    /// Constructor with all attributes
     System_Solver(unsigned int dimension, vector<double> (*fx)(vector<double> x ), vector<vector<double>> (*inv_J)(vector<double> x), vector<double> starting_points, double iter, double tol);
 
     /// Destructor

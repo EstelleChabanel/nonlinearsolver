@@ -39,3 +39,15 @@ TEST(TestNR, NoConvergence) {
 }
 
 
+// This function and its derivative are implemented only with the purpose of checking that the exception DivZero() works well
+double fx(double x) {
+    return 3;
+}
+double fprimex(double x){
+    return 0;
+}
+
+TEST(TestNR, DivisionByZero) {
+    NR nr(*fx, *fprimex);
+    ASSERT_THROW(nr.Solve(), DivZero);
+}

@@ -17,10 +17,13 @@ private:
     double b; // x0 from the mother class will be used as a, the left starting point, b is the second starting point
 
 public:
-    /// Constructors
+    /// Default constructor
     Bisection();
+    /// Constructor with function and default values
     Bisection(double (*fx)(double x));
+    /// Constructor with all attributes, except for the acceleration set to false
     Bisection(double (*fx)(double x), double starting_point, double b, unsigned int iter, double tol);
+    /// Constructor with all attributes
     Bisection(double (*fx)(double x), bool acc, double starting_point, double b, unsigned int iter, double tol);
 
     /// Desctructor

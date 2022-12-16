@@ -12,17 +12,14 @@
 
 TEST(TestNS, solver) {
     Newton_System Ns (2, (*g_system), (*g_jac));
-    //std::vector<double> expected(2, 0.0);
     ASSERT_NEAR(0, (*g_system)(Ns.Solve()).at(0), 1e-5);
     ASSERT_NEAR(0, (*g_system)(Ns.Solve()).at(1), 1e-5);
 
     Newton_System Ns2 (2, (*g_system_2), (*g_jac_2));
-    // std::vector<double> expected(2, 0.0);
     ASSERT_NEAR(0, (*g_system_2)(Ns2.Solve()).at(0), 1e-5);
     ASSERT_NEAR(0, (*g_system_2)(Ns2.Solve()).at(1), 1e-5);
 
     Newton_System Ns3 (3, (*g_system_3), (*g_jac_3));
-    // std::vector<double> expected(2, 0.0);
     ASSERT_NEAR(0, (*g_system_3)(Ns3.Solve()).at(0), 1e-5);
     ASSERT_NEAR(0, (*g_system_3)(Ns3.Solve()).at(1), 1e-5);
     ASSERT_NEAR(0, (*g_system_3)(Ns3.Solve()).at(2), 1e-5);

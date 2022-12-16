@@ -22,7 +22,7 @@ public:
     ~Exceptions();
 
     /// Print method to describe error
-    void PrintError();
+    virtual void PrintError();
 
 };
 

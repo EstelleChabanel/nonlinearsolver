@@ -23,9 +23,11 @@ protected:
     complex<double>  (*complex_function)(complex<double> , int);
 
 public:
-    /// Constructors
+    /// Default constructor
     Complex_Solver();
+    /// Constructor with function and default values
     Complex_Solver(complex<double>  (*fx)(complex<double> , int));
+    /// Constructor with all attributes
     Complex_Solver(complex<double>  (*fx)(complex<double> , int), complex<double> starting_complex, unsigned int iter, double tol);
 
     /// Destructor

@@ -15,8 +15,9 @@
   */
 class Newton_System : public System_Solver {
 public :
-    /// Constructors
+    /// Constructor with function and its jacobian and default values
     Newton_System(unsigned int dimension, vector<double> (*fx)(vector<double> x), vector<vector<double>> (*inv_J)(vector<double> x));
+    /// Constructor with all attributes
     Newton_System(unsigned int dimension, vector<double>  (*fx)(vector<double> x), vector<vector<double>> (*inv_J)(vector<double> x), vector<double> starting_points, double iter, double tol);
 
     /// Destructor

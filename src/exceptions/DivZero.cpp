@@ -11,9 +11,3 @@ DivZero::DivZero(std::string pb) : Exceptions("Division by zero", pb) {}
 DivZero::~DivZero() {}
 
 
-// Print method
-void DivZero::PrintError() {
-    std::cerr << "** Error ("<<tag<<") **\n";
-    std::cerr << "Problem: " << problem << "\n\n" << std::endl ;
-}
-
